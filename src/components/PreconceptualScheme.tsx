@@ -283,7 +283,7 @@ export const PreconceptualScheme = () => {
                                      style={{boxSizing: 'border-box', fontSize: '0px', textAlign: 'center'}}>
                                     <div style={{
                                         display: 'inline-block',
-                                        fontSize: '12px',
+                                        fontSize: '11px',
                                         fontFamily: 'Helvetica',
                                         color: 'rgb(0, 0, 0)',
                                         lineHeight: '1.2',
@@ -1702,7 +1702,7 @@ export const PreconceptualScheme = () => {
                                      style={{boxSizing: 'border-box', fontSize: '0px', textAlign: 'center'}}>
                                     <div style={{
                                         display: 'inline-block',
-                                        fontSize: '12px',
+                                        fontSize: '11px',
                                         fontFamily: 'Helvetica',
                                         color: 'rgb(0, 0, 0)',
                                         lineHeight: '1.2',
