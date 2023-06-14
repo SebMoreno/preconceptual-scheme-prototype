@@ -1,5 +1,8 @@
 import './App.css'
+import { PreconceptualScheme } from "./PreconceptualScheme.tsx";
 
 export const App = () => {
-    return <h1>hi</h1>;
+    return (
+        <PreconceptualScheme/>
+    )
 }
