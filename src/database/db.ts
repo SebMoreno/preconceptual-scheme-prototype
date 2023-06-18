@@ -24,6 +24,13 @@ export class EPDataBase extends Dexie {
         Object.entries(jsonData)
             .forEach(([key, value]) => this.table(key).bulkPut(value));
     }
+
+    async loadDataFromJson() {
+        await this.delete();
+        await this.open();
+        Object.entries(jsonData)
+            .forEach(([key, value]) => this.table(key).bulkPut(value));
+    }
 }
 
 export const db = new EPDataBase();

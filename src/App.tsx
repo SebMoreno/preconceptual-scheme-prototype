@@ -1,15 +1,18 @@
 import './App.css'
 import { TableDataGrid } from "./components/TableDataGrid.tsx";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Button, Dialog, DialogContent } from "@mui/material";
+import { db } from "./database/db.ts";
 
 const darkTheme = createTheme({palette: {mode: 'dark'}});
 
 export const App = () => {
     const [tableName, setTableName] = useState("ProjectManagementSoftwares")
     const [isOpen, setIsOpen] = useState(false)
-
+    useEffect(() => {
+        db.loadDataFromJson();
+    }, [])
     const handleOpenTable = (tableName: string) => {
         setTableName(tableName)
         setIsOpen(true)
