@@ -1,10 +1,8 @@
 import './App.css'
 import { TableDataGrid } from "./components/TableDataGrid.tsx";
-import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useState } from "react";
 import { Button, Dialog, DialogContent } from "@mui/material";
 
-const darkTheme = createTheme({palette: {mode: 'dark'}});
 
 export const App = () => {
     const [tableName, setTableName] = useState("ProjectManagementSoftwares")
@@ -15,7 +13,7 @@ export const App = () => {
         setIsOpen(true)
     }
     return (
-        <ThemeProvider theme={darkTheme}>
+        <>
             <div style={{display: 'flex', flexDirection: 'column'}}>
                 {/*<PreconceptualScheme onOpenTable={handleOpenTable}/>*/}
                 <Button onClick={() => handleOpenTable("Application")}>
@@ -79,6 +77,6 @@ export const App = () => {
                     <TableDataGrid tableName={tableName}/>
                 </DialogContent>
             </Dialog>
-        </ThemeProvider>
+        </>
     )
 }
