@@ -1,9 +1,8 @@
 import './App.css'
 import { TableDataGrid } from "./components/TableDataGrid.tsx";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Button, Dialog, DialogContent } from "@mui/material";
-import { db } from "./database/db.ts";
 
 const darkTheme = createTheme({palette: {mode: 'dark'}});
 
