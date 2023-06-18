@@ -12,7 +12,11 @@ export const TableDataGrid: React.FC<{ tableName: string }> = ({tableName}) => {
     const {current: tableConstructor} = useRef<{ new(): unknown }>(table.schema.mappedClass as { new(): unknown });
     const elements = useLiveQuery<object[]>(() => table.toArray());
     const [rows, setRows] = useState<GridRowsProp>([]);
-    useEffect(() => setRows(elements ?? []), [elements])
+    const [isLoading, setIsLoading] = useState<boolean>(true);
+    useEffect(() => {
+        setRows(elements ?? []);
+        setIsLoading(elements === undefined);
+    }, [elements])
 
     const actionsColumn: GridActionsColDef = {
         editable: false,
@@ -39,19 +43,20 @@ export const TableDataGrid: React.FC<{ tableName: string }> = ({tableName}) => {
             } as GridColDef))
             .concat(actionsColumn)
     );
-    return <DataGrid
-        autoHeight
-        className="table-data-grid"
-        hideFooter={rows.length <= 100}
-        getRowId={row => row[idProp]}
-        rows={rows}
-        columns={columns}
-        editMode="row"
-        slots={{toolbar: EditToolbar}}
-        slotProps={{toolbar: {table}}}
-        processRowUpdate={async newRow => table.get(await table.put(newRow))}
-        onProcessRowUpdateError={err => console.error(err)}
-    />
+    return isLoading ? <div>Loading...</div> :
+        <DataGrid
+            autoHeight
+            className="table-data-grid"
+            hideFooter={rows.length <= 100}
+            getRowId={row => row[idProp]}
+            rows={rows}
+            columns={columns}
+            editMode="row"
+            slots={{toolbar: EditToolbar}}
+            slotProps={{toolbar: {table}}}
+            processRowUpdate={async newRow => table.get(await table.put(newRow))}
+            onProcessRowUpdateError={err => console.error(err)}
+        />
 };
 
 
