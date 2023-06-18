@@ -1,8 +1,53 @@
 {
-  "ProjectManagementSoftwares": [
+  "Application": [
     {}
   ],
-  "SoftwareDevelopmentProjects": [
+  "Code": [
+    {}
+  ],
+  "Commit": [
+    {}
+  ],
+  "Defect": [
+    {}
+  ],
+  "DevelopmentTeam": [
+    {}
+  ],
+  "Feature": [
+    {}
+  ],
+  "Member": [
+    {}
+  ],
+  "ProjectManagementSoftware": [
+    {}
+  ],
+  "QualityAssuranceTool": [
+    {}
+  ],
+  "QualityRule": [
+    {}
+  ],
+  "Release": [
+    {}
+  ],
+  "Repository": [
+    {}
+  ],
+  "SoftwareDevelopmentProject": [
+    {}
+  ],
+  "Sprint": [
+    {}
+  ],
+  "Ticket": [
+    {}
+  ],
+  "VersionControlSystem": [
+    {}
+  ],
+  "Violation": [
     {}
   ]
 }

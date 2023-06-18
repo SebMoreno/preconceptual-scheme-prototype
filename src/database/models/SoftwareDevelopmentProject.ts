@@ -1,9 +1,16 @@
 export class SoftwareDevelopmentProject {
     id?: number;
-    deadline: Date;
+    deadline: string;
     projectManagementSoftwareId: number;
-    constructor(deadline: Date, projectManagementSoftwareId: number) {
+    qualityAssuranceToolName: string;
+    developmentTeamId: number;
+    applicationId: number;
+
+    constructor(deadline: string, projectManagementSoftwareId: number, qualityAssuranceToolName: string, developmentTeamId: number, applicationId: number) {
         this.deadline = deadline;
         this.projectManagementSoftwareId = projectManagementSoftwareId;
+        this.qualityAssuranceToolName = qualityAssuranceToolName;
+        this.developmentTeamId = developmentTeamId;
+        this.applicationId = applicationId;
     }
 }
