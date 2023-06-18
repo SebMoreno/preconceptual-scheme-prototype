@@ -1,5 +1,5 @@
 :root {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
     color: rgba(255, 255, 255, 0.87);
     user-select: none;
 }
@@ -7,4 +7,9 @@
 body {
     margin: 0;
     padding: 1rem;
+    background: #131313;
+}
+
+.table-data-grid .MuiDataGrid-cell {
+    border: 1px solid;
 }

@@ -3,7 +3,8 @@ import { useLiveQuery } from "dexie-react-hooks";
 import { db } from "../database/db.ts";
 import React, { useEffect, useRef, useState } from "react";
 import { DataGrid, GridActionsCellItem, GridActionsColDef, GridColDef, GridRowsProp } from "@mui/x-data-grid";
-import { EditToolbar } from "../EditToolbar.tsx";
+import { EditToolbar } from "./EditToolbar.tsx";
+import { camelCaseToCapitalizedWords } from "../services/camelCaseToCapitalizedWords.ts";
 
 export const TableDataGrid: React.FC<{ tableName: string }> = ({tableName}) => {
     const {current: table} = useRef(db.table(tableName));
@@ -30,13 +31,16 @@ export const TableDataGrid: React.FC<{ tableName: string }> = ({tableName}) => {
     const {current: columns} = useRef<GridColDef[]>(
         Object.getOwnPropertyNames(new tableConstructor())
             .map(key => ({
-                headerName: key.charAt(0).toUpperCase() + key.slice(1).toLowerCase(),
+                headerName: camelCaseToCapitalizedWords(key),
                 field: key,
                 editable: key !== idProp,
+                width: camelCaseToCapitalizedWords(key).length * 10,
+                minWidth: 100
             } as GridColDef))
             .concat(actionsColumn)
     );
     return <DataGrid
+        className="table-data-grid"
         hideFooter={rows.length <= 100}
         getRowId={row => row[idProp]}
         rows={rows}
@@ -44,7 +48,8 @@ export const TableDataGrid: React.FC<{ tableName: string }> = ({tableName}) => {
         editMode="row"
         slots={{toolbar: EditToolbar}}
         slotProps={{toolbar: {table}}}
-        processRowUpdate={newRow => table.put(newRow)}
+        processRowUpdate={async (newRow) => table.get(await table.put(newRow))}
+        onProcessRowUpdateError={err => console.error(err)}
     />
 };
 
