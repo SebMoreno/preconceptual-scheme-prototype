@@ -40,6 +40,7 @@ export const TableDataGrid: React.FC<{ tableName: string }> = ({tableName}) => {
             .concat(actionsColumn)
     );
     return <DataGrid
+        autoHeight
         className="table-data-grid"
         hideFooter={rows.length <= 100}
         getRowId={row => row[idProp]}

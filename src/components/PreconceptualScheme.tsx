@@ -1928,9 +1928,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                         whiteSpace: 'normal',
                                         overflowWrap: 'normal'
                                     }}
-                                    onClick={() => {
-                                        onOpenTable('ProjectManagementSoftwares')
-                                    }}
+                                    onClick={() => onOpenTable('ProjectManagementSoftwares')}
                                     >Project Management Software
                                     </div>
                                 </div>
