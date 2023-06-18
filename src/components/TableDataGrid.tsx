@@ -49,7 +49,7 @@ export const TableDataGrid: React.FC<{ tableName: string }> = ({tableName}) => {
         editMode="row"
         slots={{toolbar: EditToolbar}}
         slotProps={{toolbar: {table}}}
-        processRowUpdate={async (newRow) => table.get(await table.put(newRow))}
+        processRowUpdate={async newRow => table.get(await table.put(newRow))}
         onProcessRowUpdateError={err => console.error(err)}
     />
 };
