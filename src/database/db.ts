@@ -1,6 +1,7 @@
 import Dexie, { Table } from 'dexie';
 import { ProjectManagementSoftware } from "./models/ProjectManagementSoftware.ts";
 import { SoftwareDevelopmentProject } from "./models/SoftwareDevelopmentProject.ts";
+import jsonData from "./data.json";
 
 export class EPDataBase extends Dexie {
     ProjectManagementSoftwares!: Table<ProjectManagementSoftware>;
@@ -14,6 +15,13 @@ export class EPDataBase extends Dexie {
         });
         this.ProjectManagementSoftwares.mapToClass(ProjectManagementSoftware);
         this.SoftwareDevelopmentProjects.mapToClass(SoftwareDevelopmentProject);
+    }
+
+    async loadDataFromJson() {
+        await this.delete();
+        await this.open();
+        Object.entries(jsonData)
+            .forEach(([key, value]) => this.table(key).bulkPut(value));
     }
 }
 
