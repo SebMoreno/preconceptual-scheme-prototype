@@ -1,4 +1,8 @@
-export const PreconceptualScheme = () => {
+export interface PreconceptualSchemeProps {
+    onOpenTable: (tableName: string) => void;
+}
+
+export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenTable}) => {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" width="2236px"
              height="1201px" viewBox="-0.5 -0.5 2236 1201"
@@ -1923,7 +1927,11 @@ export const PreconceptualScheme = () => {
                                         pointerEvents: 'all',
                                         whiteSpace: 'normal',
                                         overflowWrap: 'normal'
-                                    }}>Project Management Software
+                                    }}
+                                    onClick={() => {
+                                        onOpenTable('ProjectManagementSoftwares')
+                                    }}
+                                    >Project Management Software
                                     </div>
                                 </div>
                             </div>
