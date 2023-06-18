@@ -24,6 +24,7 @@ export const App = () => {
                 Open modal for ProjectManagementSoftwares
             </Button>
             <Dialog
+                maxWidth="lg"
                 open={isOpen}
                 onClose={() => setIsOpen(false)}
             >
