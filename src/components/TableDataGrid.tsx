@@ -5,12 +5,23 @@ import React, { useEffect, useRef, useState } from "react";
 import { DataGrid, GridActionsCellItem, GridActionsColDef, GridColDef, GridRowsProp } from "@mui/x-data-grid";
 import { EditToolbar } from "./EditToolbar.tsx";
 import { camelCaseToCapitalizedWords } from "../services/camelCaseToCapitalizedWords.ts";
+import { Table } from "dexie";
 
-export const TableDataGrid: React.FC<{ tableName: string, message?: string }> = ({tableName, message}) => {
+export interface TableDataGridProps {
+    tableName: string;
+    query?: <T>(table: Table<T>) => Promise<T[]>;
+    message?: string;
+}
+
+export const TableDataGrid: React.FC<TableDataGridProps> = ({
+                                                                tableName,
+                                                                query = table => table.toArray(),
+                                                                message = ""
+                                                            }) => {
     const {current: table} = useRef(db.table(tableName));
     const {current: idProp} = useRef(table.schema.primKey.name);
     const {current: tableConstructor} = useRef<{ new(): unknown }>(table.schema.mappedClass as { new(): unknown });
-    const elements = useLiveQuery<object[]>(() => table.toArray());
+    const elements = useLiveQuery<object[]>(() => query(table));
     const [rows, setRows] = useState<GridRowsProp>([]);
     const [isLoading, setIsLoading] = useState<boolean>(true);
     useEffect(() => {
