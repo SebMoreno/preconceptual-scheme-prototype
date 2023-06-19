@@ -1,8 +1,7 @@
 export class Code {
     id?: number;
     linesOfCode: number;
-    // technicalDebt are represented in days
-    technicalDebt: number;
+    technicalDebt: number; // technicalDebt is represented in days
     applicationId: number;
 
     constructor(linesOfCode: number, technicalDebt: number, applicationId: number) {

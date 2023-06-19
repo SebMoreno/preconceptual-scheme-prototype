@@ -1,7 +1,6 @@
 export class Sprint {
     sprintNumber?: number;
-    // Sprint duration expressed in weeks
-    duration: number;
+    duration: number; // Sprint duration is expressed in weeks
     projectManagementSoftwareId: number;
 
     constructor(duration: number, projectManagementSoftwareId: number) {
