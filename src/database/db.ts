@@ -48,7 +48,7 @@ export class EPDataBase extends Dexie {
             Defect: "++id",
             DevelopmentTeam: "++id",
             Feature: "++id",
-            Member: "++id",
+            Member: "++id, role",
             ProjectManagementSoftware: "++id",
             QualityAssuranceTool: "++id",
             QualityRule: "++id",
