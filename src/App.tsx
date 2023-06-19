@@ -9,15 +9,7 @@ export const App = () => {
     const [message, setMessage] = useState<string | undefined>("");
     const [query, setQuery] = useState<TableDataGridProps["query"]>();
     const [isOpen, setIsOpen] = useState(false);
-    const handleOpenTable = ({
-                                 tableName: newTableName,
-                                 message: newMessage,
-                                 query: newQuery
-                             }: {
-        tableName: string,
-        message?: string,
-        query?: TableDataGridProps["query"]
-    }) => {
+    const handleOpenTable = ({tableName: newTableName, message: newMessage, query: newQuery}: TableDataGridProps) => {
         setIsOpen(true);
         setTableName(newTableName);
         setMessage(newMessage);
