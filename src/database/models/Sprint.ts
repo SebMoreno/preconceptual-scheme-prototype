@@ -1,5 +1,6 @@
 export class Sprint {
     sprintNumber?: number;
+    // Sprint duration expressed in weeks
     duration: number;
     projectManagementSoftwareId: number;
 

@@ -1,8 +1,8 @@
 export class Application {
     id?: number;
-    versonControlSystemId: number;
+    versionControlSystemId: number;
 
-    constructor(versonControlSystemId: number) {
-        this.versonControlSystemId = versonControlSystemId;
+    constructor(versionControlSystemId: number) {
+        this.versionControlSystemId = versionControlSystemId;
     }
 }

@@ -1,6 +1,7 @@
 export class Code {
     id?: number;
     linesOfCode: number;
+    // technicalDebt are represented in days
     technicalDebt: number;
     applicationId: number;
 

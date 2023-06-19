@@ -1,53 +1,247 @@
 {
   "Application": [
-    {}
+    {"versionControlSystemId": 1},
+    {"versionControlSystemId": 1}
   ],
   "Code": [
-    {}
+    {
+      "linesOfCode": 10000,
+      "technicalDebt": 168,
+      "applicationId": 1
+    },
+    {
+      "linesOfCode": 3000,
+      "technicalDebt": 5,
+      "applicationId": 2
+    }
   ],
   "Commit": [
-    {}
+    {
+      "message": "refactor code fixing bug on ticket 1",
+      "ticketKey": 1,
+      "repositoryId": 1
+    },
+    {
+      "message": "fix login feature",
+      "repositoryId": 1
+    },
+    {
+      "message": "update index.html",
+      "repositoryId": 1
+    },
+    {
+      "message": "Finished ticket 2, new calculator feature",
+      "ticketKey": 2,
+      "repositoryId": 1
+    },
+    {
+      "message": "Refactor code for reducing code smells (ticket 3)",
+      "ticketKey": 3,
+      "repositoryId": 1
+    },
+    {
+      "message": "completed shop rendering optimization on the frontend / ticket 4",
+      "ticketKey": 4,
+      "repositoryId": 2
+    },
+    {
+      "message": "fix bug described on ticket 4",
+      "ticketKey": 4,
+      "repositoryId": 2
+    }
   ],
   "Defect": [
-    {}
+    {
+      "ocurrenceDate": "19/06/2023",
+      "description": "Application database was deleted with SQL Injection",
+      "violationId": 2,
+      "releaseVersionNumber": 1
+    },
+    {
+      "ocurrenceDate": "10/06/2023",
+      "description": "Shop page never ends loading",
+      "violationId": 4,
+      "releaseVersionNumber": 3
+    }
   ],
   "DevelopmentTeam": [
-    {}
+    {"id": 1},
+    {"id": 2}
   ],
   "Feature": [
-    {}
+    {
+      "description": "Log in of a car rental webpage",
+      "codeId": 1
+    },
+    {
+      "description": "Register of a car rental webpage",
+      "codeId": 1
+    },
+    {
+      "description": "Car renting prices calculator",
+      "codeId": 1
+    },
+    {
+      "description": "Checkout of a car renting webage",
+      "codeId": 1
+    },
+    {
+      "description": "Shop gallery showing all available products",
+      "codeId": 2
+    }
   ],
   "Member": [
-    {}
+    {
+      "role": "Software Architect",
+      "name": "Cristian Mejía",
+      "developmentTeamId": 1
+    },
+    {
+      "role": "Software Developer",
+      "name": "Juan José Salazar Cardona",
+      "developmentTeamId": 1
+    },
+    {
+      "role": "Project Manager",
+      "name": "Carlos Mario Zapata Jaramillo",
+      "developmentTeamId": 1
+    },
+    {
+      "role": "Software Architect",
+      "name": "Juan Sebastián Moreno Ruiz",
+      "developmentTeamId": 2
+    },
+    {
+      "role": "Project Manager",
+      "name": "Carlos Mario Zapata Jaramillo",
+      "developmentTeamId": 2
+    }
   ],
   "ProjectManagementSoftware": [
-    {}
+    {"name": "Jira"},
+    {"name": "Asana"}
   ],
   "QualityAssuranceTool": [
-    {}
+    {"toolName": "MIND"}
   ],
   "QualityRule": [
-    {}
+    {
+      "name": "reduce duplicated code",
+      "compliance": "All code that is duplicated should belong to a method",
+      "ruleType": "Code clones",
+      "interest": 1,
+      "principal": 1,
+      "qualityAssuranceToolName": "MIND"
+    },
+    {
+      "name": "fix known vulnerabilities",
+      "compliance": "The application should be protected against known vulnerabilities",
+      "ruleType": "Secure code",
+      "interest": 4,
+      "principal": 4,
+      "qualityAssuranceToolName": "MIND"
+    },
+    {
+      "name": "reduce nested code",
+      "compliance": "All code cycles should not have more than 1 nested cycle",
+      "ruleType": "Low code complexity",
+      "interest": 3,
+      "principal": 5,
+      "qualityAssuranceToolName": "MIND"
+    }
   ],
   "Release": [
-    {}
+    {"codeId": 1},
+    {"codeId": 2},
+    {"codeId": 2}
   ],
   "Repository": [
-    {}
+    {"versionControlSystemId": 1},
+    {"versionControlSystemId": 1}
   ],
   "SoftwareDevelopmentProject": [
-    {}
+    {
+      "deadline": "June 15, 2024",
+      "projectManagementSoftwareId": 1,
+      "qualityAssuranceToolName": "MIND",
+      "developmentTeamId": 1,
+      "applicationId": 1
+    },
+    {
+      "deadline": "December 24, 2023",
+      "projectManagementSoftwareId": 2,
+      "qualityAssuranceToolName": "MIND",
+      "developmentTeamId": 2,
+      "applicationId": 2
+    }
   ],
   "Sprint": [
-    {}
+    {
+      "duration": 2,
+      "projectManagementSoftwareId": 1
+    },
+    {
+      "duration": 2,
+      "projectManagementSoftwareId": 1
+    },
+    {
+      "duration": 1,
+      "projectManagementSoftwareId": 2
+    }
   ],
   "Ticket": [
-    {}
+    {
+      "definitionOfDone": "Application's Log in should not allow SQL Injection anymore",
+      "title": "Fix log in vulnerability",
+      "points": 3,
+      "asignee": "Cristian Mejía",
+      "sprintNumber": 1,
+      "featureId": 1
+    },
+    {
+      "definitionOfDone": "The application should have a working calculator for estimating renting prices",
+      "title": "Create a car renting calculator",
+      "points": 5,
+      "asignee": "Juan José Salazar Cardona",
+      "sprintNumber": 1,
+      "featureId": 3
+    },
+    {
+      "definitionOfDone": "Remove all the code smells detected on the rent checkout class",
+      "title": "Refactor checkout class",
+      "points": 5,
+      "asignee": "Cristian Mejia",
+      "sprintNumber": 2,
+      "featureId": 4
+    },
+    {
+      "definitionOfDone": "Shop renderization time should not take more than 3 seconds and all the text should be legible",
+      "title": "Optimize shop page",
+      "points": 8,
+      "asignee": "Juan Sebastián Moreno Ruiz",
+      "sprintNumber": 3,
+      "featureId": 5
+    }
   ],
   "VersionControlSystem": [
-    {}
+    {"name": "Git"}
   ],
   "Violation": [
-    {}
+    {
+      "qualityRuleName": "reduce duplicated code",
+      "codeId": 1
+    },
+    {
+      "qualityRuleName": "fix known vulnerabilities",
+      "codeId": 1
+    },
+    {
+      "qualityRuleName": "reduce nested code",
+      "codeId": 1
+    },
+    {
+      "qualityRuleName": "reduce nested code",
+      "codeId": 2
+    }
   ]
 }
