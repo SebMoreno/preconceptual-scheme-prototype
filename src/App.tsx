@@ -1,7 +1,8 @@
 import './App.css'
 import { TableDataGrid } from "./components/TableDataGrid.tsx";
 import { useState } from "react";
-import { Button, Dialog, DialogContent } from "@mui/material";
+import { Dialog, DialogContent } from "@mui/material";
+import { PreconceptualScheme } from "./components/PreconceptualScheme.tsx";
 
 
 export const App = () => {
@@ -14,60 +15,60 @@ export const App = () => {
     }
     return (
         <>
-            <div style={{display: 'flex', flexDirection: 'column'}}>
-                {/*<PreconceptualScheme onOpenTable={handleOpenTable}/>*/}
-                <Button onClick={() => handleOpenTable("Application")}>
+            <PreconceptualScheme onOpenTable={handleOpenTable}/>
+            {/*<div style={{display: 'flex', flexDirection: 'column'}}>
+                <Button >
                     Application
                 </Button>
-                <Button onClick={() => handleOpenTable("Code")}>
+                <Button onClick={() => onOpenTable("Code")}>
                     Code
                 </Button>
-                <Button onClick={() => handleOpenTable("Commit")}>
+                <Button>
                     Commit
                 </Button>
-                <Button onClick={() => handleOpenTable("Defect")}>
+                <Button onClick={() => onOpenTable("Defect")}>
                     Defect
                 </Button>
-                <Button onClick={() => handleOpenTable("DevelopmentTeam")}>
+                <Button>
                     DevelopmentTeam
                 </Button>
-                <Button onClick={() => handleOpenTable("Feature")}>
+                <Button onClick={() => onOpenTable("Feature")}>
                     Feature
                 </Button>
-                <Button onClick={() => handleOpenTable("Member")}>
+                <Button onClick={() => onOpenTable("Member")}>
                     Member
                 </Button>
-                <Button onClick={() => handleOpenTable("ProjectManagementSoftware")}>
+                <Button>
                     ProjectManagementSoftware
                 </Button>
-                <Button onClick={() => handleOpenTable("QualityAssuranceTool")}>
+                <Button onClick={() => onOpenTable("QualityAssuranceTool")}>
                     QualityAssuranceTool
                 </Button>
-                <Button onClick={() => handleOpenTable("QualityRule")}>
+                <Button onClick={() => onOpenTable("QualityRule")}>
                     QualityRule
                 </Button>
-                <Button onClick={() => handleOpenTable("Release")}>
+                <Button onClick={() => onOpenTable("Release")}>
                     Release
                 </Button>
-                <Button onClick={() => handleOpenTable("Repository")}>
+                <Button onClick={() => onOpenTable("Repository")}>
                     Repository
                 </Button>
-                <Button onClick={() => handleOpenTable("SoftwareDevelopmentProject")}>
+                <Button onClick={() => onOpenTable("SoftwareDevelopmentProject")}>
                     SoftwareDevelopmentProject
                 </Button>
-                <Button onClick={() => handleOpenTable("Sprint")}>
+                <Button onClick={() => onOpenTable("Sprint")}>
                     Sprint
                 </Button>
-                <Button onClick={() => handleOpenTable("Ticket")}>
+                <Button onClick={() => onOpenTable("Ticket")}>
                     Ticket
                 </Button>
-                <Button onClick={() => handleOpenTable("VersionControlSystem")}>
+                <Button onClick={() => onOpenTable("VersionControlSystem")}>
                     VersionControlSystem
                 </Button>
-                <Button onClick={() => handleOpenTable("Violation")}>
+                <Button onClick={() => onOpenTable("Violation")}>
                     Violation
                 </Button>
-            </div>
+            </div>*/}
             <Dialog
                 maxWidth="lg"
                 open={isOpen}
