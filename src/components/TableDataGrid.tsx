@@ -10,13 +10,15 @@ import { Table } from "dexie";
 export interface TableDataGridProps {
     tableName: string;
     query?: <T>(table: Table<T>) => Promise<T[]>;
-    message?: string;
+    title?: string;
+    subTitle?: string;
 }
 
 export const TableDataGrid: React.FC<TableDataGridProps> = ({
                                                                 tableName,
-                                                                query = table => table.toArray(),
-                                                                message = ""
+                                                                title = camelCaseToCapitalizedWords(tableName),
+                                                                subTitle = "",
+                                                                query = table => table.toArray()
                                                             }) => {
     const {current: table} = useRef(db.table(tableName));
     const {current: idProp} = useRef(table.schema.primKey.name);
@@ -56,8 +58,8 @@ export const TableDataGrid: React.FC<TableDataGridProps> = ({
     );
     return isLoading ? <div>Loading...</div> :
         <>
-            <h1>{camelCaseToCapitalizedWords(tableName)}</h1>
-            <h3>{message}</h3>
+            <h1>{title}</h1>
+            <h3>{subTitle}</h3>
             <DataGrid
                 autoHeight
                 className="table-data-grid"

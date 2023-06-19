@@ -8,7 +8,7 @@ export const App = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [tableDataGridProps, setTableDataGridProps] = useState<TableDataGridProps>({
         tableName: "",
-        message: ""
+        subTitle: ""
     });
     const handleOpenTable = (newTableDataGridProps: TableDataGridProps) => {
         setIsOpen(true);
@@ -25,7 +25,8 @@ export const App = () => {
                 <DialogContent sx={{px: 5, py: 3}}>
                     <TableDataGrid
                         tableName={tableDataGridProps.tableName}
-                        message={tableDataGridProps.message}
+                        title={tableDataGridProps.title}
+                        subTitle={tableDataGridProps.subTitle}
                         query={tableDataGridProps.query}
                     />
                 </DialogContent>

@@ -6184,6 +6184,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             className="class-concept"
                             onClick={() => onOpenTable({
                                 tableName: "Member",
+                                title: "Project Manager",
                                 query: table => table.where("role").equals("Project Manager").toArray()
                             })}
                         >Project Manager
@@ -6258,7 +6259,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             className="dynamic-relationship"
                             onClick={() => onOpenTable({
                                 tableName: "Ticket",
-                                message: "Create the tickets you need"
+                                subTitle: "Create the tickets you need"
                             })}
                         >Creates
                         </div>
@@ -6399,7 +6400,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             className="dynamic-relationship"
                             onClick={() => onOpenTable({
                                 tableName: "Ticket",
-                                message: "Assign tickets to an existing sprint"
+                                subTitle: "Assign tickets to an existing sprint"
                             })}
                         >Plans
                         </div>
@@ -6769,6 +6770,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             className="class-concept"
                             onClick={() => onOpenTable({
                                 tableName: "Member",
+                                title: "Software Developer",
                                 query: table => table.where("role").equals("Software Developer").toArray()
                             })}
                         >Software Developer
@@ -6843,7 +6845,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             className="dynamic-relationship"
                             onClick={() => onOpenTable({
                                 tableName: "Feature",
-                                message: "Write a new feature of the application in the code"
+                                subTitle: "Write a new feature of the application in the code"
                             })}
                         >Writes
                         </div>
@@ -6917,7 +6919,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             className="dynamic-relationship"
                             onClick={() => onOpenTable({
                                 tableName: "Violation",
-                                message: "You are Refactoring! Remove some violations"
+                                subTitle: "You are Refactoring! Remove some violations"
                             })}
                         >Refactors
                         </div>
@@ -6991,7 +6993,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             className="dynamic-relationship"
                             onClick={() => onOpenTable({
                                 tableName: "Code",
-                                message: "Here you can monitor the Technichal Debt of each code"
+                                subTitle: "Here you can monitor the Technichal Debt of each code"
                             })}
                         >Monitors
                         </div>
@@ -7064,7 +7066,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             }} className="dynamic-relationship"
                             onClick={() => onOpenTable({
                                 tableName: "Ticket",
-                                message: "Assign a software developer to a ticket"
+                                subTitle: "Assign a software developer to a ticket"
                             })}
                         >Develops
                         </div>
@@ -7572,6 +7574,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             className="class-concept"
                             onClick={() => onOpenTable({
                                 tableName: "Member",
+                                title: "Software Architect",
                                 query: table => table.where("role").equals("Software Architect").toArray()
                             })}
                         >Software Architect
@@ -7646,7 +7649,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             className="dynamic-relationship"
                             onClick={() => onOpenTable({
                                 tableName: "Code",
-                                message: "Here you can monitor the Technichal Debt of each code"
+                                subTitle: "Here you can monitor the Technichal Debt of each code"
                             })}
                         >Monitors
                         </div>
@@ -7720,7 +7723,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             className="dynamic-relationship"
                             onClick={() => onOpenTable({
                                 tableName: "Violation",
-                                message: "You are Refactoring! Remove some violations"
+                                subTitle: "You are Refactoring! Remove some violations"
                             })}
                         >Refactors
                         </div>
@@ -8312,7 +8315,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             className="dynamic-relationship"
                             onClick={() => onOpenTable({
                                 tableName: "SoftwareDevelopmentProject",
-                                message: "Choose or change your Quality Assurance Tool"
+                                subTitle: "Choose or change your Quality Assurance Tool"
                             })}
                         >Uses
                         </div>
