@@ -44,19 +44,22 @@ export const TableDataGrid: React.FC<{ tableName: string }> = ({tableName}) => {
             .concat(actionsColumn)
     );
     return isLoading ? <div>Loading...</div> :
-        <DataGrid
-            autoHeight
-            className="table-data-grid"
-            hideFooter={rows.length <= 100}
-            getRowId={row => row[idProp]}
-            rows={rows}
-            columns={columns}
-            editMode="row"
-            slots={{toolbar: EditToolbar}}
-            slotProps={{toolbar: {table}}}
-            processRowUpdate={async newRow => table.get(await table.put(newRow))}
-            onProcessRowUpdateError={err => console.error(err)}
-        />
+        <>
+            <h1>{camelCaseToCapitalizedWords(tableName)}</h1>
+            <DataGrid
+                autoHeight
+                className="table-data-grid"
+                hideFooter={rows.length <= 100}
+                getRowId={row => row[idProp]}
+                rows={rows}
+                columns={columns}
+                editMode="row"
+                slots={{toolbar: EditToolbar}}
+                slotProps={{toolbar: {table}}}
+                processRowUpdate={async newRow => table.get(await table.put(newRow))}
+                onProcessRowUpdateError={err => console.error(err)}
+            />
+        </>
 };
 
 

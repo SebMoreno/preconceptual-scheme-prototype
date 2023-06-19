@@ -6,11 +6,10 @@ import { PreconceptualScheme } from "./components/PreconceptualScheme.tsx";
 
 
 export const App = () => {
-    const [tableName, setTableName] = useState("ProjectManagementSoftwares")
+    const [tableName, setTableName] = useState("")
     const [isOpen, setIsOpen] = useState(false)
-
-    const handleOpenTable = (tableName: string) => {
-        setTableName(tableName)
+    const handleOpenTable = (newTableName: string) => {
+        setTableName(newTableName)
         setIsOpen(true)
     }
     return (
