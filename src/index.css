@@ -12,3 +12,16 @@ body {
 .table-data-grid .MuiDataGrid-cell {
     border: 1px solid;
 }
+
+.class-concept {
+    display: inline-grid !important;
+    cursor: pointer;
+    height: 30px;
+    width: 80px;
+    place-content: center;
+    background-color: #f44336;
+}
+
+.class-concept.large {
+    width: 120px;
+}
