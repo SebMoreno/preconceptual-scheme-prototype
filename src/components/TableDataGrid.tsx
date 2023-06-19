@@ -12,13 +12,15 @@ export interface TableDataGridProps {
     query?: <T>(table: Table<T>) => Promise<T[]>;
     title?: string;
     subTitle?: string;
+    onAdd?: (table: Table) => void;
 }
 
 export const TableDataGrid: React.FC<TableDataGridProps> = ({
                                                                 tableName,
                                                                 title = camelCaseToCapitalizedWords(tableName),
                                                                 subTitle = "",
-                                                                query = table => table.toArray()
+                                                                query = table => table.toArray(),
+                                                                onAdd = async table => table.get(await table.add({}))
                                                             }) => {
     const {current: table} = useRef(db.table(tableName));
     const {current: idProp} = useRef(table.schema.primKey.name);
@@ -69,7 +71,7 @@ export const TableDataGrid: React.FC<TableDataGridProps> = ({
                 columns={columns}
                 editMode="row"
                 slots={{toolbar: EditToolbar}}
-                slotProps={{toolbar: {table}}}
+                slotProps={{toolbar: {onAdd: () => onAdd(table)}}}
                 processRowUpdate={async newRow => table.get(await table.put(newRow))}
                 onProcessRowUpdateError={err => console.error(err)}
             />

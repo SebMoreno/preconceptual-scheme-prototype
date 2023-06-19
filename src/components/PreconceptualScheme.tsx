@@ -6185,6 +6185,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             onClick={() => onOpenTable({
                                 tableName: "Member",
                                 title: "Project Manager",
+                                onAdd: async table => table.get(await table.add({role: "Project Manager"})),
                                 query: table => table.where("role").equals("Project Manager").toArray()
                             })}
                         >Project Manager
@@ -6771,6 +6772,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             onClick={() => onOpenTable({
                                 tableName: "Member",
                                 title: "Software Developer",
+                                onAdd: async table => table.get(await table.add({role: "Software Developer"})),
                                 query: table => table.where("role").equals("Software Developer").toArray()
                             })}
                         >Software Developer
@@ -7575,6 +7577,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             onClick={() => onOpenTable({
                                 tableName: "Member",
                                 title: "Software Architect",
+                                onAdd: async table => table.get(await table.add({role: "Software Architect"})),
                                 query: table => table.where("role").equals("Software Architect").toArray()
                             })}
                         >Software Architect

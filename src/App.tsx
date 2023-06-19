@@ -27,6 +27,7 @@ export const App = () => {
                         tableName={tableDataGridProps.tableName}
                         title={tableDataGridProps.title}
                         subTitle={tableDataGridProps.subTitle}
+                        onAdd={tableDataGridProps.onAdd}
                         query={tableDataGridProps.query}
                     />
                 </DialogContent>
