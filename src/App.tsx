@@ -7,10 +7,12 @@ import { PreconceptualScheme } from "./components/PreconceptualScheme.tsx";
 
 export const App = () => {
     const [tableName, setTableName] = useState("")
+    const [message, setMessage] = useState("")
     const [isOpen, setIsOpen] = useState(false)
-    const handleOpenTable = (newTableName: string) => {
+    const handleOpenTable = (newTableName: string, newMessage?: string) => {
         setTableName(newTableName)
         setIsOpen(true)
+        setMessage(newMessage ?? "")
     }
     return (
         <>
@@ -21,7 +23,7 @@ export const App = () => {
                 onClose={() => setIsOpen(false)}
             >
                 <DialogContent sx={{px: 5, py: 3}}>
-                    <TableDataGrid tableName={tableName}/>
+                    <TableDataGrid tableName={tableName} message={message}/>
                 </DialogContent>
             </Dialog>
         </>

@@ -25,3 +25,9 @@ body {
 .class-concept.large {
     width: 120px;
 }
+
+.dynamic-relationship {
+    cursor: pointer;
+    width: 50px;
+    background-color: #f44336;
+}

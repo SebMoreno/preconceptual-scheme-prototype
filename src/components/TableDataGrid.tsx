@@ -6,7 +6,7 @@ import { DataGrid, GridActionsCellItem, GridActionsColDef, GridColDef, GridRowsP
 import { EditToolbar } from "./EditToolbar.tsx";
 import { camelCaseToCapitalizedWords } from "../services/camelCaseToCapitalizedWords.ts";
 
-export const TableDataGrid: React.FC<{ tableName: string }> = ({tableName}) => {
+export const TableDataGrid: React.FC<{ tableName: string, message?: string }> = ({tableName, message}) => {
     const {current: table} = useRef(db.table(tableName));
     const {current: idProp} = useRef(table.schema.primKey.name);
     const {current: tableConstructor} = useRef<{ new(): unknown }>(table.schema.mappedClass as { new(): unknown });
@@ -46,6 +46,7 @@ export const TableDataGrid: React.FC<{ tableName: string }> = ({tableName}) => {
     return isLoading ? <div>Loading...</div> :
         <>
             <h1>{camelCaseToCapitalizedWords(tableName)}</h1>
+            <h3>{message}</h3>
             <DataGrid
                 autoHeight
                 className="table-data-grid"
