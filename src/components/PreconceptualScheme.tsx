@@ -2,11 +2,7 @@ import React from "react";
 import { TableDataGridProps } from "./TableDataGrid.tsx";
 
 export interface PreconceptualSchemeProps {
-    onOpenTable: (modalArgs: {
-        tableName: string,
-        message?: string,
-        query?: TableDataGridProps["query"]
-    }) => void;
+    onOpenTable: (modalArgs: TableDataGridProps) => void;
 }
 
 export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenTable}) =>
@@ -5541,15 +5537,15 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     textAlign: "left"
                                 }}
                             >
-                <span
-                    style={{
-                        backgroundColor: "initial",
-                        fontFamily: "Calibri",
-                        letterSpacing: 0
-                    }}
-                >
-                  {"- Jira"}
-                </span>
+            <span
+                style={{
+                    backgroundColor: "initial",
+                    fontFamily: "Calibri",
+                    letterSpacing: 0
+                }}
+            >
+              {"- Jira"}
+            </span>
                                 <br/>
                             </div>
                             <span
@@ -5559,21 +5555,21 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     backgroundColor: "initial"
                                 }}
                             >
-                  <div
-                      style={{
-                          textAlign: "left"
-                      }}
-                  >
-                    <span
-                        style={{
-                            backgroundColor: "initial",
-                            letterSpacing: 0
-                        }}
-                    >
-                      {"- Asana"}
-                    </span>
-                  </div>
+              <div
+                  style={{
+                      textAlign: "left"
+                  }}
+              >
+                <span
+                    style={{
+                        backgroundColor: "initial",
+                        letterSpacing: 0
+                    }}
+                >
+                  {"- Asana"}
                 </span>
+              </div>
+            </span>
                             <span
                                 style={{
                                     fontFamily: "Calibri",
@@ -5581,21 +5577,21 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     backgroundColor: "initial"
                                 }}
                             >
-                  <div
-                      style={{
-                          textAlign: "left"
-                      }}
-                  >
-                    <span
-                        style={{
-                            backgroundColor: "initial",
-                            letterSpacing: 0
-                        }}
-                    >
-                      {"- Trello"}
-                    </span>
-                  </div>
+              <div
+                  style={{
+                      textAlign: "left"
+                  }}
+              >
+                <span
+                    style={{
+                        backgroundColor: "initial",
+                        letterSpacing: 0
+                    }}
+                >
+                  {"- Trello"}
                 </span>
+              </div>
+            </span>
                         </div>
                     </div>
                 </div>
@@ -5665,15 +5661,15 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     textAlign: "left"
                                 }}
                             >
-                <span
-                    style={{
-                        backgroundColor: "initial",
-                        fontFamily: "Calibri",
-                        letterSpacing: 0
-                    }}
-                >
-                  {"- Software Developer"}
-                </span>
+            <span
+                style={{
+                    backgroundColor: "initial",
+                    fontFamily: "Calibri",
+                    letterSpacing: 0
+                }}
+            >
+              {"- Software Developer"}
+            </span>
                             </div>
                             <span
                                 style={{
@@ -5682,41 +5678,41 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     backgroundColor: "initial"
                                 }}
                             >
-                <div
-                    style={{
-                        textAlign: "left"
-                    }}
-                >
-                  <span
-                      style={{
-                          backgroundColor: "initial",
-                          letterSpacing: 0
-                      }}
-                  >
-                    {"- Software Architect"}
-                  </span>
-                </div>
+            <div
+                style={{
+                    textAlign: "left"
+                }}
+            >
+              <span
+                  style={{
+                      backgroundColor: "initial",
+                      letterSpacing: 0
+                  }}
+              >
+                {"- Software Architect"}
               </span>
+            </div>
+          </span>
                             <span
                                 style={{
                                     fontFamily: "Calibri",
                                     backgroundColor: "initial"
                                 }}
                             >
-                <div
-                    style={{
-                        textAlign: "left"
-                    }}
-                >
-                  <span
-                      style={{
-                          backgroundColor: "initial"
-                      }}
-                  >
-                    {"- Project Manager"}
-                  </span>
-                </div>
+            <div
+                style={{
+                    textAlign: "left"
+                }}
+            >
+              <span
+                  style={{
+                      backgroundColor: "initial"
+                  }}
+              >
+                {"- Project Manager"}
               </span>
+            </div>
+          </span>
                         </div>
                     </div>
                 </div>
@@ -5778,30 +5774,30 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     textAlign: "left"
                                 }}
                             >
-                <span
-                    style={{
-                        backgroundColor: "initial",
-                        fontFamily: "Calibri",
-                        letterSpacing: 0
-                    }}
-                >
-                  {"- Git"}
-                </span>
+            <span
+                style={{
+                    backgroundColor: "initial",
+                    fontFamily: "Calibri",
+                    letterSpacing: 0
+                }}
+            >
+              {"- Git"}
+            </span>
                             </div>
                             <div
                                 style={{
                                     textAlign: "left"
                                 }}
                             >
-                  <span
-                      style={{
-                          backgroundColor: "initial",
-                          fontFamily: "Calibri",
-                          letterSpacing: 0
-                      }}
-                  >
-                    {"- Subversion"}
-                  </span>
+              <span
+                  style={{
+                      backgroundColor: "initial",
+                      fontFamily: "Calibri",
+                      letterSpacing: 0
+                  }}
+              >
+                {"- Subversion"}
+              </span>
                             </div>
                             <span
                                 style={{
@@ -5810,21 +5806,21 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     backgroundColor: "initial"
                                 }}
                             >
-                  <div
-                      style={{
-                          textAlign: "left"
-                      }}
-                  >
-                    <span
-                        style={{
-                            backgroundColor: "initial",
-                            letterSpacing: 0
-                        }}
-                    >
-                      {"- Mercurial"}
-                    </span>
-                  </div>
+              <div
+                  style={{
+                      textAlign: "left"
+                  }}
+              >
+                <span
+                    style={{
+                        backgroundColor: "initial",
+                        letterSpacing: 0
+                    }}
+                >
+                  {"- Mercurial"}
                 </span>
+              </div>
+            </span>
                         </div>
                     </div>
                 </div>
@@ -5894,30 +5890,30 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     textAlign: "left"
                                 }}
                             >
-                <span
-                    style={{
-                        backgroundColor: "initial",
-                        fontFamily: "Calibri",
-                        letterSpacing: 0
-                    }}
-                >
-                  {"- Code clones"}
-                </span>
+            <span
+                style={{
+                    backgroundColor: "initial",
+                    fontFamily: "Calibri",
+                    letterSpacing: 0
+                }}
+            >
+              {"- Code clones"}
+            </span>
                             </div>
                             <div
                                 style={{
                                     textAlign: "left"
                                 }}
                             >
-                  <span
-                      style={{
-                          backgroundColor: "initial",
-                          fontFamily: "Calibri",
-                          letterSpacing: 0
-                      }}
-                  >
-                    {"- High comment frequency"}
-                  </span>
+              <span
+                  style={{
+                      backgroundColor: "initial",
+                      fontFamily: "Calibri",
+                      letterSpacing: 0
+                  }}
+              >
+                {"- High comment frequency"}
+              </span>
                             </div>
                             <span
                                 style={{
@@ -5926,21 +5922,21 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     backgroundColor: "initial"
                                 }}
                             >
-                  <div
-                      style={{
-                          textAlign: "left"
-                      }}
-                  >
-                    <span
-                        style={{
-                            backgroundColor: "initial",
-                            letterSpacing: 0
-                        }}
-                    >
-                      {"- Low code complexity"}
-                    </span>
-                  </div>
+              <div
+                  style={{
+                      textAlign: "left"
+                  }}
+              >
+                <span
+                    style={{
+                        backgroundColor: "initial",
+                        letterSpacing: 0
+                    }}
+                >
+                  {"- Low code complexity"}
                 </span>
+              </div>
+            </span>
                             <span
                                 style={{
                                     fontFamily: "Calibri",
@@ -5948,35 +5944,35 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     backgroundColor: "initial"
                                 }}
                             >
-                  <div
-                      style={{
-                          textAlign: "left"
-                      }}
-                  >
-                    <span
-                        style={{
-                            backgroundColor: "initial",
-                            letterSpacing: 0
-                        }}
-                    >
-                      {"- Intuitive variable naming"}
-                    </span>
-                  </div>
-                  <div
-                      style={{
-                          textAlign: "left"
-                      }}
-                  >
-                    <span
-                        style={{
-                            backgroundColor: "initial",
-                            letterSpacing: 0
-                        }}
-                    >
-                      {"- Secure code"}
-                    </span>
-                  </div>
+              <div
+                  style={{
+                      textAlign: "left"
+                  }}
+              >
+                <span
+                    style={{
+                        backgroundColor: "initial",
+                        letterSpacing: 0
+                    }}
+                >
+                  {"- Intuitive variable naming"}
                 </span>
+              </div>
+              <div
+                  style={{
+                      textAlign: "left"
+                  }}
+              >
+                <span
+                    style={{
+                        backgroundColor: "initial",
+                        letterSpacing: 0
+                    }}
+                >
+                  {"- Secure code"}
+                </span>
+              </div>
+            </span>
                         </div>
                     </div>
                 </div>
@@ -6046,30 +6042,30 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     textAlign: "left"
                                 }}
                             >
-                <span
-                    style={{
-                        backgroundColor: "initial",
-                        fontFamily: "Calibri",
-                        letterSpacing: 0
-                    }}
-                >
-                  {"- SonarQube"}
-                </span>
+            <span
+                style={{
+                    backgroundColor: "initial",
+                    fontFamily: "Calibri",
+                    letterSpacing: 0
+                }}
+            >
+              {"- SonarQube"}
+            </span>
                             </div>
                             <div
                                 style={{
                                     textAlign: "left"
                                 }}
                             >
-                  <span
-                      style={{
-                          backgroundColor: "initial",
-                          fontFamily: "Calibri",
-                          letterSpacing: 0
-                      }}
-                  >
-                    {"- CAST"}
-                  </span>
+              <span
+                  style={{
+                      backgroundColor: "initial",
+                      fontFamily: "Calibri",
+                      letterSpacing: 0
+                  }}
+              >
+                {"- CAST"}
+              </span>
                             </div>
                             <span
                                 style={{
@@ -6078,21 +6074,21 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     backgroundColor: "initial"
                                 }}
                             >
-                  <div
-                      style={{
-                          textAlign: "left"
-                      }}
-                  >
-                    <span
-                        style={{
-                            backgroundColor: "initial",
-                            letterSpacing: 0
-                        }}
-                    >
-                      {"- MIND"}
-                    </span>
-                  </div>
+              <div
+                  style={{
+                      textAlign: "left"
+                  }}
+              >
+                <span
+                    style={{
+                        backgroundColor: "initial",
+                        letterSpacing: 0
+                    }}
+                >
+                  {"- MIND"}
                 </span>
+              </div>
+            </span>
                         </div>
                     </div>
                 </div>
@@ -6187,7 +6183,8 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             }}
                             className="class-concept"
                             onClick={() => onOpenTable({
-                                tableName: "Member"
+                                tableName: "Member",
+                                query: table => table.where("role").equals("Project Manager").toArray()
                             })}
                         >Project Manager
                         </div>
@@ -6769,6 +6766,11 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                 whiteSpace: "normal",
                                 overflowWrap: "normal"
                             }}
+                            className="class-concept"
+                            onClick={() => onOpenTable({
+                                tableName: "Member",
+                                query: table => table.where("role").equals("Software Developer").toArray()
+                            })}
                         >Software Developer
                         </div>
                     </div>
@@ -7567,6 +7569,11 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                 whiteSpace: "normal",
                                 overflowWrap: "normal"
                             }}
+                            className="class-concept"
+                            onClick={() => onOpenTable({
+                                tableName: "Member",
+                                query: table => table.where("role").equals("Software Architect").toArray()
+                            })}
                         >Software Architect
                         </div>
                     </div>

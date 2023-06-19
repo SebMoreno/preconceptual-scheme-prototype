@@ -5,15 +5,14 @@ import { PreconceptualScheme } from "./components/PreconceptualScheme.tsx";
 
 
 export const App = () => {
-    const [tableName, setTableName] = useState("");
-    const [message, setMessage] = useState<string | undefined>("");
-    const [query, setQuery] = useState<TableDataGridProps["query"]>();
     const [isOpen, setIsOpen] = useState(false);
-    const handleOpenTable = ({tableName: newTableName, message: newMessage, query: newQuery}: TableDataGridProps) => {
+    const [tableDataGridProps, setTableDataGridProps] = useState<TableDataGridProps>({
+        tableName: "",
+        message: ""
+    });
+    const handleOpenTable = (newTableDataGridProps: TableDataGridProps) => {
         setIsOpen(true);
-        setTableName(newTableName);
-        setMessage(newMessage);
-        setQuery(newQuery);
+        setTableDataGridProps(newTableDataGridProps);
     };
     return (
         <>
@@ -25,9 +24,9 @@ export const App = () => {
             >
                 <DialogContent sx={{px: 5, py: 3}}>
                     <TableDataGrid
-                        tableName={tableName}
-                        message={message}
-                        query={query}
+                        tableName={tableDataGridProps.tableName}
+                        message={tableDataGridProps.message}
+                        query={tableDataGridProps.query}
                     />
                 </DialogContent>
             </Dialog>
