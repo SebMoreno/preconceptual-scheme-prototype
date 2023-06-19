@@ -1,7 +1,7 @@
 import React from "react";
 
 export interface PreconceptualSchemeProps {
-    onOpenTable: (tableName: string) => void;
+    onOpenTable: (tableName: string, message?: string) => void;
 }
 
 export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenTable}) => {
@@ -6111,19 +6111,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                 fill="none"
                 stroke="#000"
                 strokeMiterlimit={10}
-                d="M720 209v21q0 10-9.44 10h-9.44"
-                pointerEvents="stroke"
-            />
-            <path
-                stroke="#000"
-                strokeMiterlimit={10}
-                d="m691.12 240 10-5v10Z"
-                pointerEvents="all"
-            />
-            <path
-                fill="none"
-                stroke="#000"
-                strokeMiterlimit={10}
                 d="M730 209v21q0 10 10 10h48.88"
                 pointerEvents="stroke"
             />
@@ -6263,76 +6250,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     whiteSpace: "normal",
                                     overflowWrap: "normal",
                                 }}
+                                className="dynamic-relationship"
+                                onClick={() => onOpenTable("Ticket", "Create the tickets you need")}
                             >Creates
-                            </div>
-                        </div>
-                    </div>
-                </foreignObject>
-            </switch>
-            <path
-                fill="none"
-                stroke="#000"
-                strokeMiterlimit={10}
-                d="M660 247v13q0 10-10 10h-10q-10 0-10 10v48.88"
-                pointerEvents="stroke"
-            />
-            <path
-                stroke="#000"
-                strokeMiterlimit={10}
-                d="m630 338.88-5-10h10Z"
-                pointerEvents="all"
-            />
-            <path
-                fill="#fdff02"
-                stroke="#000"
-                strokeDasharray="9 9"
-                strokeMiterlimit={10}
-                strokeWidth={3}
-                d="M641.25 247h37.5c6.21 0 11.25-4.48 11.25-10s-5.04-10-11.25-10h-37.5c-6.21 0-11.25 4.48-11.25 10s5.04 10 11.25 10"
-                pointerEvents="all"
-            />
-            <switch transform="translate(-.5 -.5)">
-                <foreignObject
-                    width="100%"
-                    height="100%"
-                    pointerEvents="none"
-                    requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
-                    style={{
-                        overflow: "visible",
-                        textAlign: "left",
-                    }}
-                >
-                    <div
-                        style={{
-                            display: "flex",
-                            alignItems: "unsafe center",
-                            justifyContent: "unsafe center",
-                            width: 60,
-                            height: 1,
-                            paddingTop: 237,
-                            marginLeft: 630,
-                        }}
-                    >
-                        <div
-                            data-drawio-colors="color: rgb(0, 0, 0);"
-                            style={{
-                                boxSizing: "border-box",
-                                fontSize: 0,
-                                textAlign: "center",
-                            }}
-                        >
-                            <div
-                                style={{
-                                    display: "inline-block",
-                                    fontSize: 12,
-                                    fontFamily: "Helvetica",
-                                    color: "#000",
-                                    lineHeight: 1.2,
-                                    pointerEvents: "all",
-                                    whiteSpace: "normal",
-                                    overflowWrap: "normal",
-                                }}
-                            >Updates
                             </div>
                         </div>
                     </div>
@@ -6468,6 +6388,8 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     whiteSpace: "normal",
                                     overflowWrap: "normal",
                                 }}
+                                className="dynamic-relationship"
+                                onClick={() => onOpenTable("Ticket", "Assign tickets to an existing sprint")}
                             >Plans
                             </div>
                         </div>
@@ -6902,6 +6824,8 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     whiteSpace: "normal",
                                     overflowWrap: "normal",
                                 }}
+                                className="dynamic-relationship"
+                                onClick={() => onOpenTable("Feature", "Write a new feature of the application in the code")}
                             >Writes
                             </div>
                         </div>
