@@ -13,5 +13,5 @@ export const EditToolbar: React.FC<{ table: Table }> = ({table}) =>
             onClick={async () => table.get(await table.add({}))}>
             Add record
         </Button>
-    </GridToolbarContainer>
+    </GridToolbarContainer>;
 

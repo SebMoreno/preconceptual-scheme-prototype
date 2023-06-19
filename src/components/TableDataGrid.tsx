@@ -16,7 +16,7 @@ export const TableDataGrid: React.FC<{ tableName: string, message?: string }> = 
     useEffect(() => {
         setRows(elements ?? []);
         setIsLoading(elements === undefined);
-    }, [elements])
+    }, [elements]);
 
     const actionsColumn: GridActionsColDef = {
         editable: false,
@@ -31,7 +31,7 @@ export const TableDataGrid: React.FC<{ tableName: string, message?: string }> = 
                 color="inherit"
             />
         ]
-    }
+    };
     const {current: columns} = useRef<GridColDef[]>(
         Object.getOwnPropertyNames(new tableConstructor())
             .map(key => ({
@@ -60,7 +60,7 @@ export const TableDataGrid: React.FC<{ tableName: string, message?: string }> = 
                 processRowUpdate={async newRow => table.get(await table.put(newRow))}
                 onProcessRowUpdateError={err => console.error(err)}
             />
-        </>
+        </>;
 };
 
 

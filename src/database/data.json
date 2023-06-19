@@ -1,7 +1,11 @@
 {
   "Application": [
-    {"versionControlSystemId": 1},
-    {"versionControlSystemId": 1}
+    {
+      "versionControlSystemId": 1
+    },
+    {
+      "versionControlSystemId": 1
+    }
   ],
   "Code": [
     {
@@ -65,8 +69,12 @@
     }
   ],
   "DevelopmentTeam": [
-    {"id": 1},
-    {"id": 2}
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    }
   ],
   "Feature": [
     {
@@ -118,11 +126,17 @@
     }
   ],
   "ProjectManagementSoftware": [
-    {"name": "Jira"},
-    {"name": "Asana"}
+    {
+      "name": "Jira"
+    },
+    {
+      "name": "Asana"
+    }
   ],
   "QualityAssuranceTool": [
-    {"toolName": "MIND"}
+    {
+      "toolName": "MIND"
+    }
   ],
   "QualityRule": [
     {
@@ -151,13 +165,23 @@
     }
   ],
   "Release": [
-    {"codeId": 1},
-    {"codeId": 2},
-    {"codeId": 2}
+    {
+      "codeId": 1
+    },
+    {
+      "codeId": 2
+    },
+    {
+      "codeId": 2
+    }
   ],
   "Repository": [
-    {"versionControlSystemId": 1},
-    {"versionControlSystemId": 1}
+    {
+      "versionControlSystemId": 1
+    },
+    {
+      "versionControlSystemId": 1
+    }
   ],
   "SoftwareDevelopmentProject": [
     {
@@ -224,7 +248,9 @@
     }
   ],
   "VersionControlSystem": [
-    {"name": "Git"}
+    {
+      "name": "Git"
+    }
   ],
   "Violation": [
     {

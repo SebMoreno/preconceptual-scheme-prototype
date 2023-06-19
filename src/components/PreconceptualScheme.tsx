@@ -12,7 +12,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
             width={1561}
             height={1137}
             style={{
-                backgroundColor: "#fff",
+                backgroundColor: "#fff"
             }}
             viewBox="-0.5 -0.5 1561 1137"
         >
@@ -44,7 +44,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -55,7 +55,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 120,
                             height: 1,
                             paddingTop: 710,
-                            marginLeft: 0,
+                            marginLeft: 0
                         }}
                     >
                         <div
@@ -63,7 +63,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -75,7 +75,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                                 className="class-concept large"
                                 onClick={() => onOpenTable("ProjectManagementSoftware")}
@@ -100,7 +100,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -111,7 +111,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 665,
-                            marginLeft: 280,
+                            marginLeft: 280
                         }}
                     >
                         <div
@@ -119,7 +119,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -131,7 +131,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >ID
                             </div>
@@ -154,7 +154,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -165,7 +165,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 710,
-                            marginLeft: 280,
+                            marginLeft: 280
                         }}
                     >
                         <div
@@ -173,7 +173,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -185,7 +185,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Name
                             </div>
@@ -234,7 +234,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -245,7 +245,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 710,
-                            marginLeft: 170,
+                            marginLeft: 170
                         }}
                     >
                         <div
@@ -253,7 +253,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -265,7 +265,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Has
                             </div>
@@ -301,7 +301,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -312,7 +312,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 565,
-                            marginLeft: 270,
+                            marginLeft: 270
                         }}
                     >
                         <div
@@ -320,7 +320,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -332,7 +332,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                                 className="class-concept"
                                 onClick={() => onOpenTable("Sprint")}
@@ -370,7 +370,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -381,7 +381,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 120,
                             height: 1,
                             paddingTop: 755,
-                            marginLeft: 280,
+                            marginLeft: 280
                         }}
                     >
                         <div
@@ -389,7 +389,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -401,7 +401,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                                 className="class-concept large"
                                 onClick={() => onOpenTable("SoftwareDevelopmentProject")}
@@ -478,7 +478,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -489,7 +489,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 755,
-                            marginLeft: 450,
+                            marginLeft: 450
                         }}
                     >
                         <div
@@ -497,7 +497,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -509,7 +509,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Has
                             </div>
@@ -532,7 +532,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -543,7 +543,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 716,
-                            marginLeft: 630,
+                            marginLeft: 630
                         }}
                     >
                         <div
@@ -551,7 +551,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -563,7 +563,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >ID
                             </div>
@@ -586,7 +586,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -597,7 +597,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 755,
-                            marginLeft: 630,
+                            marginLeft: 630
                         }}
                     >
                         <div
@@ -605,7 +605,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -617,7 +617,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Deadline
                             </div>
@@ -653,7 +653,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -664,7 +664,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 870,
-                            marginLeft: 390,
+                            marginLeft: 390
                         }}
                     >
                         <div
@@ -672,7 +672,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -684,7 +684,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                                 className="class-concept"
                                 onClick={() => onOpenTable("DevelopmentTeam")}
@@ -709,7 +709,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -720,7 +720,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 870,
-                            marginLeft: 490,
+                            marginLeft: 490
                         }}
                     >
                         <div
@@ -728,7 +728,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -740,7 +740,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                                 className="class-concept"
                                 onClick={() => onOpenTable("Application")}
@@ -778,7 +778,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -789,7 +789,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 930,
-                            marginLeft: 400,
+                            marginLeft: 400
                         }}
                     >
                         <div
@@ -797,7 +797,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -809,7 +809,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Has
                             </div>
@@ -845,7 +845,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -856,7 +856,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 990,
-                            marginLeft: 440,
+                            marginLeft: 440
                         }}
                     >
                         <div
@@ -864,7 +864,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -876,7 +876,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                                 className="class-concept"
                                 onClick={() => onOpenTable("Member")}
@@ -940,7 +940,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -951,7 +951,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 1050,
-                            marginLeft: 420,
+                            marginLeft: 420
                         }}
                     >
                         <div
@@ -959,7 +959,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -971,7 +971,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Has
                             </div>
@@ -994,7 +994,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -1005,7 +1005,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 1050,
-                            marginLeft: 310,
+                            marginLeft: 310
                         }}
                     >
                         <div
@@ -1013,7 +1013,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -1025,7 +1025,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >ID
                             </div>
@@ -1048,7 +1048,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -1059,7 +1059,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 1085,
-                            marginLeft: 310,
+                            marginLeft: 310
                         }}
                     >
                         <div
@@ -1067,7 +1067,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -1079,7 +1079,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Role
                             </div>
@@ -1102,7 +1102,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -1113,7 +1113,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 1121,
-                            marginLeft: 310,
+                            marginLeft: 310
                         }}
                     >
                         <div
@@ -1121,7 +1121,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -1133,7 +1133,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Name
                             </div>
@@ -1169,7 +1169,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -1180,7 +1180,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 870,
-                            marginLeft: 620,
+                            marginLeft: 620
                         }}
                     >
                         <div
@@ -1188,7 +1188,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -1200,7 +1200,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Has
                             </div>
@@ -1223,7 +1223,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -1234,7 +1234,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 960,
-                            marginLeft: 530,
+                            marginLeft: 530
                         }}
                     >
                         <div
@@ -1242,7 +1242,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -1254,7 +1254,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >ID
                             </div>
@@ -1303,7 +1303,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -1314,7 +1314,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 870,
-                            marginLeft: 720,
+                            marginLeft: 720
                         }}
                     >
                         <div
@@ -1322,7 +1322,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -1334,7 +1334,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                                 className="class-concept"
                                 onClick={() => onOpenTable("Release")}
@@ -1372,7 +1372,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -1383,7 +1383,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 930,
-                            marginLeft: 730,
+                            marginLeft: 730
                         }}
                     >
                         <div
@@ -1391,7 +1391,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -1403,7 +1403,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Has
                             </div>
@@ -1426,7 +1426,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -1437,7 +1437,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 990,
-                            marginLeft: 720,
+                            marginLeft: 720
                         }}
                     >
                         <div
@@ -1445,7 +1445,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -1457,7 +1457,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Version number
                             </div>
@@ -1493,7 +1493,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -1504,7 +1504,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 870,
-                            marginLeft: 850,
+                            marginLeft: 850
                         }}
                     >
                         <div
@@ -1512,7 +1512,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -1524,7 +1524,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Has
                             </div>
@@ -1560,7 +1560,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -1571,7 +1571,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 930,
-                            marginLeft: 980,
+                            marginLeft: 980
                         }}
                     >
                         <div
@@ -1579,7 +1579,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -1591,7 +1591,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Has
                             </div>
@@ -1614,7 +1614,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -1625,7 +1625,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 990,
-                            marginLeft: 820,
+                            marginLeft: 820
                         }}
                     >
                         <div
@@ -1633,7 +1633,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -1645,7 +1645,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >ID
                             </div>
@@ -1694,7 +1694,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -1705,7 +1705,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 870,
-                            marginLeft: 970,
+                            marginLeft: 970
                         }}
                     >
                         <div
@@ -1713,7 +1713,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -1725,7 +1725,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                                 className="class-concept"
                                 onClick={() => onOpenTable("Defect")}
@@ -1750,7 +1750,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -1761,7 +1761,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 990,
-                            marginLeft: 920,
+                            marginLeft: 920
                         }}
                     >
                         <div
@@ -1769,7 +1769,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -1781,7 +1781,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Ocurrence date
                             </div>
@@ -1804,7 +1804,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -1815,7 +1815,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 990,
-                            marginLeft: 340,
+                            marginLeft: 340
                         }}
                     >
                         <div
@@ -1823,7 +1823,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -1835,7 +1835,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >ID
                             </div>
@@ -1871,7 +1871,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -1882,7 +1882,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 990,
-                            marginLeft: 1020,
+                            marginLeft: 1020
                         }}
                     >
                         <div
@@ -1890,7 +1890,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -1902,7 +1902,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Description
                             </div>
@@ -1977,7 +1977,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -1988,7 +1988,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 574,
-                            marginLeft: 440,
+                            marginLeft: 440
                         }}
                     >
                         <div
@@ -1996,7 +1996,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -2008,7 +2008,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                                 className="class-concept"
                                 onClick={() => onOpenTable("QualityAssuranceTool")}
@@ -2085,7 +2085,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -2096,7 +2096,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 635,
-                            marginLeft: 450,
+                            marginLeft: 450
                         }}
                     >
                         <div
@@ -2104,7 +2104,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -2116,7 +2116,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Has
                             </div>
@@ -2139,7 +2139,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -2150,7 +2150,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 705,
-                            marginLeft: 485,
+                            marginLeft: 485
                         }}
                     >
                         <div
@@ -2158,7 +2158,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -2170,7 +2170,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Tool Name
                             </div>
@@ -2206,7 +2206,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -2217,7 +2217,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 635,
-                            marginLeft: 560,
+                            marginLeft: 560
                         }}
                     >
                         <div
@@ -2225,7 +2225,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -2237,7 +2237,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                                 className="class-concept"
                                 onClick={() => onOpenTable("QualityRule")}
@@ -2353,7 +2353,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -2364,7 +2364,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 635,
-                            marginLeft: 690,
+                            marginLeft: 690
                         }}
                     >
                         <div
@@ -2372,7 +2372,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -2384,7 +2384,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Has
                             </div>
@@ -2407,7 +2407,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -2418,7 +2418,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 535,
-                            marginLeft: 560,
+                            marginLeft: 560
                         }}
                     >
                         <div
@@ -2426,7 +2426,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -2438,7 +2438,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Name
                             </div>
@@ -2461,7 +2461,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -2472,7 +2472,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 535,
-                            marginLeft: 650,
+                            marginLeft: 650
                         }}
                     >
                         <div
@@ -2480,7 +2480,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -2492,7 +2492,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Compliance
                             </div>
@@ -2515,7 +2515,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -2526,7 +2526,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 535,
-                            marginLeft: 740,
+                            marginLeft: 740
                         }}
                     >
                         <div
@@ -2534,7 +2534,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -2546,7 +2546,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Rule type
                             </div>
@@ -2569,7 +2569,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -2580,7 +2580,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 535,
-                            marginLeft: 830,
+                            marginLeft: 830
                         }}
                     >
                         <div
@@ -2588,7 +2588,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -2600,7 +2600,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Interest
                             </div>
@@ -2623,7 +2623,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -2634,7 +2634,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 535,
-                            marginLeft: 920,
+                            marginLeft: 920
                         }}
                     >
                         <div
@@ -2642,7 +2642,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -2654,7 +2654,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Principal
                             </div>
@@ -2690,7 +2690,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -2701,7 +2701,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 535,
-                            marginLeft: 1100,
+                            marginLeft: 1100
                         }}
                     >
                         <div
@@ -2709,7 +2709,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -2721,7 +2721,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                                 className="class-concept"
                                 onClick={() => onOpenTable("Violation")}
@@ -2772,7 +2772,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -2783,7 +2783,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 535,
-                            marginLeft: 1220,
+                            marginLeft: 1220
                         }}
                     >
                         <div
@@ -2791,7 +2791,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -2803,7 +2803,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Has
                             </div>
@@ -2826,7 +2826,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -2837,7 +2837,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 535,
-                            marginLeft: 1331,
+                            marginLeft: 1331
                         }}
                     >
                         <div
@@ -2845,7 +2845,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -2857,7 +2857,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >ID
                             </div>
@@ -2893,7 +2893,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -2904,7 +2904,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 374,
-                            marginLeft: 1010,
+                            marginLeft: 1010
                         }}
                     >
                         <div
@@ -2912,7 +2912,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -2924,7 +2924,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                                 className="class-concept"
                                 onClick={() => onOpenTable("Code")}
@@ -2962,7 +2962,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -2973,7 +2973,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 38,
                             height: 1,
                             paddingTop: 790,
-                            marginLeft: 741,
+                            marginLeft: 741
                         }}
                     >
                         <div
@@ -2981,7 +2981,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -2993,7 +2993,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 {"1"}
@@ -3056,7 +3056,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -3067,7 +3067,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 435,
-                            marginLeft: 1020,
+                            marginLeft: 1020
                         }}
                     >
                         <div
@@ -3075,7 +3075,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -3087,7 +3087,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Has
                             </div>
@@ -3110,7 +3110,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -3121,7 +3121,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 399,
-                            marginLeft: 1200,
+                            marginLeft: 1200
                         }}
                     >
                         <div
@@ -3129,7 +3129,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -3141,7 +3141,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >ID
                             </div>
@@ -3164,7 +3164,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -3175,7 +3175,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 435,
-                            marginLeft: 1200,
+                            marginLeft: 1200
                         }}
                     >
                         <div
@@ -3183,7 +3183,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -3195,7 +3195,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Lines of Code (LOC)
                             </div>
@@ -3218,7 +3218,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -3229,7 +3229,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 471,
-                            marginLeft: 1200,
+                            marginLeft: 1200
                         }}
                     >
                         <div
@@ -3237,7 +3237,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -3249,7 +3249,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Technical Debt
                             </div>
@@ -3285,7 +3285,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -3296,7 +3296,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 38,
                             height: 1,
                             paddingTop: 486,
-                            marginLeft: 1021,
+                            marginLeft: 1021
                         }}
                     >
                         <div
@@ -3304,7 +3304,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -3316,7 +3316,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 {"1"}
@@ -3340,7 +3340,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -3351,7 +3351,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 355,
-                            marginLeft: 880,
+                            marginLeft: 880
                         }}
                     >
                         <div
@@ -3359,7 +3359,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -3371,7 +3371,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                                 className="class-concept"
                                 onClick={() => onOpenTable("Feature")}
@@ -3461,7 +3461,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -3472,7 +3472,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 355,
-                            marginLeft: 770,
+                            marginLeft: 770
                         }}
                     >
                         <div
@@ -3480,7 +3480,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -3492,7 +3492,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Has
                             </div>
@@ -3528,7 +3528,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -3539,7 +3539,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 295,
-                            marginLeft: 660,
+                            marginLeft: 660
                         }}
                     >
                         <div
@@ -3547,7 +3547,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -3559,7 +3559,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >ID
                             </div>
@@ -3582,7 +3582,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -3593,7 +3593,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 295,
-                            marginLeft: 760,
+                            marginLeft: 760
                         }}
                     >
                         <div
@@ -3601,7 +3601,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -3613,7 +3613,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Description
                             </div>
@@ -3649,7 +3649,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -3660,7 +3660,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 355,
-                            marginLeft: 560,
+                            marginLeft: 560
                         }}
                     >
                         <div
@@ -3668,7 +3668,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -3680,7 +3680,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                                 className="class-concept"
                                 onClick={() => onOpenTable("Ticket")}
@@ -3718,7 +3718,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -3729,7 +3729,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 217,
-                            marginLeft: 400,
+                            marginLeft: 400
                         }}
                     >
                         <div
@@ -3737,7 +3737,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -3749,7 +3749,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                                 className="class-concept"
                                 onClick={() => onOpenTable("Commit")}
@@ -3852,7 +3852,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -3863,7 +3863,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 295,
-                            marginLeft: 550,
+                            marginLeft: 550
                         }}
                     >
                         <div
@@ -3871,7 +3871,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -3883,7 +3883,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Has
                             </div>
@@ -3906,7 +3906,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -3917,7 +3917,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 256,
-                            marginLeft: 400,
+                            marginLeft: 400
                         }}
                     >
                         <div
@@ -3925,7 +3925,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -3937,7 +3937,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Key
                             </div>
@@ -3960,7 +3960,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -3971,7 +3971,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 295,
-                            marginLeft: 400,
+                            marginLeft: 400
                         }}
                     >
                         <div
@@ -3979,7 +3979,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -3991,7 +3991,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Definition of Done
                             </div>
@@ -4014,7 +4014,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -4025,7 +4025,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 335,
-                            marginLeft: 400,
+                            marginLeft: 400
                         }}
                     >
                         <div
@@ -4033,7 +4033,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -4045,7 +4045,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Title
                             </div>
@@ -4068,7 +4068,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -4079,7 +4079,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 375,
-                            marginLeft: 400,
+                            marginLeft: 400
                         }}
                     >
                         <div
@@ -4087,7 +4087,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -4099,7 +4099,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Points
                             </div>
@@ -4122,7 +4122,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -4133,7 +4133,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 414,
-                            marginLeft: 400,
+                            marginLeft: 400
                         }}
                     >
                         <div
@@ -4141,7 +4141,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -4153,7 +4153,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Asignee
                             </div>
@@ -4202,7 +4202,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -4213,7 +4213,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 217,
-                            marginLeft: 290,
+                            marginLeft: 290
                         }}
                     >
                         <div
@@ -4221,7 +4221,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -4233,7 +4233,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Has
                             </div>
@@ -4256,7 +4256,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -4267,7 +4267,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 187,
-                            marginLeft: 160,
+                            marginLeft: 160
                         }}
                     >
                         <div
@@ -4275,7 +4275,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -4287,7 +4287,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Hash
                             </div>
@@ -4310,7 +4310,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -4321,7 +4321,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 247,
-                            marginLeft: 160,
+                            marginLeft: 160
                         }}
                     >
                         <div
@@ -4329,7 +4329,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -4341,7 +4341,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Message
                             </div>
@@ -4403,7 +4403,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -4414,7 +4414,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 496,
-                            marginLeft: 290,
+                            marginLeft: 290
                         }}
                     >
                         <div
@@ -4422,7 +4422,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -4434,7 +4434,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Has
                             </div>
@@ -4470,7 +4470,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -4481,7 +4481,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 414,
-                            marginLeft: 280,
+                            marginLeft: 280
                         }}
                     >
                         <div
@@ -4489,7 +4489,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -4501,7 +4501,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Sprint Number
                             </div>
@@ -4550,7 +4550,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -4561,7 +4561,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 38,
                             height: 1,
                             paddingTop: 815,
-                            marginLeft: 641,
+                            marginLeft: 641
                         }}
                     >
                         <div
@@ -4569,7 +4569,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -4581,7 +4581,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 {"2"}
@@ -4618,7 +4618,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -4629,7 +4629,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 15,
-                            marginLeft: 570,
+                            marginLeft: 570
                         }}
                     >
                         <div
@@ -4637,7 +4637,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -4649,7 +4649,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                                 className="class-concept"
                                 onClick={() => onOpenTable("VersionControlSystem")}
@@ -4726,7 +4726,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -4737,7 +4737,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 75,
-                            marginLeft: 580,
+                            marginLeft: 580
                         }}
                     >
                         <div
@@ -4745,7 +4745,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -4757,7 +4757,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Has
                             </div>
@@ -4780,7 +4780,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -4791,7 +4791,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 135,
-                            marginLeft: 520,
+                            marginLeft: 520
                         }}
                     >
                         <div
@@ -4799,7 +4799,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -4811,7 +4811,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >ID
                             </div>
@@ -4834,7 +4834,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -4845,7 +4845,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 135,
-                            marginLeft: 620,
+                            marginLeft: 620
                         }}
                     >
                         <div
@@ -4853,7 +4853,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -4865,7 +4865,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Name
                             </div>
@@ -4901,7 +4901,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -4912,7 +4912,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 75,
-                            marginLeft: 400,
+                            marginLeft: 400
                         }}
                     >
                         <div
@@ -4920,7 +4920,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -4932,7 +4932,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                                 className="class-concept"
                                 onClick={() => onOpenTable("Repository")}
@@ -4957,7 +4957,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -4968,7 +4968,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 38,
                             height: 1,
                             paddingTop: 75,
-                            marginLeft: 731,
+                            marginLeft: 731
                         }}
                     >
                         <div
@@ -4976,7 +4976,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -4988,7 +4988,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 {"2"}
@@ -5038,7 +5038,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -5049,7 +5049,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 140,
-                            marginLeft: 410,
+                            marginLeft: 410
                         }}
                     >
                         <div
@@ -5057,7 +5057,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -5069,7 +5069,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Has
                             </div>
@@ -5092,7 +5092,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -5103,7 +5103,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 140,
-                            marginLeft: 280,
+                            marginLeft: 280
                         }}
                     >
                         <div
@@ -5111,7 +5111,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -5123,7 +5123,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >ID
                             </div>
@@ -5146,7 +5146,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -5157,7 +5157,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 415,
-                            marginLeft: 170,
+                            marginLeft: 170
                         }}
                     >
                         <div
@@ -5165,7 +5165,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -5177,7 +5177,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Duration
                             </div>
@@ -5202,7 +5202,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -5213,7 +5213,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 108,
                             height: 1,
                             paddingTop: 414,
-                            marginLeft: 6,
+                            marginLeft: 6
                         }}
                     >
                         <div
@@ -5221,7 +5221,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -5233,7 +5233,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 {"2 Weeks"}
@@ -5265,7 +5265,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -5276,7 +5276,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 38,
                             height: 1,
                             paddingTop: 960,
-                            marginLeft: 641,
+                            marginLeft: 641
                         }}
                     >
                         <div
@@ -5284,7 +5284,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -5296,7 +5296,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 {"3"}
@@ -5333,7 +5333,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -5344,7 +5344,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 38,
                             height: 1,
                             paddingTop: 295,
-                            marginLeft: 1001,
+                            marginLeft: 1001
                         }}
                     >
                         <div
@@ -5352,7 +5352,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -5364,7 +5364,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 {"3"}
@@ -5388,7 +5388,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -5399,7 +5399,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 705,
-                            marginLeft: 395,
+                            marginLeft: 395
                         }}
                     >
                         <div
@@ -5407,7 +5407,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -5419,7 +5419,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >ID
                             </div>
@@ -5442,7 +5442,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -5453,7 +5453,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 535,
-                            marginLeft: 1010,
+                            marginLeft: 1010
                         }}
                     >
                         <div
@@ -5461,7 +5461,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -5473,7 +5473,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >ID
                             </div>
@@ -5498,7 +5498,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -5509,7 +5509,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 58,
                             height: 1,
                             paddingTop: 539,
-                            marginLeft: 361,
+                            marginLeft: 361
                         }}
                     >
                         <div
@@ -5517,7 +5517,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -5529,19 +5529,19 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 <div
                                     style={{
-                                        textAlign: "left",
+                                        textAlign: "left"
                                     }}
                                 >
                 <span
                     style={{
                         backgroundColor: "initial",
                         fontFamily: "Calibri",
-                        letterSpacing: 0,
+                        letterSpacing: 0
                     }}
                 >
                   {"- Jira"}
@@ -5552,18 +5552,18 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     style={{
                                         fontFamily: "Calibri",
                                         letterSpacing: 0,
-                                        backgroundColor: "initial",
+                                        backgroundColor: "initial"
                                     }}
                                 >
                   <div
                       style={{
-                          textAlign: "left",
+                          textAlign: "left"
                       }}
                   >
                     <span
                         style={{
                             backgroundColor: "initial",
-                            letterSpacing: 0,
+                            letterSpacing: 0
                         }}
                     >
                       {"- Asana"}
@@ -5574,18 +5574,18 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     style={{
                                         fontFamily: "Calibri",
                                         letterSpacing: 0,
-                                        backgroundColor: "initial",
+                                        backgroundColor: "initial"
                                     }}
                                 >
                   <div
                       style={{
-                          textAlign: "left",
+                          textAlign: "left"
                       }}
                   >
                     <span
                         style={{
                             backgroundColor: "initial",
-                            letterSpacing: 0,
+                            letterSpacing: 0
                         }}
                     >
                       {"- Trello"}
@@ -5622,7 +5622,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -5633,7 +5633,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 118,
                             height: 1,
                             paddingTop: 1085,
-                            marginLeft: 151,
+                            marginLeft: 151
                         }}
                     >
                         <div
@@ -5641,7 +5641,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -5653,19 +5653,19 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 <div
                                     style={{
-                                        textAlign: "left",
+                                        textAlign: "left"
                                     }}
                                 >
                 <span
                     style={{
                         backgroundColor: "initial",
                         fontFamily: "Calibri",
-                        letterSpacing: 0,
+                        letterSpacing: 0
                     }}
                 >
                   {"- Software Developer"}
@@ -5675,18 +5675,18 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     style={{
                                         letterSpacing: 0,
                                         fontFamily: "Calibri",
-                                        backgroundColor: "initial",
+                                        backgroundColor: "initial"
                                     }}
                                 >
                 <div
                     style={{
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                   <span
                       style={{
                           backgroundColor: "initial",
-                          letterSpacing: 0,
+                          letterSpacing: 0
                       }}
                   >
                     {"- Software Architect"}
@@ -5696,17 +5696,17 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                 <span
                                     style={{
                                         fontFamily: "Calibri",
-                                        backgroundColor: "initial",
+                                        backgroundColor: "initial"
                                     }}
                                 >
                 <div
                     style={{
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                   <span
                       style={{
-                          backgroundColor: "initial",
+                          backgroundColor: "initial"
                       }}
                   >
                     {"- Project Manager"}
@@ -5735,7 +5735,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -5746,7 +5746,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 88,
                             height: 1,
                             paddingTop: 135,
-                            marginLeft: 736,
+                            marginLeft: 736
                         }}
                     >
                         <div
@@ -5754,7 +5754,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -5766,19 +5766,19 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 <div
                                     style={{
-                                        textAlign: "left",
+                                        textAlign: "left"
                                     }}
                                 >
                 <span
                     style={{
                         backgroundColor: "initial",
                         fontFamily: "Calibri",
-                        letterSpacing: 0,
+                        letterSpacing: 0
                     }}
                 >
                   {"- Git"}
@@ -5786,14 +5786,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                 </div>
                                 <div
                                     style={{
-                                        textAlign: "left",
+                                        textAlign: "left"
                                     }}
                                 >
                   <span
                       style={{
                           backgroundColor: "initial",
                           fontFamily: "Calibri",
-                          letterSpacing: 0,
+                          letterSpacing: 0
                       }}
                   >
                     {"- Subversion"}
@@ -5803,18 +5803,18 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     style={{
                                         fontFamily: "Calibri",
                                         letterSpacing: 0,
-                                        backgroundColor: "initial",
+                                        backgroundColor: "initial"
                                     }}
                                 >
                   <div
                       style={{
-                          textAlign: "left",
+                          textAlign: "left"
                       }}
                   >
                     <span
                         style={{
                             backgroundColor: "initial",
-                            letterSpacing: 0,
+                            letterSpacing: 0
                         }}
                     >
                       {"- Mercurial"}
@@ -5851,7 +5851,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -5862,7 +5862,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 148,
                             height: 1,
                             paddingTop: 436,
-                            marginLeft: 651,
+                            marginLeft: 651
                         }}
                     >
                         <div
@@ -5870,7 +5870,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -5882,19 +5882,19 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 <div
                                     style={{
-                                        textAlign: "left",
+                                        textAlign: "left"
                                     }}
                                 >
                 <span
                     style={{
                         backgroundColor: "initial",
                         fontFamily: "Calibri",
-                        letterSpacing: 0,
+                        letterSpacing: 0
                     }}
                 >
                   {"- Code clones"}
@@ -5902,14 +5902,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                 </div>
                                 <div
                                     style={{
-                                        textAlign: "left",
+                                        textAlign: "left"
                                     }}
                                 >
                   <span
                       style={{
                           backgroundColor: "initial",
                           fontFamily: "Calibri",
-                          letterSpacing: 0,
+                          letterSpacing: 0
                       }}
                   >
                     {"- High comment frequency"}
@@ -5919,18 +5919,18 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     style={{
                                         fontFamily: "Calibri",
                                         letterSpacing: 0,
-                                        backgroundColor: "initial",
+                                        backgroundColor: "initial"
                                     }}
                                 >
                   <div
                       style={{
-                          textAlign: "left",
+                          textAlign: "left"
                       }}
                   >
                     <span
                         style={{
                             backgroundColor: "initial",
-                            letterSpacing: 0,
+                            letterSpacing: 0
                         }}
                     >
                       {"- Low code complexity"}
@@ -5941,18 +5941,18 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     style={{
                                         fontFamily: "Calibri",
                                         letterSpacing: 0,
-                                        backgroundColor: "initial",
+                                        backgroundColor: "initial"
                                     }}
                                 >
                   <div
                       style={{
-                          textAlign: "left",
+                          textAlign: "left"
                       }}
                   >
                     <span
                         style={{
                             backgroundColor: "initial",
-                            letterSpacing: 0,
+                            letterSpacing: 0
                         }}
                     >
                       {"- Intuitive variable naming"}
@@ -5960,13 +5960,13 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                   </div>
                   <div
                       style={{
-                          textAlign: "left",
+                          textAlign: "left"
                       }}
                   >
                     <span
                         style={{
                             backgroundColor: "initial",
-                            letterSpacing: 0,
+                            letterSpacing: 0
                         }}
                     >
                       {"- Secure code"}
@@ -6003,7 +6003,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -6014,7 +6014,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 81,
                             height: 1,
                             paddingTop: 688,
-                            marginLeft: 771,
+                            marginLeft: 771
                         }}
                     >
                         <div
@@ -6022,7 +6022,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -6034,19 +6034,19 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 <div
                                     style={{
-                                        textAlign: "left",
+                                        textAlign: "left"
                                     }}
                                 >
                 <span
                     style={{
                         backgroundColor: "initial",
                         fontFamily: "Calibri",
-                        letterSpacing: 0,
+                        letterSpacing: 0
                     }}
                 >
                   {"- SonarQube"}
@@ -6054,14 +6054,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                 </div>
                                 <div
                                     style={{
-                                        textAlign: "left",
+                                        textAlign: "left"
                                     }}
                                 >
                   <span
                       style={{
                           backgroundColor: "initial",
                           fontFamily: "Calibri",
-                          letterSpacing: 0,
+                          letterSpacing: 0
                       }}
                   >
                     {"- CAST"}
@@ -6071,18 +6071,18 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     style={{
                                         fontFamily: "Calibri",
                                         letterSpacing: 0,
-                                        backgroundColor: "initial",
+                                        backgroundColor: "initial"
                                     }}
                                 >
                   <div
                       style={{
-                          textAlign: "left",
+                          textAlign: "left"
                       }}
                   >
                     <span
                         style={{
                             backgroundColor: "initial",
-                            letterSpacing: 0,
+                            letterSpacing: 0
                         }}
                     >
                       {"- MIND"}
@@ -6148,7 +6148,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -6159,7 +6159,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 194,
-                            marginLeft: 687,
+                            marginLeft: 687
                         }}
                     >
                         <div
@@ -6167,7 +6167,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -6179,7 +6179,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Project Manager
                             </div>
@@ -6217,7 +6217,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -6228,7 +6228,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 194,
-                            marginLeft: 587,
+                            marginLeft: 587
                         }}
                     >
                         <div
@@ -6236,7 +6236,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -6248,7 +6248,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                                 className="dynamic-relationship"
                                 onClick={() => onOpenTable("Ticket", "Create the tickets you need")}
@@ -6286,7 +6286,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -6297,7 +6297,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 194,
-                            marginLeft: 800,
+                            marginLeft: 800
                         }}
                     >
                         <div
@@ -6305,7 +6305,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -6317,7 +6317,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Is
                             </div>
@@ -6355,7 +6355,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -6366,7 +6366,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 237,
-                            marginLeft: 800,
+                            marginLeft: 800
                         }}
                     >
                         <div
@@ -6374,7 +6374,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -6386,7 +6386,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                                 className="dynamic-relationship"
                                 onClick={() => onOpenTable("Ticket", "Assign tickets to an existing sprint")}
@@ -6411,7 +6411,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -6422,7 +6422,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 38,
                             height: 1,
                             paddingTop: 237,
-                            marginLeft: 891,
+                            marginLeft: 891
                         }}
                     >
                         <div
@@ -6430,7 +6430,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -6442,7 +6442,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 {"4"}
@@ -6479,7 +6479,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -6490,7 +6490,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 38,
                             height: 1,
                             paddingTop: 625,
-                            marginLeft: 291,
+                            marginLeft: 291
                         }}
                     >
                         <div
@@ -6498,7 +6498,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -6510,7 +6510,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 {"4"}
@@ -6534,7 +6534,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -6545,7 +6545,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 38,
                             height: 1,
                             paddingTop: 192,
-                            marginLeft: 891,
+                            marginLeft: 891
                         }}
                     >
                         <div
@@ -6553,7 +6553,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -6565,7 +6565,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 {"5"}
@@ -6602,7 +6602,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -6613,7 +6613,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 38,
                             height: 1,
                             paddingTop: 1000,
-                            marginLeft: 561,
+                            marginLeft: 561
                         }}
                     >
                         <div
@@ -6621,7 +6621,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -6633,7 +6633,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 {"5"}
@@ -6722,7 +6722,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -6733,7 +6733,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 277,
-                            marginLeft: 1210,
+                            marginLeft: 1210
                         }}
                     >
                         <div
@@ -6741,7 +6741,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -6753,7 +6753,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Software Developer
                             </div>
@@ -6791,7 +6791,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -6802,7 +6802,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 277,
-                            marginLeft: 1110,
+                            marginLeft: 1110
                         }}
                     >
                         <div
@@ -6810,7 +6810,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -6822,7 +6822,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                                 className="dynamic-relationship"
                                 onClick={() => onOpenTable("Feature", "Write a new feature of the application in the code")}
@@ -6862,7 +6862,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -6873,7 +6873,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 315,
-                            marginLeft: 1110,
+                            marginLeft: 1110
                         }}
                     >
                         <div
@@ -6881,7 +6881,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -6893,7 +6893,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                                 className="dynamic-relationship"
                                 onClick={() => onOpenTable("Violation", "You are Refactoring! Remove some violations")}
@@ -6933,7 +6933,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -6944,7 +6944,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 330,
-                            marginLeft: 1260,
+                            marginLeft: 1260
                         }}
                     >
                         <div
@@ -6952,7 +6952,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -6964,7 +6964,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                                 className="dynamic-relationship"
                                 onClick={() => onOpenTable("Code", "Here you can monitor the Technichal Debt of each code")}
@@ -7004,7 +7004,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -7015,7 +7015,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 237,
-                            marginLeft: 1110,
+                            marginLeft: 1110
                         }}
                     >
                         <div
@@ -7023,7 +7023,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -7035,7 +7035,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }} className="dynamic-relationship"
                                 onClick={() => onOpenTable("Ticket", "Assign a software developer to a ticket")}
                             >Develops
@@ -7059,7 +7059,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -7070,7 +7070,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 38,
                             height: 1,
                             paddingTop: 237,
-                            marginLeft: 1001,
+                            marginLeft: 1001
                         }}
                     >
                         <div
@@ -7078,7 +7078,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -7090,7 +7090,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 {"6"}
@@ -7127,7 +7127,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -7138,7 +7138,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 38,
                             height: 1,
                             paddingTop: 445,
-                            marginLeft: 551,
+                            marginLeft: 551
                         }}
                     >
                         <div
@@ -7146,7 +7146,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -7158,7 +7158,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 {"6"}
@@ -7183,7 +7183,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -7194,7 +7194,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 169,
-                            marginLeft: 1110,
+                            marginLeft: 1110
                         }}
                     >
                         <div
@@ -7202,7 +7202,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -7214,7 +7214,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Guarantee
                             </div>
@@ -7253,7 +7253,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -7264,7 +7264,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 38,
                             height: 1,
                             paddingTop: 121,
-                            marginLeft: 1231,
+                            marginLeft: 1231
                         }}
                     >
                         <div
@@ -7272,7 +7272,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -7284,7 +7284,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 {"7"}
@@ -7321,7 +7321,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -7332,7 +7332,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 197,
-                            marginLeft: 1220,
+                            marginLeft: 1220
                         }}
                     >
                         <div
@@ -7340,7 +7340,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -7352,7 +7352,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Is
                             </div>
@@ -7388,7 +7388,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -7399,7 +7399,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 38,
                             height: 1,
                             paddingTop: 1050,
-                            marginLeft: 561,
+                            marginLeft: 561
                         }}
                     >
                         <div
@@ -7407,7 +7407,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -7419,7 +7419,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 {"7"}
@@ -7508,7 +7508,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -7519,7 +7519,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 80,
                             height: 1,
                             paddingTop: 277,
-                            marginLeft: 1370,
+                            marginLeft: 1370
                         }}
                     >
                         <div
@@ -7527,7 +7527,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -7539,7 +7539,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Software Architect
                             </div>
@@ -7577,7 +7577,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -7588,7 +7588,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 330,
-                            marginLeft: 1411,
+                            marginLeft: 1411
                         }}
                     >
                         <div
@@ -7596,7 +7596,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -7608,7 +7608,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                                 className="dynamic-relationship"
                                 onClick={() => onOpenTable("Code", "Here you can monitor the Technichal Debt of each code")}
@@ -7648,7 +7648,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -7659,7 +7659,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 355,
-                            marginLeft: 1360,
+                            marginLeft: 1360
                         }}
                     >
                         <div
@@ -7667,7 +7667,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -7679,7 +7679,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                                 className="dynamic-relationship"
                                 onClick={() => onOpenTable("Violation", "You are Refactoring! Remove some violations")}
@@ -7717,7 +7717,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -7728,7 +7728,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 197,
-                            marginLeft: 1380,
+                            marginLeft: 1380
                         }}
                     >
                         <div
@@ -7736,7 +7736,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -7748,7 +7748,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Is
                             </div>
@@ -7771,7 +7771,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -7782,7 +7782,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 38,
                             height: 1,
                             paddingTop: 121,
-                            marginLeft: 1391,
+                            marginLeft: 1391
                         }}
                     >
                         <div
@@ -7790,7 +7790,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -7802,7 +7802,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 {"8"}
@@ -7839,7 +7839,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -7850,7 +7850,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 38,
                             height: 1,
                             paddingTop: 1102,
-                            marginLeft: 471,
+                            marginLeft: 471
                         }}
                     >
                         <div
@@ -7858,7 +7858,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -7870,7 +7870,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 {"8"}
@@ -7922,7 +7922,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -7933,7 +7933,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 315,
-                            marginLeft: 1480,
+                            marginLeft: 1480
                         }}
                     >
                         <div
@@ -7941,7 +7941,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -7953,7 +7953,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >Measures
                             </div>
@@ -7976,7 +7976,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -7987,7 +7987,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 38,
                             height: 1,
                             paddingTop: 385,
-                            marginLeft: 1461,
+                            marginLeft: 1461
                         }}
                     >
                         <div
@@ -7995,7 +7995,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -8007,7 +8007,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 {"9"}
@@ -8044,7 +8044,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -8055,7 +8055,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 38,
                             height: 1,
                             paddingTop: 470,
-                            marginLeft: 941,
+                            marginLeft: 941
                         }}
                     >
                         <div
@@ -8063,7 +8063,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -8075,7 +8075,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 {"10"}
@@ -8112,7 +8112,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -8123,7 +8123,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 38,
                             height: 1,
                             paddingTop: 471,
-                            marginLeft: 851,
+                            marginLeft: 851
                         }}
                     >
                         <div
@@ -8131,7 +8131,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -8143,7 +8143,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 {"9"}
@@ -8167,7 +8167,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -8178,7 +8178,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 38,
                             height: 1,
                             paddingTop: 385,
-                            marginLeft: 1521,
+                            marginLeft: 1521
                         }}
                     >
                         <div
@@ -8186,7 +8186,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -8198,7 +8198,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 {"10"}
@@ -8237,7 +8237,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -8248,7 +8248,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 60,
                             height: 1,
                             paddingTop: 237,
-                            marginLeft: 1480,
+                            marginLeft: 1480
                         }}
                     >
                         <div
@@ -8256,7 +8256,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -8268,7 +8268,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                                 className="dynamic-relationship"
                                 onClick={() => onOpenTable("SoftwareDevelopmentProject", "Choose or change your Quality Assurance Tool")}
@@ -8293,7 +8293,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -8304,7 +8304,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 38,
                             height: 1,
                             paddingTop: 164,
-                            marginLeft: 1491,
+                            marginLeft: 1491
                         }}
                     >
                         <div
@@ -8312,7 +8312,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -8324,7 +8324,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 {"11"}
@@ -8361,7 +8361,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
                     style={{
                         overflow: "visible",
-                        textAlign: "left",
+                        textAlign: "left"
                     }}
                 >
                     <div
@@ -8372,7 +8372,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             width: 38,
                             height: 1,
                             paddingTop: 525,
-                            marginLeft: 501,
+                            marginLeft: 501
                         }}
                     >
                         <div
@@ -8380,7 +8380,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
-                                textAlign: "center",
+                                textAlign: "center"
                             }}
                         >
                             <div
@@ -8392,7 +8392,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
-                                    overflowWrap: "normal",
+                                    overflowWrap: "normal"
                                 }}
                             >
                                 {"11"}
