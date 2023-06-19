@@ -6895,6 +6895,8 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     whiteSpace: "normal",
                                     overflowWrap: "normal",
                                 }}
+                                className="dynamic-relationship"
+                                onClick={() => onOpenTable("Violation", "You are Refactoring! Remove some violations")}
                             >Refactors
                             </div>
                         </div>
@@ -6964,6 +6966,8 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     whiteSpace: "normal",
                                     overflowWrap: "normal",
                                 }}
+                                className="dynamic-relationship"
+                                onClick={() => onOpenTable("Code", "Here you can monitor the Technichal Debt of each code")}
                             >Monitors
                             </div>
                         </div>
@@ -7032,7 +7036,8 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: "all",
                                     whiteSpace: "normal",
                                     overflowWrap: "normal",
-                                }}
+                                }} className="dynamic-relationship"
+                                onClick={() => onOpenTable("Ticket", "Assign a software developer to a ticket")}
                             >Develops
                             </div>
                         </div>
@@ -7605,6 +7610,8 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     whiteSpace: "normal",
                                     overflowWrap: "normal",
                                 }}
+                                className="dynamic-relationship"
+                                onClick={() => onOpenTable("Code", "Here you can monitor the Technichal Debt of each code")}
                             >Monitors
                             </div>
                         </div>
@@ -7674,6 +7681,8 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     whiteSpace: "normal",
                                     overflowWrap: "normal",
                                 }}
+                                className="dynamic-relationship"
+                                onClick={() => onOpenTable("Violation", "You are Refactoring! Remove some violations")}
                             >Refactors
                             </div>
                         </div>
@@ -8261,6 +8270,8 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     whiteSpace: "normal",
                                     overflowWrap: "normal",
                                 }}
+                                className="dynamic-relationship"
+                                onClick={() => onOpenTable("SoftwareDevelopmentProject", "Choose or change your Quality Assurance Tool")}
                             >Uses
                             </div>
                         </div>
