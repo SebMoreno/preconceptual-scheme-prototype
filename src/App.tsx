@@ -1,10 +1,12 @@
-import { TableDataGrid, TableDataGridProps } from "./components/TableDataGrid.tsx";
+import DownloadIcon from "@mui/icons-material/Download";
+import FileUploadIcon from "@mui/icons-material/FileUpload";
+import LockResetIcon from "@mui/icons-material/LockReset";
+import { Dialog, DialogContent, SpeedDial, SpeedDialAction, SpeedDialIcon } from "@mui/material";
 import { useState } from "react";
-import { Dialog, DialogContent } from "@mui/material";
 import { PreconceptualScheme } from "./components/PreconceptualScheme.tsx";
+import { TableDataGrid, TableDataGridProps } from "./components/TableDataGrid.tsx";
 import { db } from "./database/db.ts";
 import { Violation } from "./database/models";
-
 
 export const App = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -42,12 +44,31 @@ export const App = () => {
     return (
         <>
             <PreconceptualScheme onOpenTable={handleOpenTable} measureTechDebt={measureTechDebt}/>
+            <SpeedDial
+                ariaLabel="SpeedDial for loading data"
+                sx={{ position: "fixed", top: 16, left: 16 }}
+                icon={<SpeedDialIcon/>}
+                direction="right"
+            >
+                <SpeedDialAction
+                    icon={<FileUploadIcon/>}
+                    tooltipTitle="Upload Json"
+                />
+                <SpeedDialAction
+                    icon={<DownloadIcon/>}
+                    tooltipTitle="Download Json"
+                />
+                <SpeedDialAction
+                    icon={<LockResetIcon/>}
+                    tooltipTitle="Load Default Data"
+                />
+            </SpeedDial>
             <Dialog
                 maxWidth="lg"
                 open={isOpen}
                 onClose={() => setIsOpen(false)}
             >
-                <DialogContent sx={{px: 5, py: 3}}>
+                <DialogContent sx={{ px: 5, py: 3 }}>
                     <TableDataGrid
                         tableName={tableDataGridProps.tableName}
                         title={tableDataGridProps.title}
