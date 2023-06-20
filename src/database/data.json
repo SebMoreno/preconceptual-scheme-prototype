@@ -10,12 +10,12 @@
   "Code": [
     {
       "linesOfCode": 10000,
-      "technicalDebt": 168,
+      "technicalDebt": 0,
       "applicationId": 1
     },
     {
       "linesOfCode": 3000,
-      "technicalDebt": 5,
+      "technicalDebt": 0,
       "applicationId": 2
     }
   ],
@@ -254,19 +254,19 @@
   ],
   "Violation": [
     {
-      "qualityRuleName": "reduce duplicated code",
+      "qualityRuleId": 1,
       "codeId": 1
     },
     {
-      "qualityRuleName": "fix known vulnerabilities",
+      "qualityRuleId": 2,
       "codeId": 1
     },
     {
-      "qualityRuleName": "reduce nested code",
+      "qualityRuleId": 3,
       "codeId": 1
     },
     {
-      "qualityRuleName": "reduce nested code",
+      "qualityRuleId": 3,
       "codeId": 2
     }
   ]

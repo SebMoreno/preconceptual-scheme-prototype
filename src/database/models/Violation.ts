@@ -1,10 +1,10 @@
 export class Violation {
     id?: number;
-    qualityRuleName: string;
+    qualityRuleId: string;
     codeId: number;
 
-    constructor(qualityRuleName: string, codeId: number) {
-        this.qualityRuleName = qualityRuleName;
+    constructor(qualityRuleId: string, codeId: number) {
+        this.qualityRuleId = qualityRuleId;
         this.codeId = codeId;
     }
 }

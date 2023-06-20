@@ -3,9 +3,10 @@ import { TableDataGridProps } from "./TableDataGrid.tsx";
 
 export interface PreconceptualSchemeProps {
     onOpenTable: (modalArgs: TableDataGridProps) => void;
+    measureTechDebt: () => void;
 }
 
-export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenTable}) =>
+export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenTable, measureTechDebt}) =>
     <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -8000,6 +8001,8 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                 whiteSpace: "normal",
                                 overflowWrap: "normal"
                             }}
+                            className="dynamic-relationship"
+                            onClick={measureTechDebt}
                         >Measures
                         </div>
                     </div>
