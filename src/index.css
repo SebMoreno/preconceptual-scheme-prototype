@@ -14,12 +14,8 @@ body {
 }
 
 .class-concept {
-    display: inline-grid !important;
-    cursor: pointer;
     height: 30px;
     width: 80px;
-    place-content: center;
-    background-color: #f44336;
 }
 
 .class-concept.large {
@@ -27,7 +23,17 @@ body {
 }
 
 .dynamic-relationship {
-    cursor: pointer;
     width: 50px;
-    background-color: #f44336;
+}
+
+.class-concept, .dynamic-relationship {
+    display: inline-grid !important;
+    place-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-out, filter 0.3s ease-out;
+}
+
+.class-concept:hover, .dynamic-relationship:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
 }
