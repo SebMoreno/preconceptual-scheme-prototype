@@ -35,7 +35,12 @@ export const App = () => {
             }
             code.technicalDebt = (await Promise.all(violations.map(async v => {
                 const qualityRule = await db.QualityRule.get(v.qualityRuleId);
-                return qualityRule ? qualityRule.principal + qualityRule.interest : 0;
+                if (qualityRule) {
+                    qualityRule.principal = typeof qualityRule.principal === "string" ? parseFloat(qualityRule.principal) : qualityRule.principal;
+                    qualityRule.interest = typeof qualityRule.interest === "string" ? parseFloat(qualityRule.interest) : qualityRule.interest;
+                    return qualityRule.principal + qualityRule.interest;
+                }
+                return 0;
             }))).reduce((a, b) => a + b);
             await db.Code.put(code);
         }
@@ -46,7 +51,7 @@ export const App = () => {
             <PreconceptualScheme onOpenTable={handleOpenTable} measureTechDebt={measureTechDebt}/>
             <SpeedDial
                 ariaLabel="SpeedDial for loading data"
-                sx={{ position: "fixed", top: 16, left: 16 }}
+                sx={{position: "fixed", top: 16, left: 16}}
                 icon={<SpeedDialIcon/>}
                 direction="right"
             >
@@ -68,7 +73,7 @@ export const App = () => {
                 open={isOpen}
                 onClose={() => setIsOpen(false)}
             >
-                <DialogContent sx={{ px: 5, py: 3 }}>
+                <DialogContent sx={{px: 5, py: 3}}>
                     <TableDataGrid
                         tableName={tableDataGridProps.tableName}
                         title={tableDataGridProps.title}
