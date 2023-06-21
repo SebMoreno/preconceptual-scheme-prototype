@@ -13,6 +13,9 @@ export interface TableDataGridProps {
     title?: string;
     subTitle?: string;
     onAdd?: (table: Table) => void;
+    canCreate?: boolean;
+    canUpdate?: boolean;
+    canDelete?: boolean;
 }
 
 export const TableDataGrid: React.FC<TableDataGridProps> = ({
@@ -20,7 +23,10 @@ export const TableDataGrid: React.FC<TableDataGridProps> = ({
                                                                 title = camelCaseToCapitalizedWords(tableName),
                                                                 subTitle = "",
                                                                 query = table => table.toArray(),
-                                                                onAdd = async table => table.get(await table.add({}))
+                                                                onAdd = async table => table.get(await table.add({})),
+                                                                canCreate = false,
+                                                                canUpdate = false,
+                                                                canDelete = false
                                                             }) => {
     const {current: table} = useRef(db.table(tableName));
     const {current: idProp} = useRef(table.schema.primKey.name);
@@ -53,11 +59,13 @@ export const TableDataGrid: React.FC<TableDataGridProps> = ({
             .map(key => ({
                 headerName: camelCaseToCapitalizedWords(key),
                 field: key,
-                editable: key !== idProp,
+                editable: canUpdate ? key !== idProp : false,
                 width: camelCaseToCapitalizedWords(key).length * 10,
                 minWidth: 100
-            } as GridColDef))
-            .concat(actionsColumn)
+            } as GridColDef));
+        if (canDelete) {
+            columns.current?.push(actionsColumn);
+        }
     }
     return isLoading ? <div>Loading...</div> :
         <>
@@ -71,7 +79,7 @@ export const TableDataGrid: React.FC<TableDataGridProps> = ({
                 rows={rows}
                 columns={columns.current}
                 editMode="row"
-                slots={{toolbar: EditToolbar}}
+                slots={{toolbar: canCreate ? EditToolbar : null}}
                 slotProps={{toolbar: {onAdd: () => onAdd(table)}}}
                 processRowUpdate={async newRow => table.get(await table.put(newRow))}
                 onProcessRowUpdateError={err => console.error(err)}
