@@ -18,7 +18,7 @@ import {
     VersionControlSystem,
     Violation
 } from "./models";
-import jsonData from "./data.json";
+import defaultData from "./data.json";
 
 export class EPDataBase extends Dexie {
     Application!: Table<Application>;
@@ -77,14 +77,22 @@ export class EPDataBase extends Dexie {
         this.Ticket.mapToClass(Ticket);
         this.VersionControlSystem.mapToClass(VersionControlSystem);
         this.Violation.mapToClass(Violation);
-        this.loadDataFromJson();
+        this.loadDataFromObject();
     }
 
-    async loadDataFromJson() {
+    async loadDataFromObject(obj: { [key: string]: unknown[] } = defaultData) {
         await this.delete();
         await this.open();
-        Object.entries(jsonData)
+        Object.entries(obj)
             .forEach(([key, value]) => this.table(key).bulkPut(value));
+    }
+
+    async getAllData() {
+        const allData: { [key: string]: unknown[] } = {};
+        for (const table of this.tables) {
+            allData[table.name] = await table.toArray();
+        }
+        return allData;
     }
 }
 
