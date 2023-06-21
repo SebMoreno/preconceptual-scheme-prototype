@@ -47,8 +47,9 @@ export const TableDataGrid: React.FC<TableDataGridProps> = ({
             />
         ]
     };
-    const {current: columns} = useRef<GridColDef[]>(
-        Object.getOwnPropertyNames(new tableConstructor())
+    const columns = useRef<GridColDef[] | null>(null);
+    if (columns.current === null) {
+        columns.current = Object.getOwnPropertyNames(new tableConstructor())
             .map(key => ({
                 headerName: camelCaseToCapitalizedWords(key),
                 field: key,
@@ -57,7 +58,7 @@ export const TableDataGrid: React.FC<TableDataGridProps> = ({
                 minWidth: 100
             } as GridColDef))
             .concat(actionsColumn)
-    );
+    }
     return isLoading ? <div>Loading...</div> :
         <>
             <h1>{title}</h1>
@@ -68,7 +69,7 @@ export const TableDataGrid: React.FC<TableDataGridProps> = ({
                 hideFooter={rows.length <= 100}
                 getRowId={row => row[idProp]}
                 rows={rows}
-                columns={columns}
+                columns={columns.current}
                 editMode="row"
                 slots={{toolbar: EditToolbar}}
                 slotProps={{toolbar: {onAdd: () => onAdd(table)}}}
