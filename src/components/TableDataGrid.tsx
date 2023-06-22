@@ -26,7 +26,7 @@ export const TableDataGrid: React.FC<TableDataGridProps> = ({
                                                                 onAdd = async table => table.get(await table.add({})),
                                                                 canCreate = false,
                                                                 canDelete = false,
-                                                                canUpdate = true
+                                                                canUpdate = false
                                                             }) => {
     const {current: table} = useRef(db.table(tableName));
     const {current: idProp} = useRef(table.schema.primKey.name);
