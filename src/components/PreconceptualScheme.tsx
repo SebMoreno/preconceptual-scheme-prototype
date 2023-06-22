@@ -43,14 +43,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Project Management Software
+                                }}
+                                     className="class-concept large"
+                                     onClick={() => onOpenTable({tableName: "ProjectManagementSoftware"})}
+                                >Project Management Software
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={60} y={793} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Project Management Sof...
-                    </text>
                 </switch>
             </g>
             <path d="M 280 760 L 360 760 L 360 730 L 280 730 L 280 760" fill="#c1c0c4" stroke="#000000"
@@ -204,14 +204,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Sprint
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "Sprint"})}
+                                >Sprint
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={310} y={648} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Sprint
-                    </text>
                 </switch>
             </g>
             <path d="M 400 835 L 438.88 835" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
@@ -245,14 +245,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Software Development Project
+                                }}
+                                     className="class-concept large"
+                                     onClick={() => onOpenTable({tableName: "SoftwareDevelopmentProject"})}
+                                >Software Development Project
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={340} y={838} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Software Development P...
-                    </text>
                 </switch>
             </g>
             <path
@@ -418,14 +418,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Development team
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "DevelopmentTeam"})}
+                                >Development team
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={430} y={953} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Development tea...
-                    </text>
                 </switch>
             </g>
             <path d="M 490 965 L 570 965 L 570 935 L 490 935 L 490 965" fill="#02b3ef" stroke="#000000"
@@ -455,14 +455,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Application
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "Application"})}
+                                >Application
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={530} y={953} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Application
-                    </text>
                 </switch>
             </g>
             <path
@@ -539,14 +539,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Member
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "Member"})}
+                                >Member
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={480} y={1073} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Member
-                    </text>
                 </switch>
             </g>
             <path d="M 440.09 1140 L 440.09 1165.09 Q 440.09 1175.09 430.09 1175.09 L 401.12 1175.09" fill="none"
@@ -826,14 +826,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Release
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "Release"})}
+                                >Release
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={760} y={953} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Release
-                    </text>
                 </switch>
             </g>
             <path
@@ -1074,14 +1074,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Defect
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "Defect"})}
+                                >Defect
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1010} y={953} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Defect
-                    </text>
                 </switch>
             </g>
             <path d="M 920 1085 L 1000 1085 L 1000 1055 L 920 1055 L 920 1085" fill="#c1c0c4" stroke="#000000"
@@ -1246,14 +1246,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Quality Assurance Tool
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "QualityAssuranceTool"})}
+                                >Quality Assurance Tool
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={480} y={657} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Quality Assuran...
-                    </text>
                 </switch>
             </g>
             <path
@@ -1380,14 +1380,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Quality Rule
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "QualityRule"})}
+                                >Quality Rule
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={600} y={718} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Quality Rule
-                    </text>
                 </switch>
             </g>
             <path
@@ -1678,14 +1678,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Violation
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "Violation"})}
+                                >Violation
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1140} y={618} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Violation
-                    </text>
                 </switch>
             </g>
             <path
@@ -1805,14 +1805,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Code
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "Code"})}
+                                >Code
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1050} y={473} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Code
-                    </text>
                 </switch>
             </g>
             <path
@@ -2090,14 +2090,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Feature
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "Feature"})}
+                                >Feature
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={920} y={438} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Feature
-                    </text>
                 </switch>
             </g>
             <path d="M 730.09 890 L 730.09 910 Q 730.09 920 730.09 921.94 L 730.09 923.88" fill="none"
@@ -2274,14 +2274,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Ticket
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "Ticket"})}
+                                >Ticket
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={600} y={438} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Ticket
-                    </text>
                 </switch>
             </g>
             <path d="M 400 305.09 L 395.05 305.09 Q 390.09 305.09 380.09 305.09 L 361.12 305.09" fill="none"
@@ -2315,14 +2315,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Commit
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "Commit"})}
+                                >Commit
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={440} y={300} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Commit
-                    </text>
                 </switch>
             </g>
             <path
@@ -2867,14 +2867,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Version Control System
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "VersionControlSystem"})}
+                                >Version Control System
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={610} y={98} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Version Control...
-                    </text>
                 </switch>
             </g>
             <path
@@ -3038,14 +3038,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Repository
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "Repository"})}
+                                >Repository
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={440} y={158} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Repository
-                    </text>
                 </switch>
             </g>
             <path
@@ -3508,9 +3508,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={210} y={1169} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">- Software Developer...
-                    </text>
                 </switch>
             </g>
             <path d="M 766.5 97.5 L 856.5 97.5 L 856.5 30 L 766.5 30 L 766.5 97.5" fill="#ffffff" stroke="rgb(0, 0, 0)"
@@ -3747,14 +3744,19 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Project Manager
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({
+                                         tableName: "Member",
+                                         title: "Project Manager",
+                                         onAdd: async table => table.get(await table.add({role: "Project Manager"})),
+                                         query: table => table.where("role").equals("Project Manager").toArray()
+                                     })}
+                                >Project Manager
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={727} y={277} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Project Manager
-                    </text>
                 </switch>
             </g>
             <path d="M 617 292 L 617 380 Q 617 390 617 399.44 L 617 408.88" fill="none" stroke="rgb(0, 0, 0)"
@@ -4147,14 +4149,18 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Software Developer
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({
+                                         tableName: "Member",
+                                         title: "Software Developer",
+                                         onAdd: async table => table.get(await table.add({role: "Software Developer"})),
+                                         query: table => table.where("role").equals("Software Developer").toArray()
+                                     })}>Software Developer
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1250} y={360} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Software Develo...
-                    </text>
                 </switch>
             </g>
             <path d="M 1110 350 L 960.09 350 Q 950.09 350 950.09 360 L 950.09 408.88" fill="none" stroke="rgb(0, 0, 0)"
@@ -4591,14 +4597,19 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Software Architect
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({
+                                         tableName: "Member",
+                                         title: "Software Architect",
+                                         onAdd: async table => table.get(await table.add({role: "Software Architect"})),
+                                         query: table => table.where("role").equals("Software Architect").toArray()
+                                     })}
+                                >Software Architect
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1410} y={360} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Software Archit...
-                    </text>
                 </switch>
             </g>
             <path
@@ -4807,14 +4818,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Measures
+                                }}
+                                     className="dynamic-relationship"
+                                     onClick={measureTechDebt}
+                                >Measures
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1510} y={399} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">Measures
-                    </text>
                 </switch>
             </g>
             <path
@@ -5347,7 +5358,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: '1.2',
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
-                                    overflowWrap: 'normal'
+                                    overflowWrap: 'normal',
                                 }}>Registers
                                 </div>
                             </div>
