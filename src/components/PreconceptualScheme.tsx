@@ -7,8 +7,8 @@ export interface PreconceptualSchemeProps {
 }
 
 export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenTable, measureTechDebt}) =>
-    <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" width="1627px"
-         height="1218px" viewBox="-0.5 -0.5 1627 1218"
+    <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" width="1626px"
+         height="1217px" viewBox="-0.5 -0.5 1626 1217"
          style={{backgroundColor: 'rgb(255, 255, 255)'}}>
         <defs/>
         <g>
@@ -43,14 +43,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}
-                                     className="class-concept large"
-                                     onClick={() => onOpenTable({tableName: "ProjectManagementSoftware"})}
-                                >Project Management Software
+                                }}>Project Management Software
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
+                    <text x={60} y={793} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                          textAnchor="middle">Project Management Sof...
+                    </text>
                 </switch>
             </g>
             <path d="M 280 760 L 360 760 L 360 730 L 280 730 L 280 760" fill="#c1c0c4" stroke="#000000"
@@ -127,9 +127,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path d="M 200.09 800 L 200.09 825.09 Q 200.09 835.09 210.09 835.09 L 268.88 835.09" fill="none"
-                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 278.88 835.09 L 268.88 840.09 L 268.88 830.09 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 200 800 L 200 825 Q 200 835 210 835 L 268.88 835" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 278.88 835 L 268.88 840 L 268.88 830 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path d="M 230 790 L 268.88 790" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
                   pointerEvents="stroke"/>
@@ -173,9 +173,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path d="M 320.09 630 L 320.09 625 Q 320.09 620 320.09 610 L 320.09 597.12" fill="none"
-                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 320.09 587.12 L 325.09 597.12 L 315.09 597.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 320 630 L 320 625 Q 320 620 320 610 L 320 597.12" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 320 587.12 L 325 597.12 L 315 597.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path d="M 270 660 L 350 660 L 350 630 L 270 630 L 270 660" fill="#02b3ef" stroke="#000000"
                   strokeMiterlimit={10} pointerEvents="all"/>
@@ -204,14 +204,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}
-                                     className="class-concept"
-                                     onClick={() => onOpenTable({tableName: "Sprint"})}
-                                >Sprint
+                                }}>Sprint
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
+                    <text x={310} y={648} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                          textAnchor="middle">Sprint
+                    </text>
                 </switch>
             </g>
             <path d="M 400 835 L 438.88 835" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
@@ -245,34 +245,31 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}
-                                     className="class-concept large"
-                                     onClick={() => onOpenTable({tableName: "SoftwareDevelopmentProject"})}
-                                >Software Development Project
+                                }}>Software Development Project
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
+                    <text x={340} y={838} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                          textAnchor="middle">Software Development P...
+                    </text>
                 </switch>
             </g>
-            <path
-                d="M 510 835.09 L 580.09 835.09 Q 590.09 835.09 590.09 825.09 L 590.09 805.09 Q 590.09 795.09 600.09 795.09 L 618.88 795.09"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 628.88 795.09 L 618.88 800.09 L 618.88 790.09 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 510 835 L 580 835 Q 590 835 590 825 L 590 805 Q 590 795 600 795 L 618.88 795" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 628.88 795 L 618.88 800 L 618.88 790 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path d="M 510 835 L 618.88 835" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
                   pointerEvents="stroke"/>
             <path d="M 628.88 835 L 618.88 840 L 618.88 830 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 480.09 845 L 480.09 885.09 Q 480.09 895.09 470.09 895.09 L 440.09 895.09 Q 430.09 895.09 430.09 905.09 L 430.09 923.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 430.09 933.88 L 425.09 923.88 L 435.09 923.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 480 845 L 480 885 Q 480 895 470 895 L 440 895 Q 430 895 430 905 L 430 923.88" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 430 933.88 L 425 923.88 L 435 923.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 480.09 845 L 480.09 885.09 Q 480.09 895.09 490.09 895.09 L 520.09 895.09 Q 530.09 895.09 530.09 905.09 L 530.09 923.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 530.09 933.88 L 525.09 923.88 L 535.09 923.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 480 845 L 480 885 Q 480 895 490 895 L 520 895 Q 530 895 530 905 L 530 923.88" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 530 933.88 L 525 923.88 L 535 923.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 461.25 845 L 498.75 845 C 504.96 845 510 840.52 510 835 C 510 829.48 504.96 825 498.75 825 L 461.25 825 C 455.04 825 450 829.48 450 835 C 450 840.52 455.04 845 461.25 845"
@@ -386,10 +383,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path
-                d="M 430.09 965 L 430.09 975.09 Q 430.09 985.09 430.09 982.55 L 430.09 981.27 Q 430.09 980 430.09 984.44 L 430.09 988.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 430.09 998.88 L 425.09 988.88 L 435.09 988.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 430 965 L 430 975 Q 430 985 430 982.5 L 430 981.25 Q 430 980 430 984.44 L 430 988.88" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 430 998.88 L 425 988.88 L 435 988.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path d="M 390 965 L 470 965 L 470 935 L 390 935 L 390 965" fill="#02b3ef" stroke="#000000"
                   strokeMiterlimit={10} pointerEvents="all"/>
@@ -418,14 +414,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}
-                                     className="class-concept"
-                                     onClick={() => onOpenTable({tableName: "DevelopmentTeam"})}
-                                >Development team
+                                }}>Development team
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
+                    <text x={430} y={953} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                          textAnchor="middle">Development tea...
+                    </text>
                 </switch>
             </g>
             <path d="M 490 965 L 570 965 L 570 935 L 490 935 L 490 965" fill="#02b3ef" stroke="#000000"
@@ -455,20 +451,19 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}
-                                     className="class-concept"
-                                     onClick={() => onOpenTable({tableName: "Application"})}
-                                >Application
+                                }}>Application
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
+                    <text x={530} y={953} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                          textAnchor="middle">Application
+                    </text>
                 </switch>
             </g>
-            <path
-                d="M 430.09 1020 L 430.09 1025 Q 430.09 1030 440.09 1030 L 460.09 1030 Q 470.09 1030 470.09 1036.94 L 470.09 1043.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 470.09 1053.88 L 465.09 1043.88 L 475.09 1043.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 430 1020 L 430 1025 Q 430 1030 440 1030 L 460 1030 Q 470 1030 470 1036.94 L 470 1043.88"
+                  fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 470 1053.88 L 465 1043.88 L 475 1043.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 411.25 1020 L 448.75 1020 C 454.96 1020 460 1015.52 460 1010 C 460 1004.48 454.96 1000 448.75 1000 L 411.25 1000 C 405.04 1000 400 1004.48 400 1010 C 400 1015.52 405.04 1020 411.25 1020"
@@ -508,9 +503,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path d="M 450.09 1085 L 450.09 1092.5 Q 450.09 1100 450.09 1104.44 L 450.09 1108.88" fill="none"
-                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 450.09 1118.88 L 445.09 1108.88 L 455.09 1108.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 450 1085 L 450 1092.5 Q 450 1100 450 1104.44 L 450 1108.88" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 450 1118.88 L 445 1108.88 L 455 1108.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path d="M 440 1085 L 520 1085 L 520 1055 L 440 1055 L 440 1085" fill="#02b3ef" stroke="#000000"
                   strokeMiterlimit={10} pointerEvents="all"/>
@@ -539,28 +534,27 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}
-                                     className="class-concept"
-                                     onClick={() => onOpenTable({tableName: "Member"})}
-                                >Member
+                                }}>Member
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
+                    <text x={480} y={1073} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                          textAnchor="middle">Member
+                    </text>
                 </switch>
             </g>
-            <path d="M 440.09 1140 L 440.09 1165.09 Q 440.09 1175.09 430.09 1175.09 L 401.12 1175.09" fill="none"
-                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 391.12 1175.09 L 401.12 1170.09 L 401.12 1180.09 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 440 1140 L 440 1165 Q 440 1175 430 1175 L 401.12 1175" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 391.12 1175 L 401.12 1170 L 401.12 1180 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 420 1130 L 410.05 1130 Q 400.09 1130 405.09 1130 L 407.59 1130 Q 410.09 1130 405.6 1130 L 401.12 1130"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 420 1130 L 410 1130 Q 400 1130 405 1130 L 407.5 1130 Q 410 1130 405.56 1130 L 401.12 1130"
+                  fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
             <path d="M 391.12 1130 L 401.12 1125 L 401.12 1135 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path d="M 450.09 1140 L 450.09 1191.09 Q 450.09 1201.09 440.09 1201.09 L 401.12 1201.09" fill="none"
-                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 391.12 1201.09 L 401.12 1196.09 L 401.12 1206.09 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 450 1140 L 450 1191 Q 450 1201 440 1201 L 401.12 1201" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 391.12 1201 L 401.12 1196 L 401.12 1206 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 431.25 1140 L 468.75 1140 C 474.96 1140 480 1135.52 480 1130 C 480 1124.48 474.96 1120 468.75 1120 L 431.25 1120 C 425.04 1120 420 1124.48 420 1130 C 420 1135.52 425.04 1140 431.25 1140"
@@ -711,9 +705,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path d="M 660.09 960 L 660.09 980 Q 660.09 990 660.09 999.44 L 660.09 1008.88" fill="none"
-                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 660.09 1018.88 L 655.09 1008.88 L 665.09 1008.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 660 960 L 660 980 Q 660 990 660 999.44 L 660 1008.88" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 660 1018.88 L 655 1008.88 L 665 1008.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 631.25 960 L 668.75 960 C 674.96 960 680 955.52 680 950 C 680 944.48 674.96 940 668.75 940 L 631.25 940 C 625.04 940 620 944.48 620 950 C 620 955.52 625.04 960 631.25 960"
@@ -790,10 +784,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path
-                d="M 760.09 965 L 760.09 975.09 Q 760.09 985.09 760.09 982.55 L 760.09 981.27 Q 760.09 980 760.09 984.44 L 760.09 988.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 760.09 998.88 L 755.09 988.88 L 765.09 988.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 760 965 L 760 975 Q 760 985 760 982.5 L 760 981.25 Q 760 980 760 984.44 L 760 988.88" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 760 998.88 L 755 988.88 L 765 988.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path d="M 800 950 L 838.88 950" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
                   pointerEvents="stroke"/>
@@ -826,20 +819,19 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}
-                                     className="class-concept"
-                                     onClick={() => onOpenTable({tableName: "Release"})}
-                                >Release
+                                }}>Release
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
+                    <text x={760} y={953} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                          textAnchor="middle">Release
+                    </text>
                 </switch>
             </g>
-            <path
-                d="M 760.09 1020 L 760.09 1030 Q 760.09 1040 760.09 1037.55 L 760.09 1036.32 Q 760.09 1035.09 760.09 1039.49 L 760.09 1043.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 760.09 1053.88 L 755.09 1043.88 L 765.09 1043.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 760 1020 L 760 1030 Q 760 1040 760 1037.5 L 760 1036.25 Q 760 1035 760 1039.44 L 760 1043.88"
+                  fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 760 1053.88 L 755 1043.88 L 765 1043.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 741.25 1020 L 778.75 1020 C 784.96 1020 790 1015.52 790 1010 C 790 1004.48 784.96 1000 778.75 1000 L 741.25 1000 C 735.04 1000 730 1004.48 730 1010 C 730 1015.52 735.04 1020 741.25 1020"
@@ -958,10 +950,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path
-                d="M 1010.09 965 L 1010.09 975.09 Q 1010.09 985.09 1010.09 982.55 L 1010.09 981.27 Q 1010.09 980 1010.09 984.44 L 1010.09 988.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1010.09 998.88 L 1005.09 988.88 L 1015.09 988.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1010 965 L 1010 975 Q 1010 985 1010 982.5 L 1010 981.25 Q 1010 980 1010 984.44 L 1010 988.88"
+                  fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1010 998.88 L 1005 988.88 L 1015 988.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 991.25 1020 L 1028.75 1020 C 1034.96 1020 1040 1015.52 1040 1010 C 1040 1004.48 1034.96 1000 1028.75 1000 L 991.25 1000 C 985.04 1000 980 1004.48 980 1010 C 980 1015.52 985.04 1020 991.25 1020"
@@ -1042,10 +1033,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                   pointerEvents="stroke"/>
             <path d="M 618.88 950 L 608.88 955 L 608.88 945 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 640.09 960 L 640.09 980 Q 640.09 990 630.09 990 L 580.09 990 Q 570.09 990 570.09 1000 L 570.09 1013.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 570.09 1023.88 L 565.09 1013.88 L 575.09 1013.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 640 960 L 640 980 Q 640 990 630 990 L 580 990 Q 570 990 570 1000 L 570 1013.88" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 570 1023.88 L 565 1013.88 L 575 1013.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path d="M 970 965 L 1050 965 L 1050 935 L 970 935 L 970 965" fill="#92d050" stroke="#000000"
                   strokeMiterlimit={10} pointerEvents="all"/>
@@ -1074,14 +1064,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}
-                                     className="class-concept"
-                                     onClick={() => onOpenTable({tableName: "Defect"})}
-                                >Defect
+                                }}>Defect
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
+                    <text x={1010} y={953} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                          textAnchor="middle">Defect
+                    </text>
                 </switch>
             </g>
             <path d="M 920 1085 L 1000 1085 L 1000 1055 L 920 1055 L 920 1085" fill="#c1c0c4" stroke="#000000"
@@ -1158,10 +1148,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path
-                d="M 430.09 1020 L 430.09 1025 Q 430.09 1030 420.09 1030 L 400.09 1030 Q 390.09 1030 390.09 1036.94 L 390.09 1043.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 390.09 1053.88 L 385.09 1043.88 L 395.09 1043.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 430 1020 L 430 1025 Q 430 1030 420 1030 L 400 1030 Q 390 1030 390 1036.94 L 390 1043.88"
+                  fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 390 1053.88 L 385 1043.88 L 395 1043.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path d="M 1020 1085 L 1100 1085 L 1100 1055 L 1020 1055 L 1020 1085" fill="#c1c0c4" stroke="#000000"
                   strokeMiterlimit={10} pointerEvents="all"/>
@@ -1200,24 +1189,21 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path d="M 980 1010 L 870.09 1010 Q 860.09 1010 860.09 1020 L 860.09 1043.88" fill="none"
+            <path d="M 980 1010 L 870 1010 Q 860 1010 860 1020 L 860 1043.88" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 860 1053.88 L 855 1043.88 L 865 1043.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="all"/>
+            <path d="M 1010 1020 L 1010 1025 Q 1010 1030 1000 1030 L 970 1030 Q 960 1030 960 1036.94 L 960 1043.88"
+                  fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 960 1053.88 L 955 1043.88 L 965 1043.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="all"/>
+            <path d="M 1010 1020 L 1010 1025 Q 1010 1030 1020 1030 L 1050 1030 Q 1060 1030 1060 1036.94 L 1060 1043.88"
+                  fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1060 1053.88 L 1055 1043.88 L 1065 1043.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="all"/>
+            <path d="M 480 669 L 480 679 Q 480 689 480 687 L 480 686 Q 480 685 480 689.44 L 480 693.88" fill="none"
                   stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 860.09 1053.88 L 855.09 1043.88 L 865.09 1043.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
-                  strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 1010.09 1020 L 1010.09 1025 Q 1010.09 1030 1000.09 1030 L 970.09 1030 Q 960.09 1030 960.09 1036.94 L 960.09 1043.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 960.09 1053.88 L 955.09 1043.88 L 965.09 1043.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
-                  strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 1010.09 1020 L 1010.09 1025 Q 1010.09 1030 1020.09 1030 L 1050.09 1030 Q 1060.09 1030 1060.09 1036.94 L 1060.09 1043.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1060.09 1053.88 L 1055.09 1043.88 L 1065.09 1043.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
-                  strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 480.09 669 L 480.09 679.09 Q 480.09 689.09 480.09 687.09 L 480.09 686.09 Q 480.09 685.09 480.09 689.49 L 480.09 693.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 480.09 703.88 L 475.09 693.88 L 485.09 693.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 480 703.88 L 475 693.88 L 485 693.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path d="M 440 669 L 520 669 L 520 639 L 440 639 L 440 669" fill="#02b3ef" stroke="#000000"
                   strokeMiterlimit={10} pointerEvents="all"/>
@@ -1246,32 +1232,30 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}
-                                     className="class-concept"
-                                     onClick={() => onOpenTable({tableName: "QualityAssuranceTool"})}
-                                >Quality Assurance Tool
+                                }}>Quality Assurance Tool
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
+                    <text x={480} y={657} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                          textAnchor="middle">Quality Assuran...
+                    </text>
                 </switch>
             </g>
-            <path
-                d="M 480.09 725 L 480.09 737.45 Q 480.09 747.45 490.09 747.45 L 515 747.45 Q 525 747.45 525 753.17 L 525 758.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 480 725 L 480 737.57 Q 480 747.57 490 747.57 L 515 747.57 Q 525 747.57 525 753.23 L 525 758.88"
+                  fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
             <path d="M 525 768.88 L 520 758.88 L 530 758.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path d="M 450 715.09 L 390.09 715.09 Q 380.09 715.09 380.09 725.09 L 380.09 808.88" fill="none"
-                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 380.09 818.88 L 375.09 808.88 L 385.09 808.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 450 715 L 390 715 Q 380 715 380 725 L 380 808.88" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 380 818.88 L 375 808.88 L 385 808.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path d="M 510 715 L 548.88 715" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
                   pointerEvents="stroke"/>
             <path d="M 558.88 715 L 548.88 720 L 548.88 710 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 480.09 725 L 480.09 737.45 Q 480.09 747.45 470.09 747.45 L 445 747.45 Q 435 747.45 435 753.17 L 435 758.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 480 725 L 480 737.57 Q 480 747.57 470 747.57 L 445 747.57 Q 435 747.57 435 753.23 L 435 758.88"
+                  fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
             <path d="M 435 768.88 L 430 758.88 L 440 758.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
@@ -1380,49 +1364,43 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}
-                                     className="class-concept"
-                                     onClick={() => onOpenTable({tableName: "QualityRule"})}
-                                >Quality Rule
+                                }}>Quality Rule
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
+                    <text x={600} y={718} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                          textAnchor="middle">Quality Rule
+                    </text>
                 </switch>
             </g>
-            <path
-                d="M 720.09 705 L 720.09 685.09 Q 720.09 675.09 710.09 675.09 L 610.09 675.09 Q 600.09 675.09 600.09 665.09 L 600.09 641.12"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 600.09 631.12 L 605.09 641.12 L 595.09 641.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
-                  strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 720.09 705 L 720.09 685.09 Q 720.09 675.09 710.09 675.09 L 700.09 675.09 Q 690.09 675.09 690.09 665.09 L 690.09 641.12"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 690.09 631.12 L 695.09 641.12 L 685.09 641.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
-                  strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 720.09 705 L 720.09 685.09 Q 720.09 675.09 730.09 675.09 L 770.09 675.09 Q 780.09 675.09 780.09 665.09 L 780.09 641.12"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 780.09 631.12 L 785.09 641.12 L 775.09 641.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
-                  strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 720.09 705 L 720.09 685.09 Q 720.09 675.09 730.09 675.09 L 860.09 675.09 Q 870.09 675.09 870.09 665.09 L 870.09 641.12"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 870.09 631.12 L 875.09 641.12 L 865.09 641.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
-                  strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 720.09 705 L 720.09 685.09 Q 720.09 675.09 730.09 675.09 L 950.09 675.09 Q 960.09 675.09 960.09 665.09 L 960.09 641.12"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 960.09 631.12 L 965.09 641.12 L 955.09 641.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
-                  strokeMiterlimit={10} pointerEvents="all"/>
-            <path d="M 750 715.09 L 1130.09 715.09 Q 1140.09 715.09 1140.09 705.09 L 1140.09 641.12" fill="none"
+            <path d="M 720 705 L 720 685 Q 720 675 710 675 L 610 675 Q 600 675 600 665 L 600 641.12" fill="none"
                   stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1140.09 631.12 L 1145.09 641.12 L 1135.09 641.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 600 631.12 L 605 641.12 L 595 641.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 720.09 705 L 720.09 685.09 Q 720.09 675.09 730.09 675.09 L 1040.09 675.09 Q 1050.09 675.09 1050.09 665.09 L 1050.09 641.12"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1050.09 631.12 L 1055.09 641.12 L 1045.09 641.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 720 705 L 720 685 Q 720 675 710 675 L 700 675 Q 690 675 690 665 L 690 641.12" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 690 631.12 L 695 641.12 L 685 641.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="all"/>
+            <path d="M 720 705 L 720 685 Q 720 675 730 675 L 770 675 Q 780 675 780 665 L 780 641.12" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 780 631.12 L 785 641.12 L 775 641.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="all"/>
+            <path d="M 720 705 L 720 685 Q 720 675 730 675 L 860 675 Q 870 675 870 665 L 870 641.12" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 870 631.12 L 875 641.12 L 865 641.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="all"/>
+            <path d="M 720 705 L 720 685 Q 720 675 730 675 L 950 675 Q 960 675 960 665 L 960 641.12" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 960 631.12 L 965 641.12 L 955 641.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="all"/>
+            <path d="M 750 715 L 1130 715 Q 1140 715 1140 705 L 1140 641.12" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1140 631.12 L 1145 641.12 L 1135 641.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="all"/>
+            <path d="M 720 705 L 720 685 Q 720 675 730 675 L 1040 675 Q 1050 675 1050 665 L 1050 641.12" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1050 631.12 L 1055 641.12 L 1045 641.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 701.25 725 L 738.75 725 C 744.96 725 750 720.52 750 715 C 750 709.48 744.96 705 738.75 705 L 701.25 705 C 695.04 705 690 709.48 690 715 C 690 720.52 695.04 725 701.25 725"
@@ -1678,25 +1656,23 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}
-                                     className="class-concept"
-                                     onClick={() => onOpenTable({tableName: "Violation"})}
-                                >Violation
+                                }}>Violation
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
+                    <text x={1140} y={618} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                          textAnchor="middle">Violation
+                    </text>
                 </switch>
             </g>
-            <path
-                d="M 1240.09 625 L 1240.09 632.5 Q 1240.09 640 1230.09 640 L 1200.09 640 Q 1190.09 640 1190.09 644.44 L 1190.09 648.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1190.09 658.88 L 1185.09 648.88 L 1195.09 648.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1240 625 L 1240 632.5 Q 1240 640 1230 640 L 1200 640 Q 1190 640 1190 644.44 L 1190 648.88"
+                  fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1190 658.88 L 1185 648.88 L 1195 648.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 1250.09 625 L 1250.09 880 Q 1250.09 890 1240.09 890 L 1020.09 890 Q 1010.09 890 1010.09 900 L 1010.09 923.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1010.09 933.88 L 1005.09 923.88 L 1015.09 923.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1250 625 L 1250 880 Q 1250 890 1240 890 L 1020 890 Q 1010 890 1010 900 L 1010 923.88" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1010 933.88 L 1005 923.88 L 1015 923.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 1231.25 625 L 1268.75 625 C 1274.96 625 1280 620.52 1280 615 C 1280 609.48 1274.96 605 1268.75 605 L 1231.25 605 C 1225.04 605 1220 609.48 1220 615 C 1220 620.52 1225.04 625 1231.25 625"
@@ -1773,10 +1749,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path
-                d="M 1050.09 485 L 1050.09 495.09 Q 1050.09 505.09 1050.09 495.09 L 1050.09 490.09 Q 1050.09 485.09 1050.09 489.49 L 1050.09 493.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1050.09 503.88 L 1045.09 493.88 L 1055.09 493.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1050 485 L 1050 495 Q 1050 505 1050 498 L 1050 494.5 Q 1050 491 1050 495.44 L 1050 499.88"
+                  fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1050 509.88 L 1045 499.88 L 1055 499.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path d="M 1010 485 L 1090 485 L 1090 455 L 1010 455 L 1010 485" fill="#02b3ef" stroke="#000000"
                   strokeMiterlimit={10} pointerEvents="all"/>
@@ -1805,20 +1780,19 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}
-                                     className="class-concept"
-                                     onClick={() => onOpenTable({tableName: "Code"})}
-                                >Code
+                                }}>Code
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
+                    <text x={1050} y={473} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                          textAnchor="middle">Code
+                    </text>
                 </switch>
             </g>
-            <path
-                d="M 1070.09 525 L 1070.09 550 Q 1070.09 560 1080.09 560 L 1110.09 560 Q 1120.09 560 1120.09 570 L 1120.09 588.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1120.09 598.88 L 1115.09 588.88 L 1125.09 588.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1070 531 L 1070 550 Q 1070 560 1080 560 L 1110 560 Q 1120 560 1120 570 L 1120 588.88" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1120 598.88 L 1115 588.88 L 1125 588.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 710 870 C 710 881.05 718.95 890 730 890 C 741.05 890 750 881.05 750 870 C 750 858.95 741.05 850 730 850 C 718.95 850 710 858.95 710 870"
@@ -1858,22 +1832,20 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path
-                d="M 1080 515.09 L 1090.09 515.09 Q 1100.09 515.09 1100.09 505.09 L 1100.09 490 Q 1100.09 480 1110.09 480 L 1188.88 480"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1080 520 L 1090 520 Q 1100 520 1100 510 L 1100 490 Q 1100 480 1110 480 L 1188.88 480" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
             <path d="M 1198.88 480 L 1188.88 485 L 1188.88 475 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path d="M 1080 515 L 1188.88 515" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
-                  pointerEvents="stroke"/>
+            <path d="M 1080 520 L 1130 520 Q 1140 520 1140 517.5 L 1140 516.25 Q 1140 515 1150 515 L 1188.88 515"
+                  fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
             <path d="M 1198.88 515 L 1188.88 520 L 1188.88 510 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 1080 515.09 L 1090.09 515.09 Q 1100.09 515.09 1100.09 525.09 L 1100.09 541.09 Q 1100.09 551.09 1110.09 551.09 L 1188.88 551.09"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1198.88 551.09 L 1188.88 556.09 L 1188.88 546.09 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1080 520 L 1090 520 Q 1100 520 1100 530 L 1100 541 Q 1100 551 1110 551 L 1188.88 551" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1198.88 551 L 1188.88 556 L 1188.88 546 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
-                d="M 1031.25 525 L 1068.75 525 C 1074.96 525 1080 520.52 1080 515 C 1080 509.48 1074.96 505 1068.75 505 L 1031.25 505 C 1025.04 505 1020 509.48 1020 515 C 1020 520.52 1025.04 525 1031.25 525"
+                d="M 1031.25 531 L 1068.75 531 C 1074.96 531 1080 526.52 1080 521 C 1080 515.48 1074.96 511 1068.75 511 L 1031.25 511 C 1025.04 511 1020 515.48 1020 521 C 1020 526.52 1025.04 531 1031.25 531"
                 fill="#fdff02" stroke="#000000" strokeMiterlimit={10} pointerEvents="all"/>
             <g transform="translate(-0.5 -0.5)">
                 <switch>
@@ -1886,7 +1858,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             justifyContent: 'unsafe center',
                             width: '60px',
                             height: '1px',
-                            paddingTop: '515px',
+                            paddingTop: '521px',
                             marginLeft: '1020px'
                         }}>
                             <div data-drawio-colors="color: rgb(0, 0, 0); "
@@ -1905,7 +1877,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1050} y={518} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                    <text x={1050} y={524} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
                           textAnchor="middle">Has
                     </text>
                 </switch>
@@ -2026,7 +1998,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
             <path d="M 831.12 435 L 841.12 430 L 841.12 440 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
-                d="M 1020 566 C 1020 577.05 1028.95 586 1040 586 C 1051.05 586 1060 577.05 1060 566 C 1060 554.95 1051.05 546 1040 546 C 1028.95 546 1020 554.95 1020 566"
+                d="M 1020 576 C 1020 587.05 1028.95 596 1040 596 C 1051.05 596 1060 587.05 1060 576 C 1060 564.95 1051.05 556 1040 556 C 1028.95 556 1020 564.95 1020 576"
                 fill="#ffffff" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="all"/>
             <g transform="translate(-0.5 -0.5)">
                 <switch>
@@ -2039,7 +2011,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             justifyContent: 'unsafe center',
                             width: '38px',
                             height: '1px',
-                            paddingTop: '566px',
+                            paddingTop: '576px',
                             marginLeft: '1021px'
                         }}>
                             <div data-drawio-colors="color: rgb(0, 0, 0); "
@@ -2058,7 +2030,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1040} y={569} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                    <text x={1040} y={579} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
                           textAnchor="middle">1
                     </text>
                 </switch>
@@ -2090,42 +2062,39 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}
-                                     className="class-concept"
-                                     onClick={() => onOpenTable({tableName: "Feature"})}
-                                >Feature
+                                }}>Feature
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
+                    <text x={920} y={438} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                          textAnchor="middle">Feature
+                    </text>
                 </switch>
             </g>
-            <path d="M 730.09 890 L 730.09 910 Q 730.09 920 730.09 921.94 L 730.09 923.88" fill="none"
+            <path d="M 730 890 L 730 910 Q 730 920 730 921.94 L 730 923.88" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 730 933.88 L 725 923.88 L 735 923.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="all"/>
+            <path d="M 800 425 L 800 417.5 Q 800 410 790 410 L 710 410 Q 700 410 700 405.56 L 700 401.12" fill="none"
                   stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 730.09 933.88 L 725.09 923.88 L 735.09 923.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 700 391.12 L 705 401.12 L 695 401.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 800.09 425 L 800.09 417.5 Q 800.09 410 790.09 410 L 710.09 410 Q 700.09 410 700.09 405.56 L 700.09 401.12"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 700.09 391.12 L 705.09 401.12 L 695.09 401.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1020 515 L 930 515 Q 920 515 920 505 L 920 461.12" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 920 451.12 L 925 461.12 L 915 461.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path d="M 1020 515.09 L 930.09 515.09 Q 920.09 515.09 920.09 505.09 L 920.09 461.12" fill="none"
+            <path d="M 800 425 L 800 415 Q 800 405 800 407.5 L 800 408.75 Q 800 410 800 405.56 L 800 401.12" fill="none"
                   stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 920.09 451.12 L 925.09 461.12 L 915.09 461.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
-                  strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 800.09 425 L 800.09 415.05 Q 800.09 405.09 800.09 407.55 L 800.09 408.77 Q 800.09 410 800.09 405.56 L 800.09 401.12"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 800.09 391.12 L 805.09 401.12 L 795.09 401.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 800 391.12 L 805 401.12 L 795 401.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path d="M 770 435 L 651.12 435" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
                   pointerEvents="stroke"/>
             <path d="M 641.12 435 L 651.12 430 L 651.12 440 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 800.09 425 L 800.09 417.5 Q 800.09 410 810.09 410 L 890.09 410 Q 900.09 410 900.09 405.56 L 900.09 401.12"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 900.09 391.12 L 905.09 401.12 L 895.09 401.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 800 425 L 800 417.5 Q 800 410 810 410 L 890 410 Q 900 410 900 405.56 L 900 401.12" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 900 391.12 L 905 401.12 L 895 401.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 781.25 445 L 818.75 445 C 824.96 445 830 440.52 830 435 C 830 429.48 824.96 425 818.75 425 L 781.25 425 C 775.04 425 770 429.48 770 435 C 770 440.52 775.04 445 781.25 445"
@@ -2165,9 +2134,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path d="M 1040.09 525 L 1040.09 532.5 Q 1040.09 540 1040.09 537.44 L 1040.09 534.88" fill="none"
-                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1040.09 544.88 L 1035.09 534.88 L 1045.09 534.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1040 531 L 1040 535.5 Q 1040 540 1040 542.44 L 1040 544.88" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1040 554.88 L 1035 544.88 L 1045 544.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path d="M 660 390 L 740 390 L 740 360 L 660 360 L 660 390" fill="#c1c0c4" stroke="#000000"
                   strokeMiterlimit={10} pointerEvents="all"/>
@@ -2274,19 +2243,19 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}
-                                     className="class-concept"
-                                     onClick={() => onOpenTable({tableName: "Ticket"})}
-                                >Ticket
+                                }}>Ticket
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
+                    <text x={600} y={438} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                          textAnchor="middle">Ticket
+                    </text>
                 </switch>
             </g>
-            <path d="M 400 305.09 L 395.05 305.09 Q 390.09 305.09 380.09 305.09 L 361.12 305.09" fill="none"
-                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 351.12 305.09 L 361.12 300.09 L 361.12 310.09 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 400 305 L 395 305 Q 390 305 380 305 L 361.12 305" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 351.12 305 L 361.12 300 L 361.12 310 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path d="M 400 312 L 480 312 L 480 282 L 400 282 L 400 312" fill="#02b3ef" stroke="#000000"
                   strokeMiterlimit={10} pointerEvents="all"/>
@@ -2315,43 +2284,38 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}
-                                     className="class-concept"
-                                     onClick={() => onOpenTable({tableName: "Commit"})}
-                                >Commit
+                                }}>Commit
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
+                    <text x={440} y={300} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                          textAnchor="middle">Commit
+                    </text>
                 </switch>
             </g>
-            <path
-                d="M 550 375.09 L 545.05 375.09 Q 540.09 375.09 540.09 365.09 L 540.09 310 Q 540.09 300 530.09 300 L 491.12 300"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 550 375 L 545 375 Q 540 375 540 365 L 540 310 Q 540 300 530 300 L 491.12 300" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
             <path d="M 481.12 300 L 491.12 295 L 491.12 305 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 550 375.09 L 545.05 375.09 Q 540.09 375.09 540.09 365.09 L 540.09 345.09 Q 540.09 335.09 530.09 335.09 L 491.12 335.09"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 481.12 335.09 L 491.12 330.09 L 491.12 340.09 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 550 375 L 545 375 Q 540 375 540 365 L 540 345 Q 540 335 530 335 L 491.12 335" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 481.12 335 L 491.12 330 L 491.12 340 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path d="M 550 375 L 491.12 375" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
                   pointerEvents="stroke"/>
             <path d="M 481.12 375 L 491.12 370 L 491.12 380 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 550 375.09 L 545.05 375.09 Q 540.09 375.09 540.09 385.09 L 540.09 405.09 Q 540.09 415.09 530.09 415.09 L 491.12 415.09"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 481.12 415.09 L 491.12 410.09 L 491.12 420.09 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 550 375 L 545 375 Q 540 375 540 385 L 540 405 Q 540 415 530 415 L 491.12 415" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 481.12 415 L 491.12 410 L 491.12 420 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 550 375.09 L 545.05 375.09 Q 540.09 375.09 540.09 385.09 L 540.09 445.09 Q 540.09 455.09 530.09 455.09 L 491.12 455.09"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 481.12 455.09 L 491.12 450.09 L 491.12 460.09 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 550 375 L 545 375 Q 540 375 540 385 L 540 445 Q 540 455 530 455 L 491.12 455" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 481.12 455 L 491.12 450 L 491.12 460 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 550 375.09 L 545.05 375.09 Q 540.09 375.09 540.09 385.09 L 540.09 484 Q 540.09 494 530.09 494 L 491.12 494"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 550 375 L 545 375 Q 540 375 540 385 L 540 484 Q 540 494 530 494 L 491.12 494" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
             <path d="M 481.12 494 L 491.12 489 L 491.12 499 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
@@ -2577,13 +2541,13 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path d="M 320.09 295 L 320.09 285.05 Q 320.09 275.09 310.09 275.09 L 251.12 275.09" fill="none"
-                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 241.12 275.09 L 251.12 270.09 L 251.12 280.09 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 320 295 L 320 285 Q 320 275 310 275 L 251.12 275" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 241.12 275 L 251.12 270 L 251.12 280 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path d="M 320.09 315 L 320.09 325.09 Q 320.09 335.09 310.09 335.09 L 251.12 335.09" fill="none"
-                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 241.12 335.09 L 251.12 330.09 L 251.12 340.09 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 320 315 L 320 325 Q 320 335 310 335 L 251.12 335" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 241.12 335 L 251.12 330 L 251.12 340 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 301.25 315 L 338.75 315 C 344.96 315 350 310.52 350 305 C 350 299.48 344.96 295 338.75 295 L 301.25 295 C 295.04 295 290 299.48 290 305 C 290 310.52 295.04 315 301.25 315"
@@ -2701,13 +2665,13 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                   pointerEvents="stroke"/>
             <path d="M 320 510.12 L 325 520.12 L 315 520.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path d="M 350 576 L 590.09 576 Q 600.09 576 600.09 566 L 600.09 461.12" fill="none" stroke="rgb(0, 0, 0)"
+            <path d="M 350 576 L 590 576 Q 600 576 600 566 L 600 461.12" fill="none" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 600.09 451.12 L 605.09 461.12 L 595.09 461.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 600 451.12 L 605 461.12 L 595 461.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path d="M 290 576 L 220.09 576 Q 210.09 576 210.09 566 L 210.09 521.12" fill="none" stroke="rgb(0, 0, 0)"
+            <path d="M 290 576 L 220 576 Q 210 576 210 566 L 210 521.12" fill="none" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 210.09 511.12 L 215.09 521.12 L 205.09 521.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 210 511.12 L 215 521.12 L 205 521.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 301.25 586 L 338.75 586 C 344.96 586 350 581.52 350 576 C 350 570.48 344.96 566 338.75 566 L 301.25 566 C 295.04 566 290 570.48 290 576 C 290 581.52 295.04 586 301.25 586"
@@ -2747,9 +2711,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path d="M 200.09 780 L 200.09 655.09 Q 200.09 645.09 210.09 645.09 L 258.88 645.09" fill="none"
-                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 268.88 645.09 L 258.88 650.09 L 258.88 640.09 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 200 780 L 200 655 Q 200 645 210 645 L 258.88 645" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 268.88 645 L 258.88 650 L 258.88 640 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path d="M 280 509 L 360 509 L 360 479 L 280 479 L 280 509" fill="#c1c0c4" stroke="#000000"
                   strokeMiterlimit={10} pointerEvents="all"/>
@@ -2788,14 +2752,13 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path
-                d="M 230 790 L 235.05 790 Q 240.09 790 240.09 780 L 240.09 755.09 Q 240.09 745.09 250.09 745.09 L 268.88 745.09"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 278.88 745.09 L 268.88 750.09 L 268.88 740.09 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
-                  strokeMiterlimit={10} pointerEvents="all"/>
-            <path d="M 640 895.09 L 570.09 895.09 Q 560.09 895.09 560.09 905.09 L 560.09 923.88" fill="none"
+            <path d="M 230 790 L 235 790 Q 240 790 240 780 L 240 755 Q 240 745 250 745 L 268.88 745" fill="none"
                   stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 560.09 933.88 L 555.09 923.88 L 565.09 923.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 278.88 745 L 268.88 750 L 268.88 740 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="all"/>
+            <path d="M 640 895 L 570 895 Q 560 895 560 905 L 560 923.88" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 560 933.88 L 555 923.88 L 565 923.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 640 895 C 640 906.05 648.95 915 660 915 C 671.05 915 680 906.05 680 895 C 680 883.95 671.05 875 660 875 C 648.95 875 640 883.95 640 895"
@@ -2835,10 +2798,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path
-                d="M 610.09 110 L 610.09 120 Q 610.09 130 610.09 127.55 L 610.09 126.32 Q 610.09 125.09 610.09 129.49 L 610.09 133.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 610.09 143.88 L 605.09 133.88 L 615.09 133.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 610 110 L 610 120 Q 610 130 610 127.5 L 610 126.25 Q 610 125 610 129.44 L 610 133.88" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 610 143.88 L 605 133.88 L 615 133.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path d="M 570 110 L 650 110 L 650 80 L 570 80 L 570 110" fill="#02b3ef" stroke="#000000"
                   strokeMiterlimit={10} pointerEvents="all"/>
@@ -2867,33 +2829,31 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}
-                                     className="class-concept"
-                                     onClick={() => onOpenTable({tableName: "VersionControlSystem"})}
-                                >Version Control System
+                                }}>Version Control System
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
+                    <text x={610} y={98} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                          textAnchor="middle">Version Control...
+                    </text>
                 </switch>
             </g>
-            <path
-                d="M 610.09 165 L 610.09 170.05 Q 610.09 175.09 600.09 175.09 L 570.09 175.09 Q 560.09 175.09 560.09 181.99 L 560.09 188.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 560.09 198.88 L 555.09 188.88 L 565.09 188.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 610 165 L 610 170 Q 610 175 600 175 L 570 175 Q 560 175 560 181.94 L 560 188.88" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 560 198.88 L 555 188.88 L 565 188.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 610.09 165 L 610.09 170.05 Q 610.09 175.09 620.09 175.09 L 650.09 175.09 Q 660.09 175.09 660.09 181.99 L 660.09 188.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 660.09 198.88 L 655.09 188.88 L 665.09 188.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 610 165 L 610 170 Q 610 175 620 175 L 650 175 Q 660 175 660 181.94 L 660 188.88" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 660 198.88 L 655 188.88 L 665 188.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path d="M 580 155 L 491.12 155" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
                   pointerEvents="stroke"/>
             <path d="M 481.12 155 L 491.12 150 L 491.12 160 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path d="M 640 155 L 718.88 155" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
-                  pointerEvents="stroke"/>
-            <path d="M 728.88 155 L 718.88 160 L 718.88 150 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 590 145 L 590 137.5 Q 590 130 580 130 L 520 130 Q 510 130 510 120 L 510 108.62" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 510 98.62 L 515 108.62 L 505 108.62 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 591.25 165 L 628.75 165 C 634.96 165 640 160.52 640 155 C 640 149.48 634.96 145 628.75 145 L 591.25 145 C 585.04 145 580 149.48 580 155 C 580 160.52 585.04 165 591.25 165"
@@ -3038,18 +2998,18 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}
-                                     className="class-concept"
-                                     onClick={() => onOpenTable({tableName: "Repository"})}
-                                >Repository
+                                }}>Repository
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
+                    <text x={440} y={158} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                          textAnchor="middle">Repository
+                    </text>
                 </switch>
             </g>
             <path
-                d="M 730 155 C 730 166.05 738.95 175 750 175 C 761.05 175 770 166.05 770 155 C 770 143.95 761.05 135 750 135 C 738.95 135 730 143.95 730 155"
+                d="M 490 77.5 C 490 88.55 498.95 97.5 510 97.5 C 521.05 97.5 530 88.55 530 77.5 C 530 66.45 521.05 57.5 510 57.5 C 498.95 57.5 490 66.45 490 77.5"
                 fill="#ffffff" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="all"/>
             <g transform="translate(-0.5 -0.5)">
                 <switch>
@@ -3062,8 +3022,8 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             justifyContent: 'unsafe center',
                             width: '38px',
                             height: '1px',
-                            paddingTop: '155px',
-                            marginLeft: '731px'
+                            paddingTop: '78px',
+                            marginLeft: '491px'
                         }}>
                             <div data-drawio-colors="color: rgb(0, 0, 0); "
                                  style={{boxSizing: 'border-box', fontSize: '0px', textAlign: 'center'}}>
@@ -3081,7 +3041,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={750} y={158} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                    <text x={510} y={81} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
                           textAnchor="middle">2
                     </text>
                 </switch>
@@ -3090,10 +3050,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                   pointerEvents="stroke"/>
             <path d="M 440 280.88 L 435 270.88 L 445 270.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 420.09 210 L 420.09 200 Q 420.09 190 410.09 190 L 340.09 190 Q 330.09 190 330.09 180 L 330.09 146.12"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 330.09 136.12 L 335.09 146.12 L 325.09 146.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 420 210 L 420 200 Q 420 190 410 190 L 340 190 Q 330 190 330 180 L 330 146.12" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 330 136.12 L 335 146.12 L 325 146.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 421.25 230 L 458.75 230 C 464.96 230 470 225.52 470 220 C 470 214.48 464.96 210 458.75 210 L 421.25 210 C 415.04 210 410 214.48 410 220 C 410 225.52 415.04 230 421.25 230"
@@ -3508,9 +3467,12 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
+                    <text x={210} y={1169} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
+                          textAnchor="middle">- Software Developer...
+                    </text>
                 </switch>
             </g>
-            <path d="M 766.5 97.5 L 856.5 97.5 L 856.5 30 L 766.5 30 L 766.5 97.5" fill="#ffffff" stroke="rgb(0, 0, 0)"
+            <path d="M 760 93.5 L 850 93.5 L 850 26 L 760 26 L 760 93.5" fill="#ffffff" stroke="rgb(0, 0, 0)"
                   strokeWidth={2} strokeMiterlimit={10} strokeDasharray="6 6" pointerEvents="all"/>
             <g transform="translate(-0.5 -0.5)">
                 <switch>
@@ -3523,8 +3485,8 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             justifyContent: 'unsafe center',
                             width: '88px',
                             height: '1px',
-                            paddingTop: '64px',
-                            marginLeft: '768px'
+                            paddingTop: '60px',
+                            marginLeft: '761px'
                         }}>
                             <div data-drawio-colors="color: rgb(0, 0, 0); "
                                  style={{boxSizing: 'border-box', fontSize: '0px', textAlign: 'center'}}>
@@ -3543,7 +3505,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                         fontFamily: 'Calibri',
                                         letterSpacing: '0px'
                                     }}>- Git</span></div>
-
                                     <div style={{textAlign: 'left'}}><span style={{
                                         backgroundColor: 'initial',
                                         fontFamily: 'Calibri',
@@ -3560,12 +3521,12 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={812} y={67} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
+                    <text x={805} y={63} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
                           textAnchor="middle">- Git- Subversi...
                     </text>
                 </switch>
             </g>
-            <path d="M 699.52 206.99 L 802 207 Q 812 207 811.97 197 L 811.62 97.5" fill="none" stroke="rgb(0, 0, 0)"
+            <path d="M 689.68 197.63 L 689.98 70 Q 690 60 700 59.98 L 760 59.85" fill="none" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} strokeDasharray="3 3" pointerEvents="stroke"/>
             <path d="M 650 566 L 800 566 L 800 466 L 650 466 L 650 566" fill="#ffffff" stroke="rgb(0, 0, 0)"
                   strokeWidth={2} strokeMiterlimit={10} strokeDasharray="6 6" pointerEvents="all"/>
@@ -3600,6 +3561,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                         fontFamily: 'Calibri',
                                         letterSpacing: '0px'
                                     }}>- Code clones</span></div>
+
                                     <div style={{textAlign: 'left'}}><span style={{
                                         backgroundColor: 'initial',
                                         fontFamily: 'Calibri',
@@ -3636,7 +3598,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
             </g>
             <path d="M 779.97 600 L 779.9 567.4" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
                   strokeDasharray="3 3" pointerEvents="stroke"/>
-            <path d="M 769.59 750.4 L 560 750.02 Q 550 750 550.18 759.58 L 550.36 769.16" fill="none"
+            <path d="M 769.58 750.4 L 560 750.02 Q 550 750 550.18 759.58 L 550.36 769.16" fill="none"
                   stroke="rgb(0, 0, 0)" strokeMiterlimit={10} strokeDasharray="3 3" pointerEvents="stroke"/>
             <path d="M 770 800 L 853 800 L 853 735 L 770 735 L 770 800" fill="#ffffff" stroke="rgb(0, 0, 0)"
                   strokeWidth={2} strokeMiterlimit={10} strokeDasharray="6 6" pointerEvents="all"/>
@@ -3671,7 +3633,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                         fontFamily: 'Calibri',
                                         letterSpacing: '0px'
                                     }}>- SonarQube</span></div>
-
                                     <div style={{textAlign: 'left'}}><span style={{
                                         backgroundColor: 'initial',
                                         fontFamily: 'Calibri',
@@ -3693,29 +3654,41 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path d="M 687 280 L 660.09 280 Q 650.09 280 650.6 280 L 651.12 280" fill="none" stroke="rgb(0, 0, 0)"
+            <path d="M 687 280 L 660 280 Q 650 280 650.56 280 L 651.12 280" fill="none" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="stroke"/>
             <path d="M 641.12 280 L 651.12 275 L 651.12 285 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path d="M 720.09 289 L 720.09 310 Q 720.09 320 710.6 320 L 701.12 320" fill="none" stroke="rgb(0, 0, 0)"
+            <path d="M 720 289 L 720 310 Q 720 320 710.56 320 L 701.12 320" fill="none" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="stroke"/>
             <path d="M 691.12 320 L 701.12 315 L 701.12 325 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path d="M 730.09 289 L 730.09 310 Q 730.09 320 740.09 320 L 788.88 320" fill="none" stroke="rgb(0, 0, 0)"
+            <path d="M 730 289 L 730 310 Q 730 320 730 319.44 L 730 318.88" fill="none" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 798.88 320 L 788.88 325 L 788.88 315 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 730 328.88 L 725 318.88 L 735 318.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path d="M 767 274 L 777 274 Q 787 274 783.55 274 L 781.82 274 Q 780.09 274 784.49 274 L 788.88 274"
-                  fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 767 274 L 777 274 Q 787 274 783.5 274 L 781.75 274 Q 780 274 784.44 274 L 788.88 274" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
             <path d="M 798.88 274 L 788.88 279 L 788.88 269 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path d="M 700.09 259 L 700.09 254.05 Q 700.09 249.09 690.09 249.09 L 636.12 249.09" fill="none"
-                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 626.12 249.09 L 636.12 244.09 L 636.12 254.09 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
-                  strokeMiterlimit={10} pointerEvents="all"/>
-            <path d="M 727 259 L 727 240 Q 727 230 737 230 L 788.88 230" fill="none" stroke="rgb(0, 0, 0)"
+            <path d="M 700 259 L 700 254 Q 700 249 690 249 L 636.12 249" fill="none" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 798.88 230 L 788.88 235 L 788.88 225 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 626.12 249 L 636.12 244 L 636.12 254 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="all"/>
+            <path d="M 760 259 L 760 249.5 Q 760 240 770 240 L 788.88 240" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 798.88 240 L 788.88 245 L 788.88 235 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="all"/>
+            <path d="M 740 289 L 740 297 Q 740 305 750 305 L 818.88 305" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 828.88 305 L 818.88 310 L 818.88 300 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="all"/>
+            <path d="M 750 259 L 750 220 Q 750 210 760 210 L 785.88 210" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 795.88 210 L 785.88 215 L 785.88 205 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="all"/>
+            <path d="M 737 259 L 737 249.5 Q 737 240 737 230 L 737 176.12" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 737 166.12 L 742 176.12 L 732 176.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path d="M 687 289 L 767 289 L 767 259 L 687 259 L 687 289" fill="#02b3ef" stroke="#000000"
                   strokeMiterlimit={10} pointerEvents="all"/>
@@ -3744,19 +3717,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}
-                                     className="class-concept"
-                                     onClick={() => onOpenTable({
-                                         tableName: "Member",
-                                         title: "Project Manager",
-                                         onAdd: async table => table.get(await table.add({role: "Project Manager"})),
-                                         query: table => table.where("role").equals("Project Manager").toArray()
-                                     })}
-                                >Project Manager
+                                }}>Project Manager
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
+                    <text x={727} y={277} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                          textAnchor="middle">Project Manager
+                    </text>
                 </switch>
             </g>
             <path d="M 617 292 L 617 380 Q 617 390 617 399.44 L 617 408.88" fill="none" stroke="rgb(0, 0, 0)"
@@ -3802,10 +3770,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path
-                d="M 660.09 327 L 660.09 340 Q 660.09 350 650.09 350 L 640.09 350 Q 630.09 350 630.09 360 L 630.09 408.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 630.09 418.88 L 625.09 408.88 L 635.09 408.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 660 327 L 660 340 Q 660 350 650 350 L 640 350 Q 630 350 630 360 L 630 408.88" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 630 418.88 L 625 408.88 L 635 408.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 641.25 327 L 678.75 327 C 684.96 327 690 322.52 690 317 C 690 311.48 684.96 307 678.75 307 L 641.25 307 C 635.04 307 630 311.48 630 317 C 630 322.52 635.04 327 641.25 327"
@@ -3846,7 +3813,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path d="M 860 272 L 865.05 272 Q 870.09 272 874.49 272 L 878.88 272" fill="none" stroke="rgb(0, 0, 0)"
+            <path d="M 860 272 L 865 272 Q 870 272 874.44 272 L 878.88 272" fill="none" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="stroke"/>
             <path d="M 888.88 272 L 878.88 277 L 878.88 267 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
@@ -3888,13 +3855,12 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path
-                d="M 860 317.09 L 870.09 317.09 Q 880.09 317.09 875.09 317.09 L 872.59 317.09 Q 870.09 317.09 874.49 317.09 L 878.88 317.09"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 888.88 317.09 L 878.88 322.09 L 878.88 312.09 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 760 335 L 765 335 Q 770 335 774.44 335 L 778.88 335" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 788.88 335 L 778.88 340 L 778.88 330 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
-                d="M 811.25 327 L 848.75 327 C 854.96 327 860 322.52 860 317 C 860 311.48 854.96 307 848.75 307 L 811.25 307 C 805.04 307 800 311.48 800 317 C 800 322.52 805.04 327 811.25 327"
+                d="M 711.25 350 L 748.75 350 C 754.96 350 760 345.52 760 340 C 760 334.48 754.96 330 748.75 330 L 711.25 330 C 705.04 330 700 334.48 700 340 C 700 345.52 705.04 350 711.25 350"
                 fill="#fdff02" stroke="#000000" strokeWidth={3} strokeMiterlimit={10} strokeDasharray="9 9"
                 pointerEvents="all"/>
             <g transform="translate(-0.5 -0.5)">
@@ -3908,8 +3874,8 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             justifyContent: 'unsafe center',
                             width: '60px',
                             height: '1px',
-                            paddingTop: '317px',
-                            marginLeft: '800px'
+                            paddingTop: '340px',
+                            marginLeft: '700px'
                         }}>
                             <div data-drawio-colors="color: rgb(0, 0, 0); "
                                  style={{boxSizing: 'border-box', fontSize: '0px', textAlign: 'center'}}>
@@ -3927,13 +3893,13 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={830} y={321} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
+                    <text x={730} y={344} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
                           textAnchor="middle">Plans
                     </text>
                 </switch>
             </g>
             <path
-                d="M 890 317 C 890 328.05 898.95 337 910 337 C 921.05 337 930 328.05 930 317 C 930 305.95 921.05 297 910 297 C 898.95 297 890 305.95 890 317"
+                d="M 790 335 C 790 346.05 798.95 355 810 355 C 821.05 355 830 346.05 830 335 C 830 323.95 821.05 315 810 315 C 798.95 315 790 323.95 790 335"
                 fill="#ffffff" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="all"/>
             <g transform="translate(-0.5 -0.5)">
                 <switch>
@@ -3946,8 +3912,8 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             justifyContent: 'unsafe center',
                             width: '38px',
                             height: '1px',
-                            paddingTop: '317px',
-                            marginLeft: '891px'
+                            paddingTop: '335px',
+                            marginLeft: '791px'
                         }}>
                             <div data-drawio-colors="color: rgb(0, 0, 0); "
                                  style={{boxSizing: 'border-box', fontSize: '0px', textAlign: 'center'}}>
@@ -3965,15 +3931,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={910} y={320} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                    <text x={810} y={338} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
                           textAnchor="middle">4
                     </text>
                 </switch>
             </g>
-            <path
-                d="M 310.09 685 L 310.09 675.05 Q 310.09 665.09 310.09 672.55 L 310.09 676.27 Q 310.09 680 310.09 675.56 L 310.09 671.12"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 310.09 661.12 L 315.09 671.12 L 305.09 671.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 310 685 L 310 675 Q 310 665 310 672.5 L 310 676.25 Q 310 680 310 675.56 L 310 671.12" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 310 661.12 L 315 671.12 L 305 671.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 290 705 C 290 716.05 298.95 725 310 725 C 321.05 725 330 716.05 330 705 C 330 693.95 321.05 685 310 685 C 298.95 685 290 693.95 290 705"
@@ -4051,9 +4016,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path d="M 562.72 1069.52 L 550.09 1069.48 Q 540.09 1069.45 535.6 1069.58 L 531.11 1069.7" fill="none"
+            <path d="M 562.72 1069.52 L 550 1069.55 Q 540 1069.57 535.56 1069.67 L 531.12 1069.76" fill="none"
                   stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 521.12 1069.97 L 530.98 1064.7 L 531.25 1074.7 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 521.12 1069.98 L 531.01 1064.76 L 531.22 1074.76 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 560 1080 C 560 1091.05 568.95 1100 580 1100 C 591.05 1100 600 1091.05 600 1080 C 600 1068.95 591.05 1060 580 1060 C 568.95 1060 560 1068.95 560 1080"
@@ -4097,30 +4062,29 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                   pointerEvents="stroke"/>
             <path d="M 1171.12 357 L 1181.12 352 L 1181.12 362 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path d="M 1250.09 372 L 1250.09 385.09 Q 1250.09 395.09 1240.09 395.09 L 1181.12 395.09" fill="none"
-                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1171.12 395.09 L 1181.12 390.09 L 1181.12 400.09 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1250 372 L 1250 385 Q 1250 395 1240 395 L 1181.12 395" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1171.12 395 L 1181.12 390 L 1181.12 400 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path d="M 1230.09 342 L 1230.09 327.09 Q 1230.09 317.09 1220.09 317.09 L 1181.12 317.09" fill="none"
-                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1171.12 317.09 L 1181.12 312.09 L 1181.12 322.09 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1230 342 L 1230 327 Q 1230 317 1220 317 L 1181.12 317" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1171.12 317 L 1181.12 312 L 1181.12 322 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path d="M 1250 342 L 1250 298.12" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
                   pointerEvents="stroke"/>
             <path d="M 1250 288.12 L 1255 298.12 L 1245 298.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path d="M 1270.09 372 L 1270.09 376 Q 1270.09 380 1270.09 389.44 L 1270.09 398.88" fill="none"
-                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1270.09 408.88 L 1265.09 398.88 L 1275.09 398.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1270 372 L 1270 376 Q 1270 380 1270 389.44 L 1270 398.88" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1270 408.88 L 1265 398.88 L 1275 398.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path d="M 1290 357.09 L 1320.09 357.09 Q 1330.09 357.09 1330.09 367.09 L 1330.09 503.88" fill="none"
-                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1330.09 513.88 L 1325.09 503.88 L 1335.09 503.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1290 357 L 1320 357 Q 1330 357 1330 367 L 1330 503.88" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1330 513.88 L 1325 503.88 L 1335 503.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 1270.09 342 L 1270.09 310 Q 1270.09 300 1280.09 300 L 1300.09 300 Q 1310.09 300 1310.09 290 L 1310.09 263.12"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1310.09 253.12 L 1315.09 263.12 L 1305.09 263.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1270 342 L 1270 310 Q 1270 300 1280 300 L 1300 300 Q 1310 300 1310 290 L 1310 263.12" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1310 253.12 L 1315 263.12 L 1305 263.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path d="M 1210 372 L 1290 372 L 1290 342 L 1210 342 L 1210 372" fill="#02b3ef" stroke="#000000"
                   strokeMiterlimit={10} pointerEvents="all"/>
@@ -4149,23 +4113,19 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}
-                                     className="class-concept"
-                                     onClick={() => onOpenTable({
-                                         tableName: "Member",
-                                         title: "Software Developer",
-                                         onAdd: async table => table.get(await table.add({role: "Software Developer"})),
-                                         query: table => table.where("role").equals("Software Developer").toArray()
-                                     })}>Software Developer
+                                }}>Software Developer
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
+                    <text x={1250} y={360} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                          textAnchor="middle">Software Develo...
+                    </text>
                 </switch>
             </g>
-            <path d="M 1110 350 L 960.09 350 Q 950.09 350 950.09 360 L 950.09 408.88" fill="none" stroke="rgb(0, 0, 0)"
+            <path d="M 1110 350 L 960 350 Q 950 350 950 360 L 950 408.88" fill="none" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 950.09 418.88 L 945.09 408.88 L 955.09 408.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 950 418.88 L 945 408.88 L 955 408.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 1121.25 367 L 1158.75 367 C 1164.96 367 1170 362.52 1170 357 C 1170 351.48 1164.96 347 1158.75 347 L 1121.25 347 C 1115.04 347 1110 351.48 1110 357 C 1110 362.52 1115.04 367 1121.25 367"
@@ -4207,7 +4167,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                 </switch>
             </g>
             <path
-                d="M 1110 390 L 1080.09 390 Q 1070.09 390 1070.09 380 L 1070.09 372 Q 1070.09 364 1060.09 364 L 1000.09 364 Q 990.09 364 990.09 374 L 990.09 414 Q 990.09 424 980.6 424 L 971.12 424"
+                d="M 1110 390 L 1080 390 Q 1070 390 1070 380 L 1070 372 Q 1070 364 1060 364 L 1000 364 Q 990 364 990 374 L 990 414 Q 990 424 980.56 424 L 971.12 424"
                 fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
             <path d="M 961.12 424 L 971.12 419 L 971.12 429 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
@@ -4250,9 +4210,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path d="M 1110 317 L 1051.12 317" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
-                  pointerEvents="stroke"/>
-            <path d="M 1041.12 317 L 1051.12 312 L 1051.12 322 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1140 327 L 1140 333.5 Q 1140 340 1130 340 L 951.12 340" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 941.12 340 L 951.12 335 L 951.12 345 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 1121.25 327 L 1158.75 327 C 1164.96 327 1170 322.52 1170 317 C 1170 311.48 1164.96 307 1158.75 307 L 1121.25 307 C 1115.04 307 1110 311.48 1110 317 C 1110 322.52 1115.04 327 1121.25 327"
@@ -4294,7 +4254,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                 </switch>
             </g>
             <path
-                d="M 1000 317 C 1000 328.05 1008.95 337 1020 337 C 1031.05 337 1040 328.05 1040 317 C 1040 305.95 1031.05 297 1020 297 C 1008.95 297 1000 305.95 1000 317"
+                d="M 900 336 C 900 347.05 908.95 356 920 356 C 931.05 356 940 347.05 940 336 C 940 324.95 931.05 316 920 316 C 908.95 316 900 324.95 900 336"
                 fill="#ffffff" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="all"/>
             <g transform="translate(-0.5 -0.5)">
                 <switch>
@@ -4307,8 +4267,8 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             justifyContent: 'unsafe center',
                             width: '38px',
                             height: '1px',
-                            paddingTop: '317px',
-                            marginLeft: '1001px'
+                            paddingTop: '336px',
+                            marginLeft: '901px'
                         }}>
                             <div data-drawio-colors="color: rgb(0, 0, 0); "
                                  style={{boxSizing: 'border-box', fontSize: '0px', textAlign: 'center'}}>
@@ -4326,14 +4286,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1020} y={320} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                    <text x={920} y={339} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
                           textAnchor="middle">6
                     </text>
                 </switch>
             </g>
-            <path d="M 570.09 505 L 570.09 497.5 Q 570.09 490 570.09 480 L 570.09 461.12" fill="none"
-                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 570.09 451.12 L 575.09 461.12 L 565.09 461.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 570 505 L 570 497.5 Q 570 490 570 480 L 570 461.12" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 570 451.12 L 575 461.12 L 565 461.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 550 525 C 550 536.05 558.95 545 570 545 C 581.05 545 590 536.05 590 525 C 590 513.95 581.05 505 570 505 C 558.95 505 550 513.95 550 525"
@@ -4495,9 +4455,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path d="M 560 1130 L 520.09 1130 Q 510.09 1130 510.09 1120 L 510.09 1096.12" fill="none"
-                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 510.09 1086.12 L 515.09 1096.12 L 505.09 1096.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 560 1130 L 520 1130 Q 510 1130 510 1120 L 510 1096.12" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 510 1086.12 L 515 1096.12 L 505 1096.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 560 1130 C 560 1141.05 568.95 1150 580 1150 C 591.05 1150 600 1141.05 600 1130 C 600 1118.95 591.05 1110 580 1110 C 568.95 1110 560 1118.95 560 1130"
@@ -4537,38 +4497,41 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path d="M 1390.09 372 L 1390.09 381 Q 1390.09 390 1390.09 400 L 1390.09 413.88" fill="none"
-                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1390.09 423.88 L 1385.09 413.88 L 1395.09 413.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1390 372 L 1390 381 Q 1390 390 1390 400 L 1390 413.88" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1390 423.88 L 1385 413.88 L 1395 413.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path d="M 1410 342 L 1410 298.12" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
                   pointerEvents="stroke"/>
             <path d="M 1410 288.12 L 1415 298.12 L 1405 298.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path d="M 1450 365 L 1500.09 365.08 Q 1510.09 365.09 1510.09 369.49 L 1510.09 373.88" fill="none"
-                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1510.09 383.88 L 1505.09 373.88 L 1515.09 373.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1450 365 L 1440 365 Q 1430 365 1430 375 L 1430 400 Q 1430 410 1434.44 410 L 1438.88 410"
+                  fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1448.88 410 L 1438.88 415 L 1438.88 405 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path d="M 1420.09 372 L 1420.09 381 Q 1420.09 390 1420.09 400 L 1420.09 458.88" fill="none"
-                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1420.09 468.88 L 1415.09 458.88 L 1425.09 458.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1420 372 L 1420 381 Q 1420 390 1420 400 L 1420 458.88" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1420 468.88 L 1415 458.88 L 1425 458.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path d="M 1450 358 L 1570.09 358 Q 1580.09 358 1580.09 348.06 L 1580.09 338.12" fill="none"
-                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1580.09 328.12 L 1585.09 338.12 L 1575.09 338.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1450 358 L 1570 358 Q 1580 358 1580 348.06 L 1580 338.12" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1580 328.12 L 1585 338.12 L 1575 338.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path d="M 1450 350 L 1540.09 350 Q 1550.09 350 1550.09 340 L 1550.09 295.12" fill="none"
-                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1550.09 285.12 L 1555.09 295.12 L 1545.09 295.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1450 350 L 1540 350 Q 1550 350 1550 340 L 1550 295.12" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1550 285.12 L 1555 295.12 L 1545 295.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 1440.09 342 L 1440.09 330 Q 1440.09 320 1450.09 320 L 1470.09 320 Q 1480.09 320 1480.09 310 L 1480.09 186.12"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1480.09 176.12 L 1485.09 186.12 L 1475.09 186.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
-                  strokeMiterlimit={10} pointerEvents="all"/>
-            <path d="M 1370 357.09 L 1365.05 357.09 Q 1360.09 357.09 1360.09 347.09 L 1360.09 206.12" fill="none"
+            <path d="M 1440 342 L 1440 330 Q 1440 320 1450 320 L 1470 320 Q 1480 320 1480 310 L 1480 186.12" fill="none"
                   stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1360.09 196.12 L 1365.09 206.12 L 1355.09 206.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1480 176.12 L 1485 186.12 L 1475 186.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="all"/>
+            <path d="M 1370 357 L 1365 357 Q 1360 357 1360 347 L 1360 206.12" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1360 196.12 L 1365 206.12 L 1355 206.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="all"/>
+            <path d="M 1450 366 L 1540 366 Q 1550 366 1550 376 L 1550 418.88" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1550 428.88 L 1545 418.88 L 1555 418.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path d="M 1370 372 L 1450 372 L 1450 342 L 1370 342 L 1370 372" fill="#02b3ef" stroke="#000000"
                   strokeMiterlimit={10} pointerEvents="all"/>
@@ -4597,25 +4560,20 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}
-                                     className="class-concept"
-                                     onClick={() => onOpenTable({
-                                         tableName: "Member",
-                                         title: "Software Architect",
-                                         onAdd: async table => table.get(await table.add({role: "Software Architect"})),
-                                         query: table => table.where("role").equals("Software Architect").toArray()
-                                     })}
-                                >Software Architect
+                                }}>Software Architect
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
+                    <text x={1410} y={360} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                          textAnchor="middle">Software Archit...
+                    </text>
                 </switch>
             </g>
             <path
-                d="M 1350 440 L 1333.09 440 C 1333.09 436.1 1327.09 436.1 1327.09 440 L 1327.09 440 L 1023 440 C 1023 436.1 1017 436.1 1017 440 L 1017 440 L 971.12 440"
+                d="M 1350 437 L 1333 437 C 1333 433.1 1327 433.1 1327 437 L 1327 437 L 1023 437 C 1023 433.1 1017 433.1 1017 437 L 1017 437 L 971.12 437"
                 fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 961.12 440 L 971.12 435 L 971.12 445 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 961.12 437 L 971.12 432 L 971.12 442 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 1361.25 445 L 1398.75 445 C 1404.96 445 1410 440.52 1410 435 C 1410 429.48 1404.96 425 1398.75 425 L 1361.25 425 C 1355.04 425 1350 429.48 1350 435 C 1350 440.52 1355.04 445 1361.25 445"
@@ -4656,10 +4614,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path
-                d="M 1410.09 267 L 1410.09 257.05 Q 1410.09 247.09 1410.09 251.09 L 1410.09 253.09 Q 1410.09 255.09 1410.09 250.6 L 1410.09 246.12"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1410.09 236.12 L 1415.09 246.12 L 1405.09 246.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1410 267 L 1410 257 Q 1410 247 1410 251 L 1410 253 Q 1410 255 1410 250.56 L 1410 246.12"
+                  fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1410 236.12 L 1415 246.12 L 1405 246.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 1391.25 287 L 1428.75 287 C 1434.96 287 1440 282.52 1440 277 C 1440 271.48 1434.96 267 1428.75 267 L 1391.25 267 C 1385.04 267 1380 271.48 1380 277 C 1380 282.52 1385.04 287 1391.25 287"
@@ -4737,9 +4694,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path d="M 490.09 1162 L 490.09 1150 Q 490.09 1140 490.09 1130 L 490.09 1096.12" fill="none"
-                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 490.09 1086.12 L 495.09 1096.12 L 485.09 1096.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 490 1162 L 490 1150 Q 490 1140 490 1130 L 490 1096.12" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 490 1086.12 L 495 1096.12 L 485 1096.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 470 1182 C 470 1193.05 478.95 1202 490 1202 C 501.05 1202 510 1193.05 510 1182 C 510 1170.95 501.05 1162 490 1162 C 478.95 1162 470 1170.95 470 1182"
@@ -4779,18 +4736,12 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path
-                d="M 1510.09 405 L 1510.09 415.09 Q 1510.09 425.09 1500.09 425.09 L 1490.09 425.09 Q 1480.09 425.09 1480.09 429.49 L 1480.09 433.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1480.09 443.88 L 1475.09 433.88 L 1485.09 433.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1480 420 L 1480 430 Q 1480 440 1480 432.5 L 1480 428.75 Q 1480 425 1480 429.44 L 1480 433.88"
+                  fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1480 443.88 L 1475 433.88 L 1485 433.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
-                d="M 1510.09 405 L 1510.09 415.09 Q 1510.09 425.09 1520.09 425.09 L 1530.09 425.09 Q 1540.09 425.09 1540.09 429.49 L 1540.09 433.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1540.09 443.88 L 1535.09 433.88 L 1545.09 433.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
-                  strokeMiterlimit={10} pointerEvents="all"/>
-            <path
-                d="M 1491.25 405 L 1528.75 405 C 1534.96 405 1540 400.52 1540 395 C 1540 389.48 1534.96 385 1528.75 385 L 1491.25 385 C 1485.04 385 1480 389.48 1480 395 C 1480 400.52 1485.04 405 1491.25 405"
+                d="M 1461.25 420 L 1498.75 420 C 1504.96 420 1510 415.52 1510 410 C 1510 404.48 1504.96 400 1498.75 400 L 1461.25 400 C 1455.04 400 1450 404.48 1450 410 C 1450 415.52 1455.04 420 1461.25 420"
                 fill="#fdff02" stroke="#000000" strokeWidth={3} strokeMiterlimit={10} strokeDasharray="9 9"
                 pointerEvents="all"/>
             <g transform="translate(-0.5 -0.5)">
@@ -4804,8 +4755,8 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             justifyContent: 'unsafe center',
                             width: '60px',
                             height: '1px',
-                            paddingTop: '395px',
-                            marginLeft: '1480px'
+                            paddingTop: '410px',
+                            marginLeft: '1450px'
                         }}>
                             <div data-drawio-colors="color: rgb(0, 0, 0); "
                                  style={{boxSizing: 'border-box', fontSize: '0px', textAlign: 'center'}}>
@@ -4818,14 +4769,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}
-                                     className="dynamic-relationship"
-                                     onClick={measureTechDebt}
-                                >Measures
+                                }}>Measures
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
+                    <text x={1480} y={414} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
+                          textAnchor="middle">Measures
+                    </text>
                 </switch>
             </g>
             <path
@@ -4866,10 +4817,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path
-                d="M 960.09 570 L 960.09 580 Q 960.09 590 960.09 585 L 960.09 582.5 Q 960.09 580 960.09 584.44 L 960.09 588.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 960.09 598.88 L 955.09 588.88 L 965.09 588.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 960 570 L 960 580 Q 960 590 960 585 L 960 582.5 Q 960 580 960 584.44 L 960 588.88" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 960 598.88 L 955 588.88 L 965 588.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 940 550 C 940 561.05 948.95 570 960 570 C 971.05 570 980 561.05 980 550 C 980 538.95 971.05 530 960 530 C 948.95 530 940 538.95 940 550"
@@ -4909,10 +4859,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path
-                d="M 870.09 571 L 870.09 581.09 Q 870.09 591.09 870.09 585.55 L 870.09 582.77 Q 870.09 580 870.09 584.44 L 870.09 588.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 870.09 598.88 L 865.09 588.88 L 875.09 588.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 870 571 L 870 581 Q 870 591 870 585.5 L 870 582.75 Q 870 580 870 584.44 L 870 588.88" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 870 598.88 L 865 588.88 L 875 588.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 850 551 C 850 562.05 858.95 571 870 571 C 881.05 571 890 562.05 890 551 C 890 539.95 881.05 531 870 531 C 858.95 531 850 539.95 850 551"
@@ -4953,7 +4902,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                 </switch>
             </g>
             <path
-                d="M 1520 465 C 1520 476.05 1528.95 485 1540 485 C 1551.05 485 1560 476.05 1560 465 C 1560 453.95 1551.05 445 1540 445 C 1528.95 445 1520 453.95 1520 465"
+                d="M 1530 505 C 1530 516.05 1538.95 525 1550 525 C 1561.05 525 1570 516.05 1570 505 C 1570 493.95 1561.05 485 1550 485 C 1538.95 485 1530 493.95 1530 505"
                 fill="#ffffff" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="all"/>
             <g transform="translate(-0.5 -0.5)">
                 <switch>
@@ -4966,8 +4915,8 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             justifyContent: 'unsafe center',
                             width: '38px',
                             height: '1px',
-                            paddingTop: '465px',
-                            marginLeft: '1521px'
+                            paddingTop: '505px',
+                            marginLeft: '1531px'
                         }}>
                             <div data-drawio-colors="color: rgb(0, 0, 0); "
                                  style={{boxSizing: 'border-box', fontSize: '0px', textAlign: 'center'}}>
@@ -4985,7 +4934,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1540} y={468} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                    <text x={1550} y={508} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
                           textAnchor="middle">10
                     </text>
                 </switch>
@@ -5028,9 +4977,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                 </switch>
             </g>
             <path
-                d="M 1240 420 L 1170.09 420 Q 1160.09 420 1160.09 428.5 L 1160.09 437 C 1163.99 437 1163.99 443 1160.09 443 L 1160.09 443 L 1160.09 477 C 1163.99 477 1163.99 483 1160.09 483 L 1160.09 483 L 1160.09 512 C 1163.99 512 1163.99 518 1160.09 518 L 1160.09 518 L 1160.09 548.09 C 1163.99 548.09 1163.99 554.09 1160.09 554.09 L 1160.09 554.09 L 1160.09 588.88"
+                d="M 1240 420 L 1170 420 Q 1160 420 1160 427 L 1160 434 C 1163.9 434 1163.9 440 1160 440 L 1160 440 L 1160 477 C 1163.9 477 1163.9 483 1160 483 L 1160 483 L 1160 512 C 1163.9 512 1163.9 518 1160 518 L 1160 518 L 1160 548 C 1163.9 548 1163.9 554 1160 554 L 1160 554 L 1160 588.88"
                 fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1160.09 598.88 L 1155.09 588.88 L 1165.09 588.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1160 598.88 L 1155 588.88 L 1165 588.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 1251.25 430 L 1288.75 430 C 1294.96 430 1300 425.52 1300 420 C 1300 414.48 1294.96 410 1288.75 410 L 1251.25 410 C 1245.04 410 1240 414.48 1240 420 C 1240 425.52 1245.04 430 1251.25 430"
@@ -5071,10 +5020,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path
-                d="M 1420.09 490 L 1420.09 990 Q 1420.09 1000 1410.09 1000 L 1050.09 1000 Q 1040.09 1000 1040.09 990 L 1040.09 976.12"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1040.09 966.12 L 1045.09 976.12 L 1035.09 976.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1420 490 L 1420 990 Q 1420 1000 1410 1000 L 1050 1000 Q 1040 1000 1040 990 L 1040 976.12"
+                  fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1040 966.12 L 1045 976.12 L 1035 976.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 1401.25 490 L 1438.75 490 C 1444.96 490 1450 485.52 1450 480 C 1450 474.48 1444.96 470 1438.75 470 L 1401.25 470 C 1395.04 470 1390 474.48 1390 480 C 1390 485.52 1395.04 490 1401.25 490"
@@ -5115,10 +5063,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path
-                d="M 1330.09 535 L 1330.09 900 Q 1330.09 910 1320.09 910 L 1040.09 910 Q 1030.09 910 1030.09 916.94 L 1030.09 923.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 1030.09 933.88 L 1025.09 923.88 L 1035.09 923.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1330 535 L 1330 900 Q 1330 910 1320 910 L 1040 910 Q 1030 910 1030 916.94 L 1030 923.88"
+                  fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1030 933.88 L 1025 923.88 L 1035 923.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 1311.25 535 L 1348.75 535 C 1354.96 535 1360 530.52 1360 525 C 1360 519.48 1354.96 515 1348.75 515 L 1311.25 515 C 1305.04 515 1300 519.48 1300 525 C 1300 530.52 1305.04 535 1311.25 535"
@@ -5160,7 +5107,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                 </switch>
             </g>
             <path
-                d="M 1594.09 327 L 1594.09 940 Q 1594.09 950 1584.09 950 L 1423.09 950 C 1423.09 946.1 1417.09 946.1 1417.09 950 L 1417.09 950 L 1061.12 950"
+                d="M 1594 327 L 1594 940 Q 1594 950 1584 950 L 1423 950 C 1423 946.1 1417 946.1 1417 950 L 1417 950 L 1061.12 950"
                 fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
             <path d="M 1051.12 950 L 1061.12 945 L 1061.12 955 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
@@ -5358,7 +5305,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     lineHeight: '1.2',
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
-                                    overflowWrap: 'normal',
+                                    overflowWrap: 'normal'
                                 }}>Registers
                                 </div>
                             </div>
@@ -5449,13 +5396,12 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path
-                d="M 860 229.09 L 870.09 229.09 Q 880.09 229.09 875.09 229.09 L 872.59 229.09 Q 870.09 229.09 874.49 229.09 L 878.88 229.09"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 888.88 229.09 L 878.88 234.09 L 878.88 224.09 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 860 240 L 928.88 240" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
+                  pointerEvents="stroke"/>
+            <path d="M 938.88 240 L 928.88 245 L 928.88 235 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
-                d="M 811.25 239 L 848.75 239 C 854.96 239 860 234.52 860 229 C 860 223.48 854.96 219 848.75 219 L 811.25 219 C 805.04 219 800 223.48 800 229 C 800 234.52 805.04 239 811.25 239"
+                d="M 811.25 250 L 848.75 250 C 854.96 250 860 245.52 860 240 C 860 234.48 854.96 230 848.75 230 L 811.25 230 C 805.04 230 800 234.48 800 240 C 800 245.52 805.04 250 811.25 250"
                 fill="#fdff02" stroke="#000000" strokeWidth={3} strokeMiterlimit={10} strokeDasharray="9 9"
                 pointerEvents="all"/>
             <g transform="translate(-0.5 -0.5)">
@@ -5469,7 +5415,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             justifyContent: 'unsafe center',
                             width: '60px',
                             height: '1px',
-                            paddingTop: '229px',
+                            paddingTop: '240px',
                             marginLeft: '800px'
                         }}>
                             <div data-drawio-colors="color: rgb(0, 0, 0); "
@@ -5488,13 +5434,13 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={830} y={233} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
+                    <text x={830} y={244} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
                           textAnchor="middle">Registers
                     </text>
                 </switch>
             </g>
             <path
-                d="M 890 229 C 890 240.05 898.95 249 910 249 C 921.05 249 930 240.05 930 229 C 930 217.95 921.05 209 910 209 C 898.95 209 890 217.95 890 229"
+                d="M 940 240 C 940 251.05 948.95 260 960 260 C 971.05 260 980 251.05 980 240 C 980 228.95 971.05 220 960 220 C 948.95 220 940 228.95 940 240"
                 fill="#ffffff" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="all"/>
             <g transform="translate(-0.5 -0.5)">
                 <switch>
@@ -5507,8 +5453,8 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             justifyContent: 'unsafe center',
                             width: '38px',
                             height: '1px',
-                            paddingTop: '229px',
-                            marginLeft: '891px'
+                            paddingTop: '240px',
+                            marginLeft: '941px'
                         }}>
                             <div data-drawio-colors="color: rgb(0, 0, 0); "
                                  style={{boxSizing: 'border-box', fontSize: '0px', textAlign: 'center'}}>
@@ -5526,7 +5472,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={910} y={232} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                    <text x={960} y={243} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
                           textAnchor="middle">13
                     </text>
                 </switch>
@@ -5573,10 +5519,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path
-                d="M 1480.09 155 L 1480.09 20 Q 1480.09 10 1470.09 10 L 450.09 10 Q 440.09 10 440.09 20 L 440.09 128.88"
-                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 440.09 138.88 L 435.09 128.88 L 445.09 128.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 1480 155 L 1480 20 Q 1480 10 1470 10 L 450 10 Q 440 10 440 20 L 440 128.88" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 440 138.88 L 435 128.88 L 445 128.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 1461.25 175 L 1498.75 175 C 1504.96 175 1510 170.52 1510 165 C 1510 159.48 1504.96 155 1498.75 155 L 1461.25 155 C 1455.04 155 1450 159.48 1450 165 C 1450 170.52 1455.04 175 1461.25 175"
@@ -5780,9 +5725,9 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                 </switch>
             </g>
             <path
-                d="M 290 202 L 380.09 202 Q 390.09 202 390.09 212 L 390.09 230 Q 390.09 240 400.09 240 L 410.09 240 Q 420.09 240 420.09 250 L 420.09 270.88"
+                d="M 290 202 L 380 202 Q 390 202 390 212 L 390 230 Q 390 240 400 240 L 410 240 Q 420 240 420 250 L 420 270.88"
                 fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
-            <path d="M 420.09 280.88 L 415.09 270.88 L 425.09 270.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+            <path d="M 420 280.88 L 415 270.88 L 425 270.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
                 d="M 250 202 C 250 213.05 258.95 222 270 222 C 281.05 222 290 213.05 290 202 C 290 190.95 281.05 182 270 182 C 258.95 182 250 190.95 250 202"
@@ -5822,8 +5767,8 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </text>
                 </switch>
             </g>
-            <path d="M 330 232 L 360.09 232 Q 370.09 232 370.09 242 L 370.09 280 Q 370.09 290 379.49 290 L 388.88 290"
-                  fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 330 232 L 360 232 Q 370 232 370 242 L 370 280 Q 370 290 379.44 290 L 388.88 290" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
             <path d="M 398.88 290 L 388.88 295 L 388.88 285 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
                   strokeMiterlimit={10} pointerEvents="all"/>
             <path
@@ -5861,6 +5806,339 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                     </foreignObject>
                     <text x={310} y={235} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
                           textAnchor="middle">15
+                    </text>
+                </switch>
+            </g>
+            <path
+                d="M 890 305 L 1040 305 Q 1050 305 1050 315 L 1050 337 C 1053.9 337 1053.9 343 1050 343 L 1050 343 L 1050 347 C 1053.9 347 1053.9 353 1050 353 L 1050 353 L 1050 361 C 1053.9 361 1053.9 367 1050 367 L 1050 367 L 1050 434 C 1053.9 434 1053.9 440 1050 440 L 1050 440 L 1050 443.88"
+                fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1050 453.88 L 1045 443.88 L 1055 443.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="all"/>
+            <path
+                d="M 841.25 315 L 878.75 315 C 884.96 315 890 310.52 890 305 C 890 299.48 884.96 295 878.75 295 L 841.25 295 C 835.04 295 830 299.48 830 305 C 830 310.52 835.04 315 841.25 315"
+                fill="#fdff02" stroke="#000000" strokeWidth={3} strokeMiterlimit={10} strokeDasharray="9 9"
+                pointerEvents="all"/>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject pointerEvents="none" width="100%" height="100%"
+                                   requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                   style={{overflow: 'visible', textAlign: 'left'}}>
+                        <div style={{
+                            display: 'flex',
+                            alignItems: 'unsafe center',
+                            justifyContent: 'unsafe center',
+                            width: '60px',
+                            height: '1px',
+                            paddingTop: '305px',
+                            marginLeft: '830px'
+                        }}>
+                            <div data-drawio-colors="color: rgb(0, 0, 0); "
+                                 style={{boxSizing: 'border-box', fontSize: '0px', textAlign: 'center'}}>
+                                <div style={{
+                                    display: 'inline-block',
+                                    fontSize: '12px',
+                                    fontFamily: 'Helvetica',
+                                    color: 'rgb(0, 0, 0)',
+                                    lineHeight: '1.2',
+                                    pointerEvents: 'all',
+                                    whiteSpace: 'normal',
+                                    overflowWrap: 'normal'
+                                }}>Registers
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x={860} y={309} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
+                          textAnchor="middle">Registers
+                    </text>
+                </switch>
+            </g>
+            <path
+                d="M 890 210 C 890 221.05 898.95 230 910 230 C 921.05 230 930 221.05 930 210 C 930 198.95 921.05 190 910 190 C 898.95 190 890 198.95 890 210"
+                fill="#ffffff" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="all"/>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject pointerEvents="none" width="100%" height="100%"
+                                   requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                   style={{overflow: 'visible', textAlign: 'left'}}>
+                        <div style={{
+                            display: 'flex',
+                            alignItems: 'unsafe center',
+                            justifyContent: 'unsafe center',
+                            width: '38px',
+                            height: '1px',
+                            paddingTop: '210px',
+                            marginLeft: '891px'
+                        }}>
+                            <div data-drawio-colors="color: rgb(0, 0, 0); "
+                                 style={{boxSizing: 'border-box', fontSize: '0px', textAlign: 'center'}}>
+                                <div style={{
+                                    display: 'inline-block',
+                                    fontSize: '11px',
+                                    fontFamily: 'Helvetica',
+                                    color: 'rgb(0, 0, 0)',
+                                    lineHeight: '1.2',
+                                    pointerEvents: 'all',
+                                    whiteSpace: 'normal',
+                                    overflowWrap: 'normal'
+                                }}>14
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x={910} y={213} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                          textAnchor="middle">14
+                    </text>
+                </switch>
+            </g>
+            <path d="M 857 210 L 867 210 Q 877 210 873.5 210 L 871.75 210 Q 870 210 874.44 210 L 878.88 210" fill="none"
+                  stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 888.88 210 L 878.88 215 L 878.88 205 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="all"/>
+            <path
+                d="M 808.25 220 L 845.75 220 C 851.96 220 857 215.52 857 210 C 857 204.48 851.96 200 845.75 200 L 808.25 200 C 802.04 200 797 204.48 797 210 C 797 215.52 802.04 220 808.25 220"
+                fill="#fdff02" stroke="#000000" strokeWidth={3} strokeMiterlimit={10} strokeDasharray="9 9"
+                pointerEvents="all"/>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject pointerEvents="none" width="100%" height="100%"
+                                   requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                   style={{overflow: 'visible', textAlign: 'left'}}>
+                        <div style={{
+                            display: 'flex',
+                            alignItems: 'unsafe center',
+                            justifyContent: 'unsafe center',
+                            width: '60px',
+                            height: '1px',
+                            paddingTop: '210px',
+                            marginLeft: '797px'
+                        }}>
+                            <div data-drawio-colors="color: rgb(0, 0, 0); "
+                                 style={{boxSizing: 'border-box', fontSize: '0px', textAlign: 'center'}}>
+                                <div style={{
+                                    display: 'inline-block',
+                                    fontSize: '12px',
+                                    fontFamily: 'Helvetica',
+                                    color: 'rgb(0, 0, 0)',
+                                    lineHeight: '1.2',
+                                    pointerEvents: 'all',
+                                    whiteSpace: 'normal',
+                                    overflowWrap: 'normal'
+                                }}>Registers
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x={827} y={214} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
+                          textAnchor="middle">Registers
+                    </text>
+                </switch>
+            </g>
+            <path d="M 545 890 L 545 895 Q 545 900 545 910 L 545 923.88" fill="none" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 545 933.88 L 540 923.88 L 550 923.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="all"/>
+            <path
+                d="M 525 870 C 525 881.05 533.95 890 545 890 C 556.05 890 565 881.05 565 870 C 565 858.95 556.05 850 545 850 C 533.95 850 525 858.95 525 870"
+                fill="#ffffff" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="all"/>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject pointerEvents="none" width="100%" height="100%"
+                                   requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                   style={{overflow: 'visible', textAlign: 'left'}}>
+                        <div style={{
+                            display: 'flex',
+                            alignItems: 'unsafe center',
+                            justifyContent: 'unsafe center',
+                            width: '38px',
+                            height: '1px',
+                            paddingTop: '870px',
+                            marginLeft: '526px'
+                        }}>
+                            <div data-drawio-colors="color: rgb(0, 0, 0); "
+                                 style={{boxSizing: 'border-box', fontSize: '0px', textAlign: 'center'}}>
+                                <div style={{
+                                    display: 'inline-block',
+                                    fontSize: '11px',
+                                    fontFamily: 'Helvetica',
+                                    color: 'rgb(0, 0, 0)',
+                                    lineHeight: '1.2',
+                                    pointerEvents: 'all',
+                                    whiteSpace: 'normal',
+                                    overflowWrap: 'normal'
+                                }}>14
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x={545} y={873} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                          textAnchor="middle">14
+                    </text>
+                </switch>
+            </g>
+            <path d="M 767 155 L 795.88 155" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
+                  pointerEvents="stroke"/>
+            <path d="M 805.88 155 L 795.88 160 L 795.88 150 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="all"/>
+            <path
+                d="M 718.25 165 L 755.75 165 C 761.96 165 767 160.52 767 155 C 767 149.48 761.96 145 755.75 145 L 718.25 145 C 712.04 145 707 149.48 707 155 C 707 160.52 712.04 165 718.25 165"
+                fill="#fdff02" stroke="#000000" strokeWidth={3} strokeMiterlimit={10} strokeDasharray="9 9"
+                pointerEvents="all"/>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject pointerEvents="none" width="100%" height="100%"
+                                   requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                   style={{overflow: 'visible', textAlign: 'left'}}>
+                        <div style={{
+                            display: 'flex',
+                            alignItems: 'unsafe center',
+                            justifyContent: 'unsafe center',
+                            width: '60px',
+                            height: '1px',
+                            paddingTop: '155px',
+                            marginLeft: '707px'
+                        }}>
+                            <div data-drawio-colors="color: rgb(0, 0, 0); "
+                                 style={{boxSizing: 'border-box', fontSize: '0px', textAlign: 'center'}}>
+                                <div style={{
+                                    display: 'inline-block',
+                                    fontSize: '12px',
+                                    fontFamily: 'Helvetica',
+                                    color: 'rgb(0, 0, 0)',
+                                    lineHeight: '1.2',
+                                    pointerEvents: 'all',
+                                    whiteSpace: 'normal',
+                                    overflowWrap: 'normal'
+                                }}>Registers
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x={737} y={159} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
+                          textAnchor="middle">Registers
+                    </text>
+                </switch>
+            </g>
+            <path
+                d="M 807 155 C 807 166.05 815.95 175 827 175 C 838.05 175 847 166.05 847 155 C 847 143.95 838.05 135 827 135 C 815.95 135 807 143.95 807 155"
+                fill="#ffffff" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="all"/>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject pointerEvents="none" width="100%" height="100%"
+                                   requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                   style={{overflow: 'visible', textAlign: 'left'}}>
+                        <div style={{
+                            display: 'flex',
+                            alignItems: 'unsafe center',
+                            justifyContent: 'unsafe center',
+                            width: '38px',
+                            height: '1px',
+                            paddingTop: '155px',
+                            marginLeft: '808px'
+                        }}>
+                            <div data-drawio-colors="color: rgb(0, 0, 0); "
+                                 style={{boxSizing: 'border-box', fontSize: '0px', textAlign: 'center'}}>
+                                <div style={{
+                                    display: 'inline-block',
+                                    fontSize: '11px',
+                                    fontFamily: 'Helvetica',
+                                    color: 'rgb(0, 0, 0)',
+                                    lineHeight: '1.2',
+                                    pointerEvents: 'all',
+                                    whiteSpace: 'normal',
+                                    overflowWrap: 'normal'
+                                }}>15
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x={827} y={158} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                          textAnchor="middle">15
+                    </text>
+                </switch>
+            </g>
+            <path d="M 310 950 L 378.88 950" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
+                  pointerEvents="stroke"/>
+            <path d="M 388.88 950 L 378.88 955 L 378.88 945 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="all"/>
+            <path
+                d="M 270 950 C 270 961.05 278.95 970 290 970 C 301.05 970 310 961.05 310 950 C 310 938.95 301.05 930 290 930 C 278.95 930 270 938.95 270 950"
+                fill="#ffffff" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="all"/>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject pointerEvents="none" width="100%" height="100%"
+                                   requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                   style={{overflow: 'visible', textAlign: 'left'}}>
+                        <div style={{
+                            display: 'flex',
+                            alignItems: 'unsafe center',
+                            justifyContent: 'unsafe center',
+                            width: '38px',
+                            height: '1px',
+                            paddingTop: '950px',
+                            marginLeft: '271px'
+                        }}>
+                            <div data-drawio-colors="color: rgb(0, 0, 0); "
+                                 style={{boxSizing: 'border-box', fontSize: '0px', textAlign: 'center'}}>
+                                <div style={{
+                                    display: 'inline-block',
+                                    fontSize: '11px',
+                                    fontFamily: 'Helvetica',
+                                    color: 'rgb(0, 0, 0)',
+                                    lineHeight: '1.2',
+                                    pointerEvents: 'all',
+                                    whiteSpace: 'normal',
+                                    overflowWrap: 'normal'
+                                }}>15
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x={290} y={953} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
+                          textAnchor="middle">15
+                    </text>
+                </switch>
+            </g>
+            <path d="M 1550 450 L 1550 460 Q 1550 470 1550 467.5 L 1550 466.25 Q 1550 465 1550 469.44 L 1550 473.88"
+                  fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10} pointerEvents="stroke"/>
+            <path d="M 1550 483.88 L 1545 473.88 L 1555 473.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)"
+                  strokeMiterlimit={10} pointerEvents="all"/>
+            <path
+                d="M 1531.25 450 L 1568.75 450 C 1574.96 450 1580 445.52 1580 440 C 1580 434.48 1574.96 430 1568.75 430 L 1531.25 430 C 1525.04 430 1520 434.48 1520 440 C 1520 445.52 1525.04 450 1531.25 450"
+                fill="#fdff02" stroke="#000000" strokeWidth={3} strokeMiterlimit={10} strokeDasharray="9 9"
+                pointerEvents="all"/>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject pointerEvents="none" width="100%" height="100%"
+                                   requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                   style={{overflow: 'visible', textAlign: 'left'}}>
+                        <div style={{
+                            display: 'flex',
+                            alignItems: 'unsafe center',
+                            justifyContent: 'unsafe center',
+                            width: '60px',
+                            height: '1px',
+                            paddingTop: '440px',
+                            marginLeft: '1520px'
+                        }}>
+                            <div data-drawio-colors="color: rgb(0, 0, 0); "
+                                 style={{boxSizing: 'border-box', fontSize: '0px', textAlign: 'center'}}>
+                                <div style={{
+                                    display: 'inline-block',
+                                    fontSize: '12px',
+                                    fontFamily: 'Helvetica',
+                                    color: 'rgb(0, 0, 0)',
+                                    lineHeight: '1.2',
+                                    pointerEvents: 'all',
+                                    whiteSpace: 'normal',
+                                    overflowWrap: 'normal'
+                                }}>Measures
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x={1550} y={444} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
+                          textAnchor="middle">Measures
                     </text>
                 </switch>
             </g>
