@@ -43,7 +43,10 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Project Management Software
+                                }}
+                                     className="class-concept large"
+                                     onClick={() => onOpenTable({tableName: "ProjectManagementSoftware"})}
+                                >Project Management Software
                                 </div>
                             </div>
                         </div>
@@ -192,7 +195,10 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Sprint
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "Sprint"})}
+                                >Sprint
                                 </div>
                             </div>
                         </div>
@@ -230,7 +236,10 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Software Development Project
+                                }}
+                                     className="class-concept large"
+                                     onClick={() => onOpenTable({tableName: "SoftwareDevelopmentProject"})}
+                                >Software Development Project
                                 </div>
                             </div>
                         </div>
@@ -387,7 +396,10 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Development team
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "DevelopmentTeam"})}
+                                >Development team
                                 </div>
                             </div>
                         </div>
@@ -501,7 +513,10 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Member
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "Member"})}
+                                >Member
                                 </div>
                             </div>
                         </div>
@@ -765,7 +780,10 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Release
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "Release"})}
+                                >Release
                                 </div>
                             </div>
                         </div>
@@ -992,7 +1010,10 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Defect
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "Defect"})}
+                                >Defect
                                 </div>
                             </div>
                         </div>
@@ -1148,7 +1169,10 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Quality Assurance Tool
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "QualityAssuranceTool"})}
+                                >Quality Assurance Tool
                                 </div>
                             </div>
                         </div>
@@ -1271,7 +1295,10 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Quality Rule
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "QualityRule"})}
+                                >Quality Rule
                                 </div>
                             </div>
                         </div>
@@ -1542,7 +1569,10 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Violation
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "Violation"})}
+                                >Violation
                                 </div>
                             </div>
                         </div>
@@ -1921,7 +1951,10 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Feature
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "Feature"})}
+                                >Feature
                                 </div>
                             </div>
                         </div>
@@ -2090,7 +2123,10 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Ticket
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "Ticket"})}
+                                >Ticket
                                 </div>
                             </div>
                         </div>
@@ -2128,7 +2164,10 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Commit
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "Commit"})}
+                                >Commit
                                 </div>
                             </div>
                         </div>
@@ -2634,7 +2673,10 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Version Control System
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "VersionControlSystem"})}
+                                >Version Control System
                                 </div>
                             </div>
                         </div>
@@ -2791,7 +2833,10 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Repository
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "Repository"})}
+                                >Repository
                                 </div>
                             </div>
                         </div>
@@ -3464,7 +3509,15 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Project Manager
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({
+                                         tableName: "Member",
+                                         title: "Project Manager",
+                                         onAdd: async table => table.get(await table.add({role: "Project Manager"})),
+                                         query: table => table.where("role").equals("Project Manager").toArray()
+                                     })}
+                                >Project Manager
                                 </div>
                             </div>
                         </div>
@@ -3833,7 +3886,15 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Software Developer
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({
+                                         tableName: "Member",
+                                         title: "Software Developer",
+                                         onAdd: async table => table.get(await table.add({role: "Software Developer"})),
+                                         query: table => table.where("role").equals("Software Developer").toArray()
+                                     })}
+                                >Software Developer
                                 </div>
                             </div>
                         </div>
@@ -4250,7 +4311,15 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Software Architect
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({
+                                         tableName: "Member",
+                                         title: "Software Architect",
+                                         onAdd: async table => table.get(await table.add({role: "Software Architect"})),
+                                         query: table => table.where("role").equals("Software Architect").toArray()
+                                     })}
+                                >Software Architect
                                 </div>
                             </div>
                         </div>
