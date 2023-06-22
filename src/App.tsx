@@ -127,11 +127,7 @@ export const App = () => {
             >
                 <DialogContent sx={{px: 5, py: 3}}>
                     <TableDataGrid
-                        tableName={tableDataGridProps.tableName}
-                        title={tableDataGridProps.title}
-                        subTitle={tableDataGridProps.subTitle}
-                        onAdd={tableDataGridProps.onAdd}
-                        query={tableDataGridProps.query}
+                        {...tableDataGridProps}
                     />
                 </DialogContent>
             </Dialog>
