@@ -4513,7 +4513,10 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Measures
+                                }}
+                                     className="dynamic-relationship"
+                                     onClick={measureTechDebt}
+                                >Measures
                                 </div>
                             </div>
                         </div>
@@ -5777,7 +5780,10 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Measures
+                                }}
+                                     className="dynamic-relationship"
+                                     onClick={measureTechDebt}
+                                >Measures
                                 </div>
                             </div>
                         </div>
