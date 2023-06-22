@@ -3557,7 +3557,15 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Creates
+                                }}
+                                     className="dynamic-relationship"
+                                     onClick={() => onOpenTable({
+                                         tableName: "Ticket",
+                                         subTitle: "Create some tickets",
+                                         canCreate: true,
+                                         canUpdate: true
+                                     })}
+                                >Creates
                                 </div>
                             </div>
                         </div>
@@ -3597,7 +3605,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Updates
+                                }}
+                                     className="dynamic-relationship"
+                                     onClick={() => onOpenTable({
+                                         tableName: "Ticket",
+                                         subTitle: "Update some ticket information",
+                                         canUpdate: true
+                                     })}
+                                >Updates
                                 </div>
                             </div>
                         </div>
@@ -3676,7 +3691,15 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Plans
+                                }}
+                                     className="dynamic-relationship"
+                                     onClick={() => onOpenTable({
+                                         tableName: "Sprint",
+                                         subTitle: "Create sprints and assign tickets to them",
+                                         canUpdate: true,
+                                         canCreate: true
+                                     })}
+                                >Plans
                                 </div>
                             </div>
                         </div>
@@ -3934,7 +3957,15 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Writes
+                                }}
+                                     className="dynamic-relationship"
+                                     onClick={() => onOpenTable({
+                                         tableName: "Feature",
+                                         subTitle: "Write or modify a feature",
+                                         canUpdate: true,
+                                         canCreate: true
+                                     })}
+                                >Writes
                                 </div>
                             </div>
                         </div>
@@ -3975,7 +4006,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Refactors
+                                }}
+                                     className="dynamic-relationship"
+                                     onClick={() => onOpenTable({
+                                         tableName: "Violation",
+                                         subTitle: "Remove a violation by refactoring a feature",
+                                         canDelete: true
+                                     })}
+                                >Refactors
                                 </div>
                             </div>
                         </div>
@@ -4015,7 +4053,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Develops
+                                }}
+                                     className="dynamic-relationship"
+                                     onClick={() => onOpenTable({
+                                         tableName: "Ticket",
+                                         subTitle: "Set or change the asignee of the ticket",
+                                         canUpdate: true
+                                     })}
+                                >Develops
                                 </div>
                             </div>
                         </div>
@@ -4360,7 +4405,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Refactors
+                                }}
+                                     className="dynamic-relationship"
+                                     onClick={() => onOpenTable({
+                                         tableName: "Violation",
+                                         subTitle: "Remove a violation by refactoring a feature",
+                                         canDelete: true
+                                     })}
+                                >Refactors
                                 </div>
                             </div>
                         </div>
@@ -4739,7 +4791,15 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Makes
+                                }}
+                                     className="dynamic-relationship"
+                                     onClick={() => onOpenTable({
+                                         tableName: "Violation",
+                                         subTitle: "Create or update a violation",
+                                         canCreate: true,
+                                         canUpdate: true
+                                     })}
+                                >Makes
                                 </div>
                             </div>
                         </div>
@@ -4779,7 +4839,15 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Reports
+                                }}
+                                     className="dynamic-relationship"
+                                     onClick={() => onOpenTable({
+                                         tableName: "Defect",
+                                         subTitle: "Report a Defect in the application",
+                                         canCreate: true,
+                                         canUpdate: true
+                                     })}
+                                >Reports
                                 </div>
                             </div>
                         </div>
@@ -4819,7 +4887,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Fixes
+                                }}
+                                     className="dynamic-relationship"
+                                     onClick={() => onOpenTable({
+                                         tableName: "Defect",
+                                         subTitle: "Fix a Defect of the application by deleting it",
+                                         canDelete: true
+                                     })}
+                                >Fixes
                                 </div>
                             </div>
                         </div>
@@ -4860,7 +4935,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Fixes
+                                }}
+                                     className="dynamic-relationship"
+                                     onClick={() => onOpenTable({
+                                         tableName: "Defect",
+                                         subTitle: "Fix a Defect of the application by deleting it",
+                                         canDelete: true
+                                     })}
+                                >Fixes
                                 </div>
                             </div>
                         </div>
@@ -4900,7 +4982,15 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Publishes
+                                }}
+                                     className="dynamic-relationship"
+                                     onClick={() => onOpenTable({
+                                         tableName: "Release",
+                                         subTitle: "Publish a Release of the code",
+                                         canCreate: true,
+                                         canUpdate: true
+                                     })}
+                                >Publishes
                                 </div>
                             </div>
                         </div>
@@ -5014,7 +5104,15 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Registers
+                                }}
+                                     className="dynamic-relationship"
+                                     onClick={() => onOpenTable({
+                                         tableName: "Member",
+                                         subTitle: "Register a development team member",
+                                         canCreate: true,
+                                         canUpdate: true
+                                     })}
+                                >Registers
                                 </div>
                             </div>
                         </div>
@@ -5128,7 +5226,15 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Registers
+                                }}
+                                     className="dynamic-relationship"
+                                     onClick={() => onOpenTable({
+                                         tableName: "SoftwareDevelopmentProject",
+                                         subTitle: "Register a Software Development Project",
+                                         canCreate: true,
+                                         canUpdate: true
+                                     })}
+                                >Registers
                                 </div>
                             </div>
                         </div>
@@ -5242,7 +5348,15 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Creates
+                                }}
+                                     className="dynamic-relationship"
+                                     onClick={() => onOpenTable({
+                                         tableName: "Repository",
+                                         subTitle: "Create a Repository",
+                                         canCreate: true,
+                                         canUpdate: true
+                                     })}
+                                >Creates
                                 </div>
                             </div>
                         </div>
@@ -5282,7 +5396,15 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Makes
+                                }}
+                                     className="dynamic-relationship"
+                                     onClick={() => onOpenTable({
+                                         tableName: "Commit",
+                                         subTitle: "Create a commit",
+                                         canCreate: true,
+                                         canUpdate: true
+                                     })}
+                                >Makes
                                 </div>
                             </div>
                         </div>
@@ -5322,7 +5444,15 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Makes
+                                }}
+                                     className="dynamic-relationship"
+                                     onClick={() => onOpenTable({
+                                         tableName: "Commit",
+                                         subTitle: "Create a commit",
+                                         canCreate: true,
+                                         canUpdate: true
+                                     })}
+                                >Makes
                                 </div>
                             </div>
                         </div>
@@ -5357,7 +5487,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>14
+                                }}>17
                                 </div>
                             </div>
                         </div>
@@ -5432,7 +5562,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>14
+                                }}>17
                                 </div>
                             </div>
                         </div>
@@ -5512,7 +5642,15 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Registers
+                                }}
+                                     className="dynamic-relationship"
+                                     onClick={() => onOpenTable({
+                                         tableName: "Code",
+                                         subTitle: "Register an application Code base",
+                                         canCreate: true,
+                                         canUpdate: true
+                                     })}
+                                >Registers
                                 </div>
                             </div>
                         </div>
@@ -5587,7 +5725,15 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Registers
+                                }}
+                                     className="dynamic-relationship"
+                                     onClick={() => onOpenTable({
+                                         tableName: "Application",
+                                         subTitle: "Register an Application",
+                                         canCreate: true,
+                                         canUpdate: true
+                                     })}
+                                >Registers
                                 </div>
                             </div>
                         </div>
@@ -5666,7 +5812,15 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Registers
+                                }}
+                                     className="dynamic-relationship"
+                                     onClick={() => onOpenTable({
+                                         tableName: "DevelopmentTeam",
+                                         subTitle: "Register a Development Team",
+                                         canCreate: true,
+                                         canUpdate: true
+                                     })}
+                                >Registers
                                 </div>
                             </div>
                         </div>
@@ -5701,7 +5855,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>15
+                                }}>16
                                 </div>
                             </div>
                         </div>
@@ -5740,7 +5894,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>15
+                                }}>16
                                 </div>
                             </div>
                         </div>
