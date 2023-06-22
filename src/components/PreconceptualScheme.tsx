@@ -48,9 +48,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={60} y={793} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Project Management Sof...
-                    </text>
                 </switch>
             </g>
             <path d="M 280 760 L 360 760 L 360 730 L 280 730 L 280 760" fill="#c1c0c4" stroke="#000000"
@@ -85,9 +82,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={320} y={748} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">ID
-                    </text>
                 </switch>
             </g>
             <path d="M 280 805 L 360 805 L 360 775 L 280 775 L 280 805" fill="#c1c0c4" stroke="#000000"
@@ -122,9 +116,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={320} y={793} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Name
-                    </text>
                 </switch>
             </g>
             <path d="M 200 800 L 200 825 Q 200 835 210 835 L 268.88 835" fill="none" stroke="rgb(0, 0, 0)"
@@ -168,9 +159,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={200} y={793} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Has
-                    </text>
                 </switch>
             </g>
             <path d="M 320 630 L 320 625 Q 320 620 320 610 L 320 597.12" fill="none" stroke="rgb(0, 0, 0)"
@@ -209,9 +197,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={310} y={648} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Sprint
-                    </text>
                 </switch>
             </g>
             <path d="M 400 835 L 438.88 835" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
@@ -250,9 +235,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={340} y={838} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Software Development P...
-                    </text>
                 </switch>
             </g>
             <path d="M 510 835 L 580 835 Q 590 835 590 825 L 590 805 Q 590 795 600 795 L 618.88 795" fill="none"
@@ -304,9 +286,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={480} y={838} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Has
-                    </text>
                 </switch>
             </g>
             <path d="M 630 811 L 710 811 L 710 781 L 630 781 L 630 811" fill="#c1c0c4" stroke="#000000"
@@ -341,9 +320,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={670} y={799} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">ID
-                    </text>
                 </switch>
             </g>
             <path d="M 630 850 L 710 850 L 710 820 L 630 820 L 630 850" fill="#c1c0c4" stroke="#000000"
@@ -378,9 +354,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={670} y={838} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Deadline
-                    </text>
                 </switch>
             </g>
             <path d="M 430 965 L 430 975 Q 430 985 430 982.5 L 430 981.25 Q 430 980 430 984.44 L 430 988.88" fill="none"
@@ -419,9 +392,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={430} y={953} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Development tea...
-                    </text>
                 </switch>
             </g>
             <path d="M 490 965 L 570 965 L 570 935 L 490 935 L 490 965" fill="#02b3ef" stroke="#000000"
@@ -451,14 +421,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Application
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "Application"})}
+                                >Application
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={530} y={953} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Application
-                    </text>
                 </switch>
             </g>
             <path d="M 430 1020 L 430 1025 Q 430 1030 440 1030 L 460 1030 Q 470 1030 470 1036.94 L 470 1043.88"
@@ -498,9 +468,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={430} y={1013} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Has
-                    </text>
                 </switch>
             </g>
             <path d="M 450 1085 L 450 1092.5 Q 450 1100 450 1104.44 L 450 1108.88" fill="none" stroke="rgb(0, 0, 0)"
@@ -539,9 +506,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={480} y={1073} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Member
-                    </text>
                 </switch>
             </g>
             <path d="M 440 1140 L 440 1165 Q 440 1175 430 1175 L 401.12 1175" fill="none" stroke="rgb(0, 0, 0)"
@@ -589,9 +553,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={450} y={1133} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Has
-                    </text>
                 </switch>
             </g>
             <path d="M 310 1145 L 390 1145 L 390 1115 L 310 1115 L 310 1145" fill="#c1c0c4" stroke="#000000"
@@ -626,9 +587,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={350} y={1133} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">ID
-                    </text>
                 </switch>
             </g>
             <path d="M 310 1180 L 390 1180 L 390 1150 L 310 1150 L 310 1180" fill="#c1c0c4" stroke="#000000"
@@ -663,9 +621,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={350} y={1168} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Role
-                    </text>
                 </switch>
             </g>
             <path d="M 310 1216 L 390 1216 L 390 1186 L 310 1186 L 310 1216" fill="#c1c0c4" stroke="#000000"
@@ -700,9 +655,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={350} y={1204} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Name
-                    </text>
                 </switch>
             </g>
             <path d="M 660 960 L 660 980 Q 660 990 660 999.44 L 660 1008.88" fill="none" stroke="rgb(0, 0, 0)"
@@ -742,9 +694,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={650} y={953} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Has
-                    </text>
                 </switch>
             </g>
             <path d="M 530 1055 L 610 1055 L 610 1025 L 530 1025 L 530 1055" fill="#c1c0c4" stroke="#000000"
@@ -779,9 +728,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={570} y={1043} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">ID
-                    </text>
                 </switch>
             </g>
             <path d="M 760 965 L 760 975 Q 760 985 760 982.5 L 760 981.25 Q 760 980 760 984.44 L 760 988.88" fill="none"
@@ -824,9 +770,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={760} y={953} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Release
-                    </text>
                 </switch>
             </g>
             <path d="M 760 1020 L 760 1030 Q 760 1040 760 1037.5 L 760 1036.25 Q 760 1035 760 1039.44 L 760 1043.88"
@@ -866,9 +809,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={760} y={1013} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Has
-                    </text>
                 </switch>
             </g>
             <path d="M 720 1085 L 800 1085 L 800 1055 L 720 1055 L 720 1085" fill="#c1c0c4" stroke="#000000"
@@ -903,9 +843,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={760} y={1073} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Version number
-                    </text>
                 </switch>
             </g>
             <path d="M 910 950 L 958.88 950" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
@@ -945,9 +882,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={880} y={953} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Has
-                    </text>
                 </switch>
             </g>
             <path d="M 1010 965 L 1010 975 Q 1010 985 1010 982.5 L 1010 981.25 Q 1010 980 1010 984.44 L 1010 988.88"
@@ -987,9 +921,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1010} y={1013} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Has
-                    </text>
                 </switch>
             </g>
             <path d="M 820 1085 L 900 1085 L 900 1055 L 820 1055 L 820 1085" fill="#c1c0c4" stroke="#000000"
@@ -1024,9 +955,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={860} y={1073} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">ID
-                    </text>
                 </switch>
             </g>
             <path d="M 570 950 L 608.88 950" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
@@ -1069,9 +997,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1010} y={953} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Defect
-                    </text>
                 </switch>
             </g>
             <path d="M 920 1085 L 1000 1085 L 1000 1055 L 920 1055 L 920 1085" fill="#c1c0c4" stroke="#000000"
@@ -1106,9 +1031,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={960} y={1073} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Ocurrence date
-                    </text>
                 </switch>
             </g>
             <path d="M 340 1085 L 420 1085 L 420 1055 L 340 1055 L 340 1085" fill="#c1c0c4" stroke="#000000"
@@ -1143,9 +1065,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={380} y={1073} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">ID
-                    </text>
                 </switch>
             </g>
             <path d="M 430 1020 L 430 1025 Q 430 1030 420 1030 L 400 1030 Q 390 1030 390 1036.94 L 390 1043.88"
@@ -1184,9 +1103,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1060} y={1073} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Description
-                    </text>
                 </switch>
             </g>
             <path d="M 980 1010 L 870 1010 Q 860 1010 860 1020 L 860 1043.88" fill="none" stroke="rgb(0, 0, 0)"
@@ -1237,9 +1153,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={480} y={657} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Quality Assuran...
-                    </text>
                 </switch>
             </g>
             <path d="M 480 725 L 480 737.57 Q 480 747.57 490 747.57 L 515 747.57 Q 525 747.57 525 753.23 L 525 758.88"
@@ -1291,9 +1204,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={480} y={718} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Has
-                    </text>
                 </switch>
             </g>
             <path d="M 485 800 L 565 800 L 565 770 L 485 770 L 485 800" fill="#c1c0c4" stroke="#000000"
@@ -1328,9 +1238,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={525} y={788} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Tool Name
-                    </text>
                 </switch>
             </g>
             <path d="M 640 715 L 678.88 715" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
@@ -1369,9 +1276,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={600} y={718} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Quality Rule
-                    </text>
                 </switch>
             </g>
             <path d="M 720 705 L 720 685 Q 720 675 710 675 L 610 675 Q 600 675 600 665 L 600 641.12" fill="none"
@@ -1435,9 +1339,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={720} y={718} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Has
-                    </text>
                 </switch>
             </g>
             <path d="M 560 630 L 640 630 L 640 600 L 560 600 L 560 630" fill="#c1c0c4" stroke="#000000"
@@ -1472,9 +1373,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={600} y={618} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Name
-                    </text>
                 </switch>
             </g>
             <path d="M 650 630 L 730 630 L 730 600 L 650 600 L 650 630" fill="#c1c0c4" stroke="#000000"
@@ -1509,9 +1407,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={690} y={618} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Compliance
-                    </text>
                 </switch>
             </g>
             <path d="M 740 630 L 820 630 L 820 600 L 740 600 L 740 630" fill="#c1c0c4" stroke="#000000"
@@ -1546,9 +1441,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={780} y={618} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Rule type
-                    </text>
                 </switch>
             </g>
             <path d="M 830 630 L 910 630 L 910 600 L 830 600 L 830 630" fill="#c1c0c4" stroke="#000000"
@@ -1583,9 +1475,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={870} y={618} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Interest
-                    </text>
                 </switch>
             </g>
             <path d="M 920 630 L 1000 630 L 1000 600 L 920 600 L 920 630" fill="#c1c0c4" stroke="#000000"
@@ -1620,9 +1509,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={960} y={618} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Principal
-                    </text>
                 </switch>
             </g>
             <path d="M 1180 615 L 1208.88 615" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
@@ -1661,9 +1547,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1140} y={618} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Violation
-                    </text>
                 </switch>
             </g>
             <path d="M 1240 625 L 1240 632.5 Q 1240 640 1230 640 L 1200 640 Q 1190 640 1190 644.44 L 1190 648.88"
@@ -1707,9 +1590,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1250} y={618} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Has
-                    </text>
                 </switch>
             </g>
             <path d="M 1150 690 L 1230 690 L 1230 660 L 1150 660 L 1150 690" fill="#c1c0c4" stroke="#000000"
@@ -1744,9 +1624,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1190} y={678} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">ID
-                    </text>
                 </switch>
             </g>
             <path d="M 1050 485 L 1050 495 Q 1050 505 1050 498 L 1050 494.5 Q 1050 491 1050 495.44 L 1050 499.88"
@@ -1780,14 +1657,14 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     pointerEvents: 'all',
                                     whiteSpace: 'normal',
                                     overflowWrap: 'normal'
-                                }}>Code
+                                }}
+                                     className="class-concept"
+                                     onClick={() => onOpenTable({tableName: "Code"})}
+                                >Code
                                 </div>
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1050} y={473} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Code
-                    </text>
                 </switch>
             </g>
             <path d="M 1070 531 L 1070 550 Q 1070 560 1080 560 L 1110 560 Q 1120 560 1120 570 L 1120 588.88" fill="none"
@@ -1827,9 +1704,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={730} y={873} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">1
-                    </text>
                 </switch>
             </g>
             <path d="M 1080 520 L 1090 520 Q 1100 520 1100 510 L 1100 490 Q 1100 480 1110 480 L 1188.88 480" fill="none"
@@ -1877,9 +1751,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1050} y={524} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Has
-                    </text>
                 </switch>
             </g>
             <path d="M 1200 494 L 1280 494 L 1280 464 L 1200 464 L 1200 494" fill="#c1c0c4" stroke="#000000"
@@ -1914,9 +1785,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1240} y={482} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">ID
-                    </text>
                 </switch>
             </g>
             <path d="M 1200 530 L 1280 530 L 1280 500 L 1200 500 L 1200 530" fill="#c1c0c4" stroke="#000000"
@@ -1951,9 +1819,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1240} y={518} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Total Lines of...
-                    </text>
                 </switch>
             </g>
             <path d="M 1200 566 L 1280 566 L 1280 536 L 1200 536 L 1200 566" fill="#c1c0c4" stroke="#000000"
@@ -1988,9 +1853,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1240} y={554} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Technical Debt
-                    </text>
                 </switch>
             </g>
             <path d="M 880 435 L 841.12 435" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
@@ -2030,9 +1892,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1040} y={579} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">1
-                    </text>
                 </switch>
             </g>
             <path d="M 880 450 L 960 450 L 960 420 L 880 420 L 880 450" fill="#02b3ef" stroke="#000000"
@@ -2067,9 +1926,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={920} y={438} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Feature
-                    </text>
                 </switch>
             </g>
             <path d="M 730 890 L 730 910 Q 730 920 730 921.94 L 730 923.88" fill="none" stroke="rgb(0, 0, 0)"
@@ -2129,9 +1985,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={800} y={438} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Has
-                    </text>
                 </switch>
             </g>
             <path d="M 1040 531 L 1040 535.5 Q 1040 540 1040 542.44 L 1040 544.88" fill="none" stroke="rgb(0, 0, 0)"
@@ -2170,9 +2023,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={700} y={378} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">ID
-                    </text>
                 </switch>
             </g>
             <path d="M 760 390 L 840 390 L 840 360 L 760 360 L 760 390" fill="#c1c0c4" stroke="#000000"
@@ -2207,9 +2057,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={800} y={378} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Description
-                    </text>
                 </switch>
             </g>
             <path d="M 569.76 419.13 L 569.83 396.64" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
@@ -2248,9 +2095,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={600} y={438} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Ticket
-                    </text>
                 </switch>
             </g>
             <path d="M 400 305 L 395 305 Q 390 305 380 305 L 361.12 305" fill="none" stroke="rgb(0, 0, 0)"
@@ -2289,9 +2133,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={440} y={300} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Commit
-                    </text>
                 </switch>
             </g>
             <path d="M 550 375 L 545 375 Q 540 375 540 365 L 540 310 Q 540 300 530 300 L 491.12 300" fill="none"
@@ -2351,9 +2192,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={580} y={378} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Has
-                    </text>
                 </switch>
             </g>
             <path d="M 400 351 L 480 351 L 480 321 L 400 321 L 400 351" fill="#c1c0c4" stroke="#000000"
@@ -2388,9 +2226,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={440} y={339} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Key
-                    </text>
                 </switch>
             </g>
             <path d="M 400 390 L 480 390 L 480 360 L 400 360 L 400 390" fill="#c1c0c4" stroke="#000000"
@@ -2425,9 +2260,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={440} y={378} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Definition of D...
-                    </text>
                 </switch>
             </g>
             <path d="M 400 430 L 480 430 L 480 400 L 400 400 L 400 430" fill="#c1c0c4" stroke="#000000"
@@ -2462,9 +2294,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={440} y={418} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Title
-                    </text>
                 </switch>
             </g>
             <path d="M 400 470 L 480 470 L 480 440 L 400 440 L 400 470" fill="#c1c0c4" stroke="#000000"
@@ -2499,9 +2328,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={440} y={458} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Points
-                    </text>
                 </switch>
             </g>
             <path d="M 400 509 L 480 509 L 480 479 L 400 479 L 400 509" fill="#c1c0c4" stroke="#000000"
@@ -2536,9 +2362,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={440} y={497} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Asignee
-                    </text>
                 </switch>
             </g>
             <path d="M 320 295 L 320 285 Q 320 275 310 275 L 251.12 275" fill="none" stroke="rgb(0, 0, 0)"
@@ -2582,9 +2405,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={320} y={308} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Has
-                    </text>
                 </switch>
             </g>
             <path d="M 160 290 L 240 290 L 240 260 L 160 260 L 160 290" fill="#c1c0c4" stroke="#000000"
@@ -2619,9 +2439,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={200} y={278} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Hash
-                    </text>
                 </switch>
             </g>
             <path d="M 160 350 L 240 350 L 240 320 L 160 320 L 160 350" fill="#c1c0c4" stroke="#000000"
@@ -2656,9 +2473,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={200} y={338} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Message
-                    </text>
                 </switch>
             </g>
             <path d="M 320 566 L 320 520.12" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
@@ -2706,9 +2520,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={320} y={579} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Has
-                    </text>
                 </switch>
             </g>
             <path d="M 200 780 L 200 655 Q 200 645 210 645 L 258.88 645" fill="none" stroke="rgb(0, 0, 0)"
@@ -2747,9 +2558,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={320} y={497} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Sprint Number
-                    </text>
                 </switch>
             </g>
             <path d="M 230 790 L 235 790 Q 240 790 240 780 L 240 755 Q 240 745 250 745 L 268.88 745" fill="none"
@@ -2793,9 +2601,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={660} y={898} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">2
-                    </text>
                 </switch>
             </g>
             <path d="M 610 110 L 610 120 Q 610 130 610 127.5 L 610 126.25 Q 610 125 610 129.44 L 610 133.88" fill="none"
@@ -2834,9 +2639,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={610} y={98} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Version Control...
-                    </text>
                 </switch>
             </g>
             <path d="M 610 165 L 610 170 Q 610 175 600 175 L 570 175 Q 560 175 560 181.94 L 560 188.88" fill="none"
@@ -2888,9 +2690,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={610} y={158} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Has
-                    </text>
                 </switch>
             </g>
             <path d="M 520 230 L 600 230 L 600 200 L 520 200 L 520 230" fill="#c1c0c4" stroke="#000000"
@@ -2925,9 +2724,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={560} y={218} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">ID
-                    </text>
                 </switch>
             </g>
             <path d="M 620 230 L 700 230 L 700 200 L 620 200 L 620 230" fill="#c1c0c4" stroke="#000000"
@@ -2962,9 +2758,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={660} y={218} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Name
-                    </text>
                 </switch>
             </g>
             <path d="M 440 170 L 440 198.88" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
@@ -3003,9 +2796,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={440} y={158} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Repository
-                    </text>
                 </switch>
             </g>
             <path
@@ -3041,9 +2831,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={510} y={81} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">2
-                    </text>
                 </switch>
             </g>
             <path d="M 440 230 L 440 270.88" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
@@ -3087,9 +2874,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={440} y={223} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Has
-                    </text>
                 </switch>
             </g>
             <path d="M 290 135 L 370 135 L 370 105 L 290 105 L 290 135" fill="#c1c0c4" stroke="#000000"
@@ -3124,9 +2908,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={330} y={123} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">ID
-                    </text>
                 </switch>
             </g>
             <path d="M 170 510 L 250 510 L 250 480 L 170 480 L 170 510" fill="#c1c0c4" stroke="#000000"
@@ -3161,9 +2942,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={210} y={498} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Duration
-                    </text>
                 </switch>
             </g>
             <path d="M 5 512.75 L 115 512.75 L 115 475.25 L 5 475.25 L 5 512.75" fill="#ffffff" stroke="rgb(0, 0, 0)"
@@ -3198,9 +2976,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={60} y={498} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">2 Weeks
-                    </text>
                 </switch>
             </g>
             <path d="M 170 494.73 L 115 494.37" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
@@ -3238,9 +3013,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={660} y={1043} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">3
-                    </text>
                 </switch>
             </g>
             <path d="M 1020 410 L 1020 443.88" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
@@ -3280,9 +3052,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1020} y={393} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">3
-                    </text>
                 </switch>
             </g>
             <path d="M 395 800 L 475 800 L 475 770 L 395 770 L 395 800" fill="#c1c0c4" stroke="#000000"
@@ -3317,9 +3086,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={435} y={788} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">ID
-                    </text>
                 </switch>
             </g>
             <path d="M 1010 630 L 1090 630 L 1090 600 L 1010 600 L 1010 630" fill="#c1c0c4" stroke="#000000"
@@ -3354,9 +3120,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1050} y={618} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">ID
-                    </text>
                 </switch>
             </g>
             <path d="M 360 651 L 420 651 L 420 586 L 360 586 L 360 651" fill="#ffffff" stroke="rgb(0, 0, 0)"
@@ -3411,9 +3174,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={390} y={622} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">- Jira...
-                    </text>
                 </switch>
             </g>
             <path d="M 360 790 L 365 790 Q 370 790 370.04 780 L 370.5 651.52" fill="none" stroke="rgb(0, 0, 0)"
@@ -3467,9 +3227,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={210} y={1169} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">- Software Developer...
-                    </text>
                 </switch>
             </g>
             <path d="M 760 93.5 L 850 93.5 L 850 26 L 760 26 L 760 93.5" fill="#ffffff" stroke="rgb(0, 0, 0)"
@@ -3521,9 +3278,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={805} y={63} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">- Git- Subversi...
-                    </text>
                 </switch>
             </g>
             <path d="M 689.68 197.63 L 689.98 70 Q 690 60 700 59.98 L 760 59.85" fill="none" stroke="rgb(0, 0, 0)"
@@ -3561,7 +3315,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                         fontFamily: 'Calibri',
                                         letterSpacing: '0px'
                                     }}>- Code clones</span></div>
-
                                     <div style={{textAlign: 'left'}}><span style={{
                                         backgroundColor: 'initial',
                                         fontFamily: 'Calibri',
@@ -3591,9 +3344,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={725} y={520} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">- Code clones- High comme...
-                    </text>
                 </switch>
             </g>
             <path d="M 779.97 600 L 779.9 567.4" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
@@ -3649,9 +3399,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={812} y={771} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">- SonarQube- C...
-                    </text>
                 </switch>
             </g>
             <path d="M 687 280 L 660 280 Q 650 280 650.56 280 L 651.12 280" fill="none" stroke="rgb(0, 0, 0)"
@@ -3722,9 +3469,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={727} y={277} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Project Manager
-                    </text>
                 </switch>
             </g>
             <path d="M 617 292 L 617 380 Q 617 390 617 399.44 L 617 408.88" fill="none" stroke="rgb(0, 0, 0)"
@@ -3765,9 +3509,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={610} y={286} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">Creates
-                    </text>
                 </switch>
             </g>
             <path d="M 660 327 L 660 340 Q 660 350 650 350 L 640 350 Q 630 350 630 360 L 630 408.88" fill="none"
@@ -3808,9 +3549,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={660} y={321} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">Updates
-                    </text>
                 </switch>
             </g>
             <path d="M 860 272 L 865 272 Q 870 272 874.44 272 L 878.88 272" fill="none" stroke="rgb(0, 0, 0)"
@@ -3850,9 +3588,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={830} y={277} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Is
-                    </text>
                 </switch>
             </g>
             <path d="M 760 335 L 765 335 Q 770 335 774.44 335 L 778.88 335" fill="none" stroke="rgb(0, 0, 0)"
@@ -3893,9 +3628,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={730} y={344} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">Plans
-                    </text>
                 </switch>
             </g>
             <path
@@ -3931,9 +3663,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={810} y={338} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">4
-                    </text>
                 </switch>
             </g>
             <path d="M 310 685 L 310 675 Q 310 665 310 672.5 L 310 676.25 Q 310 680 310 675.56 L 310 671.12" fill="none"
@@ -3973,9 +3702,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={310} y={708} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">4
-                    </text>
                 </switch>
             </g>
             <path
@@ -4011,9 +3737,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={910} y={275} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">5
-                    </text>
                 </switch>
             </g>
             <path d="M 562.72 1069.52 L 550 1069.55 Q 540 1069.57 535.56 1069.67 L 531.12 1069.76" fill="none"
@@ -4053,9 +3776,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={580} y={1083} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">5
-                    </text>
                 </switch>
             </g>
             <path d="M 1210 357 L 1181.12 357" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
@@ -4118,9 +3838,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1250} y={360} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Software Develo...
-                    </text>
                 </switch>
             </g>
             <path d="M 1110 350 L 960 350 Q 950 350 950 360 L 950 408.88" fill="none" stroke="rgb(0, 0, 0)"
@@ -4161,9 +3878,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1140} y={361} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">Writes
-                    </text>
                 </switch>
             </g>
             <path
@@ -4205,9 +3919,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1140} y={399} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">Refactors
-                    </text>
                 </switch>
             </g>
             <path d="M 1140 327 L 1140 333.5 Q 1140 340 1130 340 L 951.12 340" fill="none" stroke="rgb(0, 0, 0)"
@@ -4248,9 +3959,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1140} y={321} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">Develops
-                    </text>
                 </switch>
             </g>
             <path
@@ -4286,9 +3994,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={920} y={339} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">6
-                    </text>
                 </switch>
             </g>
             <path d="M 570 505 L 570 497.5 Q 570 490 570 480 L 570 461.12" fill="none" stroke="rgb(0, 0, 0)"
@@ -4328,9 +4033,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={570} y={528} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">6
-                    </text>
                 </switch>
             </g>
             <path
@@ -4366,9 +4068,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1140} y={252} fill="#FFFFFF" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Guarantee
-                    </text>
                 </switch>
             </g>
             <path d="M 1140 259 L 1140 298.06" fill="none" stroke="rgb(0, 0, 0)" strokeWidth={4} strokeMiterlimit={10}
@@ -4408,9 +4107,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1250} y={205} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">7
-                    </text>
                 </switch>
             </g>
             <path d="M 1250 267 L 1250 232.37" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
@@ -4450,9 +4146,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1250} y={280} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Is
-                    </text>
                 </switch>
             </g>
             <path d="M 560 1130 L 520 1130 Q 510 1130 510 1120 L 510 1096.12" fill="none" stroke="rgb(0, 0, 0)"
@@ -4492,9 +4185,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={580} y={1133} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">7
-                    </text>
                 </switch>
             </g>
             <path d="M 1390 372 L 1390 381 Q 1390 390 1390 400 L 1390 413.88" fill="none" stroke="rgb(0, 0, 0)"
@@ -4565,9 +4255,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1410} y={360} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Software Archit...
-                    </text>
                 </switch>
             </g>
             <path
@@ -4609,9 +4296,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1380} y={439} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">Refactors
-                    </text>
                 </switch>
             </g>
             <path d="M 1410 267 L 1410 257 Q 1410 247 1410 251 L 1410 253 Q 1410 255 1410 250.56 L 1410 246.12"
@@ -4651,9 +4335,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1410} y={280} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Is
-                    </text>
                 </switch>
             </g>
             <path
@@ -4689,9 +4370,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1410} y={218} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">8
-                    </text>
                 </switch>
             </g>
             <path d="M 490 1162 L 490 1150 Q 490 1140 490 1130 L 490 1096.12" fill="none" stroke="rgb(0, 0, 0)"
@@ -4731,9 +4409,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={490} y={1185} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">8
-                    </text>
                 </switch>
             </g>
             <path d="M 1480 420 L 1480 430 Q 1480 440 1480 432.5 L 1480 428.75 Q 1480 425 1480 429.44 L 1480 433.88"
@@ -4774,9 +4449,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1480} y={414} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">Measures
-                    </text>
                 </switch>
             </g>
             <path
@@ -4812,9 +4484,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1480} y={468} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">9
-                    </text>
                 </switch>
             </g>
             <path d="M 960 570 L 960 580 Q 960 590 960 585 L 960 582.5 Q 960 580 960 584.44 L 960 588.88" fill="none"
@@ -4854,9 +4523,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={960} y={553} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">10
-                    </text>
                 </switch>
             </g>
             <path d="M 870 571 L 870 581 Q 870 591 870 585.5 L 870 582.75 Q 870 580 870 584.44 L 870 588.88" fill="none"
@@ -4896,9 +4562,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={870} y={554} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">9
-                    </text>
                 </switch>
             </g>
             <path
@@ -4934,9 +4597,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1550} y={508} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">10
-                    </text>
                 </switch>
             </g>
             <path d="M 860 390 L 940 390 L 940 360 L 860 360 L 860 390" fill="#c1c0c4" stroke="#000000"
@@ -4971,9 +4631,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={900} y={378} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">Lines of Code (...
-                    </text>
                 </switch>
             </g>
             <path
@@ -5015,9 +4672,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1270} y={424} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">Makes
-                    </text>
                 </switch>
             </g>
             <path d="M 1420 490 L 1420 990 Q 1420 1000 1410 1000 L 1050 1000 Q 1040 1000 1040 990 L 1040 976.12"
@@ -5058,9 +4712,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1420} y={484} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">Reports
-                    </text>
                 </switch>
             </g>
             <path d="M 1330 535 L 1330 900 Q 1330 910 1320 910 L 1040 910 Q 1030 910 1030 916.94 L 1030 923.88"
@@ -5101,9 +4752,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1330} y={529} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">Fixes
-                    </text>
                 </switch>
             </g>
             <path
@@ -5145,9 +4793,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1594} y={321} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">Fixes
-                    </text>
                 </switch>
             </g>
             <path d="M 1550 264 L 1550 233.12" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
@@ -5188,9 +4833,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1550} y={278} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">Publishes
-                    </text>
                 </switch>
             </g>
             <path
@@ -5226,9 +4868,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1550} y={205} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">11
-                    </text>
                 </switch>
             </g>
             <path d="M 777 900 L 777 920 Q 777 930 777 926.94 L 777 923.88" fill="none" stroke="rgb(0, 0, 0)"
@@ -5268,9 +4907,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={777} y={883} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">11
-                    </text>
                 </switch>
             </g>
             <path d="M 565 249 L 526.12 249" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
@@ -5311,9 +4947,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={595} y={253} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">Registers
-                    </text>
                 </switch>
             </g>
             <path
@@ -5349,9 +4982,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={495} y={252} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">12
-                    </text>
                 </switch>
             </g>
             <path d="M 495 1020 L 495 1040 Q 495 1050 495 1046.94 L 495 1043.88" fill="none" stroke="rgb(0, 0, 0)"
@@ -5391,9 +5021,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={495} y={1003} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">12
-                    </text>
                 </switch>
             </g>
             <path d="M 860 240 L 928.88 240" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
@@ -5434,9 +5061,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={830} y={244} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">Registers
-                    </text>
                 </switch>
             </g>
             <path
@@ -5472,9 +5096,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={960} y={243} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">13
-                    </text>
                 </switch>
             </g>
             <path d="M 340 890 L 340 861.12" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
@@ -5514,9 +5135,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={340} y={913} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">13
-                    </text>
                 </switch>
             </g>
             <path d="M 1480 155 L 1480 20 Q 1480 10 1470 10 L 450 10 Q 440 10 440 20 L 440 128.88" fill="none"
@@ -5557,9 +5175,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1480} y={169} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">Creates
-                    </text>
                 </switch>
             </g>
             <path d="M 1310 232 L 1310 176.12" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
@@ -5600,9 +5215,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1310} y={246} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">Makes
-                    </text>
                 </switch>
             </g>
             <path d="M 1360 175 L 1360 136.12" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
@@ -5643,9 +5255,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1360} y={189} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">Makes
-                    </text>
                 </switch>
             </g>
             <path
@@ -5681,9 +5290,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1310} y={148} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">14
-                    </text>
                 </switch>
             </g>
             <path
@@ -5719,9 +5325,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1360} y={108} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">15
-                    </text>
                 </switch>
             </g>
             <path
@@ -5762,9 +5365,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={270} y={205} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">14
-                    </text>
                 </switch>
             </g>
             <path d="M 330 232 L 360 232 Q 370 232 370 242 L 370 280 Q 370 290 379.44 290 L 388.88 290" fill="none"
@@ -5804,9 +5404,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={310} y={235} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">15
-                    </text>
                 </switch>
             </g>
             <path
@@ -5848,9 +5445,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={860} y={309} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">Registers
-                    </text>
                 </switch>
             </g>
             <path
@@ -5886,9 +5480,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={910} y={213} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">14
-                    </text>
                 </switch>
             </g>
             <path d="M 857 210 L 867 210 Q 877 210 873.5 210 L 871.75 210 Q 870 210 874.44 210 L 878.88 210" fill="none"
@@ -5929,9 +5520,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={827} y={214} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">Registers
-                    </text>
                 </switch>
             </g>
             <path d="M 545 890 L 545 895 Q 545 900 545 910 L 545 923.88" fill="none" stroke="rgb(0, 0, 0)"
@@ -5971,9 +5559,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={545} y={873} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">14
-                    </text>
                 </switch>
             </g>
             <path d="M 767 155 L 795.88 155" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
@@ -6014,9 +5599,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={737} y={159} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">Registers
-                    </text>
                 </switch>
             </g>
             <path
@@ -6052,9 +5634,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={827} y={158} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">15
-                    </text>
                 </switch>
             </g>
             <path d="M 310 950 L 378.88 950" fill="none" stroke="rgb(0, 0, 0)" strokeMiterlimit={10}
@@ -6094,9 +5673,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={290} y={953} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="11px"
-                          textAnchor="middle">15
-                    </text>
                 </switch>
             </g>
             <path d="M 1550 450 L 1550 460 Q 1550 470 1550 467.5 L 1550 466.25 Q 1550 465 1550 469.44 L 1550 473.88"
@@ -6137,9 +5713,6 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                             </div>
                         </div>
                     </foreignObject>
-                    <text x={1550} y={444} fill="rgb(0, 0, 0)" fontFamily="Helvetica" fontSize="12px"
-                          textAnchor="middle">Measures
-                    </text>
                 </switch>
             </g>
         </g>
