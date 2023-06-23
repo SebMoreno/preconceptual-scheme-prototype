@@ -3373,18 +3373,20 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                         style={{
                                             backgroundColor: 'initial',
                                             letterSpacing: '0px'
-                                        }}>- Security Hotspot</span></div></span><span
-                                    style={{
-                                        fontFamily: 'Calibri',
-                                        letterSpacing: '0px',
-                                        backgroundColor: 'initial'
-                                    }}><div style={{textAlign: 'left'}}><span
-                                    style={{backgroundColor: 'initial', letterSpacing: '0px'}}>- Code smell</span></div><div
-                                    style={{textAlign: 'left'}}><span
-                                    style={{
-                                        backgroundColor: 'initial',
-                                        letterSpacing: '0px'
-                                    }}></span></div></span>
+                                        }}>- Security Hotspot</span></div></span>
+                                    <span
+                                        style={{
+                                            fontFamily: 'Calibri',
+                                            letterSpacing: '0px',
+                                            backgroundColor: 'initial'
+                                        }}><div style={{textAlign: 'left'}}>
+                                        <span
+                                            style={{
+                                                backgroundColor: 'initial',
+                                                letterSpacing: '0px'
+                                            }}>- Code smell</span>
+                                    </div>
+                                    </span>
                                 </div>
                             </div>
                         </div>
