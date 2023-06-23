@@ -68,7 +68,7 @@ export const App = () => {
                     continue;
                 }
                 code.technicalDebt = (await Promise.all(violations.map(async v => {
-                    const qualityRule = await db.QualityRule.get(v.qualityRuleId);
+                    const qualityRule = await db.QualityRule.get(parseInt(v.qualityRuleId));
                     if (qualityRule) {
                         qualityRule.principal = typeof qualityRule.principal === "string" ? parseFloat(qualityRule.principal) : qualityRule.principal;
                         qualityRule.interest = typeof qualityRule.interest === "string" ? parseFloat(qualityRule.interest) : qualityRule.interest;

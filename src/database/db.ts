@@ -80,11 +80,16 @@ export class EPDataBase extends Dexie {
         this.loadDataFromObject();
     }
 
-    async loadDataFromObject(obj: { [key: string]: unknown[] } = defaultData) {
+    async loadDataFromObject(obj: { [key: string]: Record<string, unknown>[] } = defaultData) {
         await this.delete();
         await this.open();
-        Object.entries(obj)
-            .forEach(([key, value]) => this.table(key).bulkPut(value));
+        for (const [key, value] of Object.entries(obj)) {
+            const keyName = this.table(key).schema.primKey.name;
+            this.table(key).bulkAdd(value.map(el => ({
+                ...el,
+                [keyName]: typeof el[keyName] === "number" || typeof el[keyName] === "undefined" ? el[keyName] : parseInt(el[keyName] as string)
+            })));
+        }
     }
 
     async getAllData() {
