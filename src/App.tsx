@@ -117,7 +117,20 @@ export const App = () => {
                 <SpeedDialAction
                     icon={<LockResetIcon/>}
                     tooltipTitle="Load Default Data"
-                    onClick={() => db.loadDataFromObject()}
+                    onClick={() => db.loadDataFromObject()
+                        .then(() => setAlertInfo({
+                            isShown: true,
+                            message: "Default data has been successfully loaded.",
+                            severity: "success"
+                        }))
+                        .catch(e => {
+                        console.error(e);
+                        setAlertInfo({
+                            isShown: true,
+                            message: "Error loading default data.",
+                            severity: "error"
+                        })
+                    })}
                 />
             </SpeedDial>
             <Dialog
