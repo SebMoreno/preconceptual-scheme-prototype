@@ -3359,12 +3359,12 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                         backgroundColor: 'initial',
                                         fontFamily: 'Calibri',
                                         letterSpacing: '0px'
-                                    }}>- Code clones</span></div>
+                                    }}>- Vulnerability</span></div>
                                     <div style={{textAlign: 'left'}}><span style={{
                                         backgroundColor: 'initial',
                                         fontFamily: 'Calibri',
                                         letterSpacing: '0px'
-                                    }}>- High comment frequency</span></div>
+                                    }}>- Bug</span></div>
                                     <span style={{
                                         fontFamily: 'Calibri',
                                         letterSpacing: '0px',
@@ -3373,18 +3373,18 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                         style={{
                                             backgroundColor: 'initial',
                                             letterSpacing: '0px'
-                                        }}>- Low code complexity</span></div></span><span
+                                        }}>- Security Hotspot</span></div></span><span
                                     style={{
                                         fontFamily: 'Calibri',
                                         letterSpacing: '0px',
                                         backgroundColor: 'initial'
                                     }}><div style={{textAlign: 'left'}}><span
-                                    style={{backgroundColor: 'initial', letterSpacing: '0px'}}>- Intuitive variable naming</span></div><div
+                                    style={{backgroundColor: 'initial', letterSpacing: '0px'}}>- Code smell</span></div><div
                                     style={{textAlign: 'left'}}><span
                                     style={{
                                         backgroundColor: 'initial',
                                         letterSpacing: '0px'
-                                    }}>- Secure code</span></div></span>
+                                    }}></span></div></span>
                                 </div>
                             </div>
                         </div>
