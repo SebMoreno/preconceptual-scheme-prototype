@@ -3697,7 +3697,7 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                      className="dynamic-relationship"
                                      onClick={() => onOpenTable({
                                          tableName: "Sprint",
-                                         subTitle: "Create sprints and assign tickets to them",
+                                         subTitle: "Create and modify sprints (duration is in weeks)",
                                          canUpdate: true,
                                          canCreate: true
                                      })}

@@ -1,193 +1,210 @@
 {
-    "Application": [],
-    "Code": [],
-    "Commit": [],
-    "Defect": [],
-    "DevelopmentTeam": [],
-    "Feature": [],
-    "Member": [],
-    "ProjectManagementSoftware": [
-      {"name": "Jira"},
-      {"name": "Asana"},
-      {"name": "Trello"}
-    ],
-    "QualityAssuranceTool": [
-      {"toolName": "SonarQube"},
-      {"toolName": "CAST"},
-      {"toolName": "MIND"}
-    ],
-    "QualityRule": [
-      {
-        "name": "Credentials should not be hard-coded",
-        "compliance": "There are no credentials inside the codebase",
-        "ruleType": "Vulnerability",
-        "interest": 5,
-        "principal": 2,
-        "qualityAssuranceToolName": "SonarQube"
-      },
-      {
-        "name": "OS commands should not be vulnerable to command injection attacks",
-        "compliance": "Usage of OS commands should not be modifiable by users",
-        "ruleType": "Vulnerability",
-        "interest": 4,
-        "principal": 4,
-        "qualityAssuranceToolName": "SonarQube"
-      },
-      {
-        "name": "Cipher algorithms should be robust",
-        "compliance": "The application should not be vulnerable to well-known attacks like brute force attacks",
-        "ruleType": "Vulnerability",
-        "interest": 5,
-        "principal": 4,
-        "qualityAssuranceToolName": "SonarQube"
-      },
-      {
-        "name": "Weak SSL/TLS protocols should not be used",
-        "compliance": "Communications performed by the application need to be secure for protecting user information",
-        "ruleType": "Vulnerability",
-        "interest": 5,
-        "principal": 5,
-        "qualityAssuranceToolName": "SonarQube"
-      },
-      {
-        "name": "Environment variables should not be defined from untrusted input",
-        "compliance": "The application should not be vulnerable to man-in-the-middle attacks or archieve code execution",
-        "ruleType": "Vulnerability",
-        "interest": 5,
-        "principal": 3,
-        "qualityAssuranceToolName": "SonarQube"
-      },
-      {
-        "name": "Loops should not be infinite",
-        "compliance": "The application should not get stuck due to an infinite loop",
-        "ruleType": "Bug",
-        "interest": 1,
-        "principal": 2,
-        "qualityAssuranceToolName": "SonarQube"
-      },
-      {
-        "name": "Recursion should not be infinite",
-        "compliance": "The application should not get stuck due to an infinite recursion",
-        "ruleType": "Bug",
-        "interest": 1,
-        "principal": 3,
-        "qualityAssuranceToolName": "SonarQube"
-      },
-      {
-        "name": "Regular expressions should be syntactically valid",
-        "compliance": "The application should not have fails when manipulating text with regex",
-        "ruleType": "Bug",
-        "interest": 3,
-        "principal": 2,
-        "qualityAssuranceToolName": "SonarQube"
-      },
-      {
-        "name": "Zero should not be a possible denominator",
-        "compliance": "The application should not have mathematical errors",
-        "ruleType": "Bug",
-        "interest": 3,
-        "principal": 1,
-        "qualityAssuranceToolName": "SonarQube"
-      },
-      {
-        "name": "Assertions should not be used in production code",
-        "compliance": "Test code should not be in production for any reason",
-        "ruleType": "Bug",
-        "interest": 4,
-        "principal": 1,
-        "qualityAssuranceToolName": "SonarQube"
-      },
-      {
-        "name": "Hard-coded secrets are security-sensitive",
-        "compliance": "Secrets should be stored outside of the source code in a configuration file or a management service.",
-        "ruleType": "Security Hotspot",
-        "interest": 3,
-        "principal": 1,
-        "qualityAssuranceToolName": "SonarQube"
-      },
-      {
-        "name": "Configuring loggers is security-sensitive",
-        "compliance": "The application should not have logs that are accessible to users",
-        "ruleType": "Security Hotspot",
-        "interest": 2,
-        "principal": 3,
-        "qualityAssuranceToolName": "SonarQube"
-      },
-      {
-        "name": "Formatting SQL queries is security-sensitive",
-        "compliance": "Use parameterized queries, prepared statements, or stored procedures and bind variables instead",
-        "ruleType": "Security Hotspot",
-        "interest": 2,
-        "principal": 4,
-        "qualityAssuranceToolName": "SonarQube"
-      },
-      {
-        "name": "Using long-term access keys is security-sensitive",
-        "compliance": "Access keys should be short-term in order to avoid problems in case of exposures.",
-        "ruleType": "Security Hotspot",
-        "interest": 4,
-        "principal": 1,
-        "qualityAssuranceToolName": "SonarQube"
-      },
-      {
-        "name": "Using hardcoded IP addresses is security-sensitive",
-        "compliance": "The application should not have IP addresses on the source code.",
-        "ruleType": "Security Hotspot",
-        "interest": 2,
-        "principal": 1,
-        "qualityAssuranceToolName": "SonarQube"
-      },
-      {
-        "name": "Cognitive Complexity of methods should not be too high",
-        "compliance": "The application methods should be as simple as possible for improving maintenance",
-        "ruleType": "Code Smell",
-        "interest": 1,
-        "principal": 3,
-        "qualityAssuranceToolName": "SonarQube"
-      },
-      {
-        "name": "Regular expressions should not be too complicated",
-        "compliance": "The application regex should be as simple as possible for improving maintenance",
-        "ruleType": "Code Smell",
-        "interest": 1,
-        "principal": 3,
-        "qualityAssuranceToolName": "SonarQube"
-      },
-      {
-        "name": "Silly math should not be performed",
-        "compliance": "The application should not have any silly math (I.E. anyValue % 1 will always return 0)",
-        "ruleType": "Code Smell",
-        "interest": 1,
-        "principal": 1,
-        "qualityAssuranceToolName": "SonarQube"
-      },
-      {
-        "name": "Unused assignments should be removed",
-        "compliance": "The application should not have unused assignments in order to improve maintenance",
-        "ruleType": "Code Smell",
-        "interest": 1,
-        "principal": 1,
-        "qualityAssuranceToolName": "SonarQube"
-      },
-      {
-        "name": "Methods should not return constants",
-        "compliance": "The application should not have misleading methods",
-        "ruleType": "Code Smell",
-        "interest": 1,
-        "principal": 2,
-        "qualityAssuranceToolName": "SonarQube"
-      }
-    ],
-    "Release": [],
-    "Repository": [],
-    "SoftwareDevelopmentProject": [],
-    "Sprint": [],
-    "Ticket": [],
-    "VersionControlSystem": [
-      {"name": "Git"},
-      {"name": "Subversion"},
-      {"name": "Mercurial"}
-    ],
-    "Violation": []
-  }
-  
+  "Application": [],
+  "Code": [],
+  "Commit": [],
+  "Defect": [],
+  "DevelopmentTeam": [],
+  "Feature": [],
+  "Member": [],
+  "ProjectManagementSoftware": [
+    {
+      "name": "Jira"
+    },
+    {
+      "name": "Asana"
+    },
+    {
+      "name": "Trello"
+    }
+  ],
+  "QualityAssuranceTool": [
+    {
+      "toolName": "SonarQube"
+    },
+    {
+      "toolName": "CAST"
+    },
+    {
+      "toolName": "MIND"
+    }
+  ],
+  "QualityRule": [
+    {
+      "name": "Credentials should not be hard-coded",
+      "compliance": "There are no credentials inside the codebase",
+      "ruleType": "Vulnerability",
+      "interest": 5,
+      "principal": 2,
+      "qualityAssuranceToolName": "SonarQube"
+    },
+    {
+      "name": "OS commands should not be vulnerable to command injection attacks",
+      "compliance": "Usage of OS commands should not be modifiable by users",
+      "ruleType": "Vulnerability",
+      "interest": 4,
+      "principal": 4,
+      "qualityAssuranceToolName": "SonarQube"
+    },
+    {
+      "name": "Cipher algorithms should be robust",
+      "compliance": "The application should not be vulnerable to well-known attacks like brute force attacks",
+      "ruleType": "Vulnerability",
+      "interest": 5,
+      "principal": 4,
+      "qualityAssuranceToolName": "SonarQube"
+    },
+    {
+      "name": "Weak SSL/TLS protocols should not be used",
+      "compliance": "Communications performed by the application need to be secure for protecting user information",
+      "ruleType": "Vulnerability",
+      "interest": 5,
+      "principal": 5,
+      "qualityAssuranceToolName": "SonarQube"
+    },
+    {
+      "name": "Environment variables should not be defined from untrusted input",
+      "compliance": "The application should not be vulnerable to man-in-the-middle attacks or archieve code execution",
+      "ruleType": "Vulnerability",
+      "interest": 5,
+      "principal": 3,
+      "qualityAssuranceToolName": "SonarQube"
+    },
+    {
+      "name": "Loops should not be infinite",
+      "compliance": "The application should not get stuck due to an infinite loop",
+      "ruleType": "Bug",
+      "interest": 1,
+      "principal": 2,
+      "qualityAssuranceToolName": "SonarQube"
+    },
+    {
+      "name": "Recursion should not be infinite",
+      "compliance": "The application should not get stuck due to an infinite recursion",
+      "ruleType": "Bug",
+      "interest": 1,
+      "principal": 3,
+      "qualityAssuranceToolName": "SonarQube"
+    },
+    {
+      "name": "Regular expressions should be syntactically valid",
+      "compliance": "The application should not have fails when manipulating text with regex",
+      "ruleType": "Bug",
+      "interest": 3,
+      "principal": 2,
+      "qualityAssuranceToolName": "SonarQube"
+    },
+    {
+      "name": "Zero should not be a possible denominator",
+      "compliance": "The application should not have mathematical errors",
+      "ruleType": "Bug",
+      "interest": 3,
+      "principal": 1,
+      "qualityAssuranceToolName": "SonarQube"
+    },
+    {
+      "name": "Assertions should not be used in production code",
+      "compliance": "Test code should not be in production for any reason",
+      "ruleType": "Bug",
+      "interest": 4,
+      "principal": 1,
+      "qualityAssuranceToolName": "SonarQube"
+    },
+    {
+      "name": "Hard-coded secrets are security-sensitive",
+      "compliance": "Secrets should be stored outside of the source code in a configuration file or a management service.",
+      "ruleType": "Security Hotspot",
+      "interest": 3,
+      "principal": 1,
+      "qualityAssuranceToolName": "SonarQube"
+    },
+    {
+      "name": "Configuring loggers is security-sensitive",
+      "compliance": "The application should not have logs that are accessible to users",
+      "ruleType": "Security Hotspot",
+      "interest": 2,
+      "principal": 3,
+      "qualityAssuranceToolName": "SonarQube"
+    },
+    {
+      "name": "Formatting SQL queries is security-sensitive",
+      "compliance": "Use parameterized queries, prepared statements, or stored procedures and bind variables instead",
+      "ruleType": "Security Hotspot",
+      "interest": 2,
+      "principal": 4,
+      "qualityAssuranceToolName": "SonarQube"
+    },
+    {
+      "name": "Using long-term access keys is security-sensitive",
+      "compliance": "Access keys should be short-term in order to avoid problems in case of exposures.",
+      "ruleType": "Security Hotspot",
+      "interest": 4,
+      "principal": 1,
+      "qualityAssuranceToolName": "SonarQube"
+    },
+    {
+      "name": "Using hardcoded IP addresses is security-sensitive",
+      "compliance": "The application should not have IP addresses on the source code.",
+      "ruleType": "Security Hotspot",
+      "interest": 2,
+      "principal": 1,
+      "qualityAssuranceToolName": "SonarQube"
+    },
+    {
+      "name": "Cognitive Complexity of methods should not be too high",
+      "compliance": "The application methods should be as simple as possible for improving maintenance",
+      "ruleType": "Code Smell",
+      "interest": 1,
+      "principal": 3,
+      "qualityAssuranceToolName": "SonarQube"
+    },
+    {
+      "name": "Regular expressions should not be too complicated",
+      "compliance": "The application regex should be as simple as possible for improving maintenance",
+      "ruleType": "Code Smell",
+      "interest": 1,
+      "principal": 3,
+      "qualityAssuranceToolName": "SonarQube"
+    },
+    {
+      "name": "Silly math should not be performed",
+      "compliance": "The application should not have any silly math (I.E. anyValue % 1 will always return 0)",
+      "ruleType": "Code Smell",
+      "interest": 1,
+      "principal": 1,
+      "qualityAssuranceToolName": "SonarQube"
+    },
+    {
+      "name": "Unused assignments should be removed",
+      "compliance": "The application should not have unused assignments in order to improve maintenance",
+      "ruleType": "Code Smell",
+      "interest": 1,
+      "principal": 1,
+      "qualityAssuranceToolName": "SonarQube"
+    },
+    {
+      "name": "Methods should not return constants",
+      "compliance": "The application should not have misleading methods",
+      "ruleType": "Code Smell",
+      "interest": 1,
+      "principal": 2,
+      "qualityAssuranceToolName": "SonarQube"
+    }
+  ],
+  "Release": [],
+  "Repository": [],
+  "SoftwareDevelopmentProject": [],
+  "Sprint": [],
+  "Ticket": [],
+  "VersionControlSystem": [
+    {
+      "name": "Git"
+    },
+    {
+      "name": "Subversion"
+    },
+    {
+      "name": "Mercurial"
+    }
+  ],
+  "Violation": []
+}
