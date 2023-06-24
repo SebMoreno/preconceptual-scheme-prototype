@@ -1297,7 +1297,10 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     overflowWrap: 'normal'
                                 }}
                                      className="class-concept"
-                                     onClick={() => onOpenTable({tableName: "QualityRule"})}
+                                     onClick={() => onOpenTable({
+                                         tableName: "QualityRule",
+                                         subTitle: "Interest and Principal are in days."
+                                     })}
                                 >Quality Rule
                                 </div>
                             </div>
@@ -1689,7 +1692,10 @@ export const PreconceptualScheme: React.FC<PreconceptualSchemeProps> = ({onOpenT
                                     overflowWrap: 'normal'
                                 }}
                                      className="class-concept"
-                                     onClick={() => onOpenTable({tableName: "Code"})}
+                                     onClick={() => onOpenTable({
+                                         tableName: "Code",
+                                         subTitle: "Technical debt is in days"
+                                     })}
                                 >Code
                                 </div>
                             </div>
